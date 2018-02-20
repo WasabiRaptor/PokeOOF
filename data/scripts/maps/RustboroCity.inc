@@ -1107,8 +1107,8 @@ RustboroCity_Text_1E1789: @ 81E1789
 	.string "BADGES, it may not obey you…$"
 
 RustboroCity_Text_1E17FE: @ 81E17FE
-	.string "Get out!\n"
-	.string "Out of the way!$"
+	.string "òwó\n"
+	.string "ur GUDS r mine now!$"
 
 RustboroCity_Text_1E1817: @ 81E1817
 	.string "Wait! Pleeeaaase!\p"
@@ -1118,7 +1118,7 @@ RustboroCity_Text_1E183E: @ 81E183E
 	.string "Oh, it’s you!\p"
 	.string "You’re that fantastic TRAINER who\n"
 	.string "helped me in PETALBURG WOODS!\p"
-	.string "Help me! I was robbed by TEAM AQUA!\n"
+	.string "Help me! I was robbed by that weird kid!\n"
 	.string "I have to get the DEVON GOODS back!\p"
 	.string "If I don’t…\n"
 	.string "I’m going to be in serious trouble.$"

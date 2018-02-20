@@ -338,14 +338,14 @@ PetalburgWoods_Text_22E34F: @ 822E34F
 	.string "I really love that POKéMON.$"
 
 PetalburgWoods_Text_22E3AA: @ 822E3AA
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn’t you?\p"
-	.string "I got sick of waiting, so here I am!$"
+	.string "òwó I was going to ambush u, but u\n"
+	.string "had to dawdwe in PETAWBUWG WOODS\l"
+	.string "fowevew, didn’t u OnO?\p"
+	.string "I got sick of waiting, so hewe I am -w-!$"
 
 PetalburgWoods_Text_22E428: @ 822E428
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
+	.string "OwO u r the DEVON WESEAWCHEW?\p"
+	.string "u should give me those papers UnU$"
 
 PetalburgWoods_Text_22E457: @ 822E457
 	.string "Aiyeeeh!\p"
@@ -353,35 +353,35 @@ PetalburgWoods_Text_22E457: @ 822E457
 	.string "You’ve got to help me, please!$"
 
 PetalburgWoods_Text_22E4A5: @ 822E4A5
-	.string "Hunh? What do you think you’re doing?\n"
-	.string "What, you’re going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "OwO What do u think u r doing?\n"
+	.string "òwó u r going to pwotect him?\p"
+	.string "No 1 who cwosses THE WOLFPACK\n"
+	.string "gets any mewcy, weww u r cute UwU\p"
+	.string "maybe we couwd cuddwe instead!$"
 
 PetalburgWoods_Text_22E542: @ 822E542
-	.string "You’re kidding me! You’re tough!$"
+	.string "OwO whats this!$"
 
 PetalburgWoods_Text_22E563: @ 822E563
-	.string "Grrr… You’ve got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I’m out of\n"
+	.string "òwó Grrr… u got nyewve\n"
+	.string "meddwing with THE WOLFPACK!\l"
+	.string "u r pwobabwy a diwty hackew!\p"
+	.string "I wouwd destwoy u scum, but I’m out of\n"
 	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I’ll let you go today!$"
+	.string "And, hey, THE WOLFPACK is awso\n"
+	.string "aftew something in WUSTBOWO.\p"
+	.string "I’ww wet u go today UwU$"
 
 PetalburgWoods_Text_22E63D: @ 822E63D
 	.string "Whew…\n"
-	.string "That was awfully close!\p"
+	.string "That was... strange\p"
 	.string "Thanks to you, he didn’t rob me of\n"
 	.string "these important papers.\p"
 	.string "I know, I’ll give you a GREAT BALL as\n"
 	.string "my thanks!$"
 
 PetalburgWoods_Text_22E6C7: @ 822E6C7
-	.string "Didn’t that TEAM AQUA thug say\n"
+	.string "Didn’t that deranged child say\n"
 	.string "they were after something in\l"
 	.string "RUSTBORO, too?$"
 

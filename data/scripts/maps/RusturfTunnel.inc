@@ -431,33 +431,33 @@ RusturfTunnel_EventScript_22D1B1:: @ 822D1B1
 	end
 
 RusturfTunnel_Text_22D1C8: @ 822D1C8
-	.string "What, are you coming?\n"
-	.string "Come and get some, then!$"
+	.string "OwO r u coming?\n"
+	.string "u shouwd tink abowt dis òwó!$"
 
 RusturfTunnel_Text_22D1F7: @ 822D1F7
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_22D20A: @ 822D20A
-	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
-	.string "In this tunnel to nowhere!\p"
-	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "OnO dis was dumb!\p"
+	.string "dat hostage POKéMON tuwned out 2\n"
+	.string "be wowthless òwó!\p"
+	.string "pewhaps dis isnt 2 bad UwU\n"
+	.string "ur stuck in dis tunnew wit me\p"
+	.string "OwO\n"
+	.string "So you want to battwe me?$"
 
 RusturfTunnel_Text_22D2B0: @ 822D2B0
-	.string "Urrrggh! My career in crime comes to\n"
-	.string "a dead end!$"
+	.string "OnO\n"
+	.string "u shouwd let me win!$"
 
 RusturfTunnel_Text_22D2E1: @ 822D2E1
-	.string "This is plain not right…\p"
-	.string "The BOSS told me this would be a\n"
-	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
-	.string "from DEVON.\p"
-	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "UwU I wish I couwd win\p"
+	.string "SENPAI said hed get me a suit\n"
+	.string "if I did dis job -w-.\p"
+	.string "but u had to wuin it aww òwó\n"
+	.string "owo\p"
+	.string "but u can have dis back\n"
+	.string "becuz ur cute uwu$"
 
 RusturfTunnel_Text_22D395: @ 822D395
 	.string "PEEKO!\n"

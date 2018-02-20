@@ -964,7 +964,7 @@ LittlerootTown_Text_1E894F: @ 81E894F
 	.string "but when you think about tho you only \n"
 	.string "need half a B press to run as the second\p"
 	.string "half of the press would be releasing \n"
-	.string "the B button makinf you stop running$"
+	.string "the B button making you stop running$"
 
 LittlerootTown_Text_1E8A03: @ 81E8A03
 	.string "… … … … … … … …\n"
