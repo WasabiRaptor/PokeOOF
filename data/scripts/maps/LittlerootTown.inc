@@ -929,16 +929,16 @@ LittlerootTown_EventScript_1E8693:: @ 81E8693
 	return
 
 LittlerootTown_Text_1E86BC: @ 81E86BC
-	.string "MOM: {PLAYER}, we’re here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
+	.string "MOM: {PLAYER}, we’re here, and I hate it!\p"
+	.string "I must be a terrible parnet to just leave\n"
+	.string "you in the moving truck.\p"
 	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don’t you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let’s go inside.$"
+	.string "Its pretty shit isn't it?\n"
+	.string "Well its the only thing DAD could afford\p"
+	.string "...\n"
+	.string "Just go inside already.\p"
+	.string "I'm sure it isnt as shit as you think {PLAYER}!\n"
+	.string "But its probably still awful.$"
 
 LittlerootTown_Text_1E87E1: @ 81E87E1
 	.string "MOM: Wait, {PLAYER}!$"
@@ -946,25 +946,25 @@ LittlerootTown_Text_1E87E1: @ 81E87E1
 LittlerootTown_Text_1E87F0: @ 81E87F0
 	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
 	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You’re your father’s child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you’re going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They’ll put a zip in your step!$"
+	.string "Oh! What an ...erm... adorable POKéMON.\n"
+	.string "He better be paying you to take care of it.\p"
+	.string "Anyway I found your better shoes in a box\n"
+	.string "I have no idea why you even took them off \p"
+	.string "in the first place!\n"
+	.string "... oh right.\p"
+	.string "I had probably planned to sell them.$"
 
 LittlerootTown_Text_1E8925: @ 81E8925
 	.string "{PLAYER} switched shoes with the\n"
 	.string "RUNNING SHOES.$"
 
 LittlerootTown_Text_1E894F: @ 81E894F
-	.string "MOM: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
+	.string "MOM: {PLAYER}, you know how to use them\n"
+	.string "already dont you.\p"
+	.string "but when you think about tho you only \n"
+	.string "need half a B press to run as the second\p"
+	.string "half of the press would be releasing \n"
+	.string "the B button makinf you stop running$"
 
 LittlerootTown_Text_1E8A03: @ 81E8A03
 	.string "… … … … … … … …\n"
