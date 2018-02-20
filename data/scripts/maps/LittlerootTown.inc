@@ -930,14 +930,14 @@ LittlerootTown_EventScript_1E8693:: @ 81E8693
 
 LittlerootTown_Text_1E86BC: @ 81E86BC
 	.string "MOM: {PLAYER}, we’re here, and I hate it!\p"
-	.string "I must be a terrible parnet to just leave\n"
+	.string "I must be a terrible parent to just leave\n"
 	.string "you in the moving truck.\p"
 	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "Its pretty shit isn't it?\n"
+	.string "Its pretty shit isnt it?\n"
 	.string "Well its the only thing DAD could afford\p"
 	.string "...\n"
 	.string "Just go inside already.\p"
-	.string "I'm sure it isnt as shit as you think {PLAYER}!\n"
+	.string "Im sure it isnt as shit as you think {PLAYER}!\n"
 	.string "But its probably still awful.$"
 
 LittlerootTown_Text_1E87E1: @ 81E87E1
@@ -971,10 +971,10 @@ LittlerootTown_Text_1E8A03: @ 81E8A03
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
 	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "Your father will be super pissed.\p"
+	.string "...\n"
+	.string "Actually go kick his ass for me\p"
+	.string "He cared more about his pokemon than me!$"
 
 LittlerootTown_Text_1E8ACF: @ 81E8ACF
 	.string "If you use a PC, you can store items\n"
