@@ -1,0 +1,1463 @@
+    .include "src/decompress.o"
+
+gTrainerId: @ 2020000
+	.space 0x4
+
+    .include "src/window.o"
+    .include "src/text.o"
+    .include "src/sprite.o"
+    .align 2
+
+gStringVar1: @ 2021CC4
+	.space 0x100
+
+gStringVar2: @ 2021DC4
+	.space 0x100
+
+gStringVar3: @ 2021EC4
+	.space 0x100
+
+gStringVar4: @ 2021FC4
+	.space 0x3E8
+
+	.include "src/string_util.o"
+
+gUnknown_020223BC: @ 20223BC
+	.space 0x1
+
+gUnknown_020223BD: @ 20223BD
+	.space 0x3
+
+gUnknown_020223C0: @ 20223C0
+	.space 0x4
+
+gBlockRecvBuffer: @ 20223C4
+	.space 0x500
+
+gBlockSendBuffer: @ 20228C4 gBlockSendBuffer
+	.space 0x100
+
+gUnknown_020229C4: @ 20229C4
+	.space 0x2
+
+gLinkType: @ 20229C6
+	.space 0x2
+
+gUnknown_020229C8: @ 20229C8
+	.space 0x4
+
+gUnknown_020229CC: @ 20229CC
+	.space 0x1C
+
+gLinkPlayers: @ 20229E8
+	.space 0x24
+    
+gUnknown_02022A0C: @ 2022A0C
+	.space 0x68
+
+gUnknown_02022A74: @ 2022A74
+	.space 0x8C
+
+gUnknown_02022B00: @ 2022B00
+	.space 0x8
+
+gUnknown_02022B08: @ 2022B08
+	.space 0x4
+
+gUnknown_02022B0C: @ 2022B0C
+	.space 0x4
+
+gUnknown_02022B10: @ 2022B10
+	.space 0x4
+
+gUnknown_02022B14: @ 2022B14
+	.space 0xE
+
+gUnknown_02022B22: @ 2022B22
+	.space 0xA
+
+gUnknown_02022B2C: @ 2022B2C
+	.space 0x18
+
+gUnknown_02022B44: @ 2022B44
+	.space 0xDC
+
+gUnknown_02022C20: @ 2022C20
+	.space 0xC
+
+gUnknown_02022C2C: @ 2022C2C
+	.space 0x1
+
+gUnknown_02022C2D: @ 2022C2D
+	.space 0x3
+
+gUnknown_02022C30: @ 2022C30
+	.space 0x8
+
+gUnknown_02022C38: @ 2022C38
+	.space 0x4
+
+gUnknown_02022C3C: @ 2022C3C
+	.space 0x2
+
+gUnknown_02022C3E: @ 2022C3E
+	.space 0x2
+
+gUnknown_02022C40: @ 2022C40
+	.space 0x18
+
+gUnknown_02022C58: @ 2022C58
+	.space 0x8
+
+gUnknown_02022C60: @ 2022C60
+	.space 0x4
+
+gUnknown_02022C64: @ 2022C64
+	.space 0x4
+
+gUnknown_02022C68: @ 2022C68
+	.space 0x4
+
+gUnknown_02022C6C: @ 2022C6C
+	.space 0x4
+
+gUnknown_02022C70: @ 2022C70
+	.space 0x4
+
+gUnknown_02022C74: @ 2022C74
+	.space 0x4
+
+gUnknown_02022C78: @ 2022C78
+	.space 0x4
+
+gUnknown_02022C7C: @ 2022C7C
+	.space 0x4
+
+gUnknown_02022C80: @ 2022C80
+	.space 0x4
+
+gUnknown_02022C84: @ 2022C84
+	.space 0x4
+
+gUnknown_02022C88: @ 2022C88
+	.space 0x4
+
+gUnknown_02022C8C: @ 2022C8C
+	.space 0x4
+
+gUnknown_02022C90: @ 2022C90
+	.space 0x4
+
+gUnknown_02022C94: @ 2022C94
+	.space 0x4
+
+gUnknown_02022C98: @ 2022C98
+	.space 0x4
+
+gUnknown_02022C9C: @ 2022C9C
+	.space 0x14
+
+gUnknown_02022CB0: @ 2022CB0
+	.space 0x8
+
+gUnknown_02022CB8: @ 2022CB8
+	.space 0x2C
+
+gUnknown_02022CE4: @ 2022CE4
+	.space 0x10
+
+gUnknown_02022CF4: @ 2022CF4
+	.space 0x4
+
+gUnknown_02022CF8: @ 2022CF8
+	.space 0x4
+
+gUnknown_02022CFC: @ 2022CFC
+	.space 0x4
+
+gUnknown_02022D00: @ 2022D00
+	.space 0x4
+
+gUnknown_02022D04: @ 2022D04
+	.space 0x2
+
+gUnknown_02022D06: @ 2022D06
+	.space 0x2
+
+gUnknown_02022D08: @ 2022D08
+	.space 0x1
+
+gUnknown_02022D09: @ 2022D09
+	.space 0x1
+
+gUnknown_02022D0A: @ 2022D0A
+	.space 0x2
+
+gUnknown_02022D0C: @ 2022D0C
+	.space 0x4
+
+gBattleBuffersTransferData: @ 2022D10
+	.space 0x100
+
+gUnknown_02022E10: @ 2022E10
+	.space 0x4
+
+gBattle_BG0_X: @ 2022E14
+	.space 0x2
+
+gBattle_BG0_Y: @ 2022E16
+	.space 0x2
+
+gBattle_BG1_X: @ 2022E18
+	.space 0x2
+
+gBattle_BG1_Y: @ 2022E1A
+	.space 0x2
+
+gBattle_BG2_X: @ 2022E1C
+	.space 0x2
+
+gBattle_BG2_Y: @ 2022E1E
+	.space 0x2
+
+gBattle_BG3_X: @ 2022E20
+	.space 0x2
+
+gBattle_BG3_Y: @ 2022E22
+	.space 0x2
+
+gBattle_WIN0H: @ 2022E24
+	.space 0x2
+
+gBattle_WIN0V: @ 2022E26
+	.space 0x2
+
+gBattle_WIN1H: @ 2022E28
+	.space 0x2
+
+gBattle_WIN1V: @ 2022E2A
+	.space 0x2
+
+    .include "src/battle_message.o"
+
+gUnknown_02022F88: @ 2022F88
+	.space 0x64
+
+gBattleTypeFlags: @ 2022FEC
+	.space 0x4
+
+gBattleTerrain: @ 2022FF0
+	.space 0x4
+
+gUnknown_02022FF4: @ 2022FF4
+	.space 0x4
+
+gUnknown_02022FF8: @ 2022FF8
+	.space 0x60
+
+gUnknown_02023058: @ 2023058
+	.space 0x4
+
+gUnknown_0202305C: @ 202305C
+	.space 0x4
+
+gUnknown_02023060: @ 2023060
+	.space 0x4
+
+gBattleBufferA: @ 2023064
+	.space 0x800
+
+gBattleBufferB: @ 2023864
+	.space 0x800
+
+gActiveBattler: @ 2024064
+	.space 0x4
+
+gBattleControllerExecFlags: @ 2024068
+	.space 0x4
+
+gBattlersCount: @ 202406C
+	.space 0x2
+
+gBattlerPartyIndexes: @ 202406E
+	.space 0x8
+
+gBattlerPositions: @ 2024076
+	.space 0x4
+
+gActionsByTurnOrder: @ 202407A
+	.space 0x4
+
+gBattleTurnOrder: @ 202407E
+	.space 0x4
+
+gCurrentTurnActionNumber: @ 2024082
+	.space 0x1
+
+gCurrentActionFuncId: @ 2024083
+	.space 0x1
+
+gBattleMons: @ 2024084
+	.space 0x160
+
+gBattlerSpriteIds: @ 20241E4
+	.space 0x4
+
+gCurrMovePos: @ 20241E8
+	.space 0x1
+
+gUnknown_020241E9: @ 20241E9
+	.space 0x1
+
+gCurrentMove: @ 20241EA
+	.space 0x2
+
+gChosenMove: @ 20241EC
+	.space 0x2
+
+gRandomMove: @ 20241EE
+	.space 0x2
+
+gBattleMoveDamage: @ 20241F0
+	.space 0x4
+
+gHpDealt: @ 20241F4
+	.space 0x4
+
+gTakenDmg: @ 20241F8
+	.space 0x10
+
+gLastUsedItem: @ 2024208
+	.space 0x2
+
+gLastUsedAbility: @ 202420A
+	.space 0x1
+
+gBattlerAttacker: @ 202420B
+	.space 0x1
+
+gBattlerTarget: @ 202420C
+	.space 0x1
+
+gBank1: @ 202420D
+	.space 0x1
+
+gEffectBank: @ 202420E
+	.space 0x1
+
+gStringBattler: @ 202420F
+	.space 0x1
+
+gAbsentBattlerFlags: @ 2024210
+	.space 0x1
+
+gCritMultiplier: @ 2024211
+	.space 0x1
+
+gMultiHitCounter: @ 2024212
+	.space 0x2
+
+gBattlescriptCurrInstr: @ 2024214
+	.space 0x8
+
+gChosenActionByBattler: @ 202421C
+	.space 0x4
+
+gSelectionBattleScripts: @ 2024220
+	.space 0x10
+
+gPalaceSelectionBattleScripts: @ 2024230
+	.space 0x10
+
+gLastPrintedMoves: @ 2024240
+	.space 0x8
+
+gLastMoves: @ 2024248
+	.space 0x8
+
+gLastLandedMoves: @ 2024250
+	.space 0x8
+
+gLastHitByType: @ 2024258
+	.space 0x8
+
+gLastResultingMoves: @ 2024260
+	.space 0x8
+
+gLockedMoves: @ 2024268
+	.space 0x8
+
+gLastHitBy: @ 2024270
+	.space 0x4
+
+gChosenMoveByBattler: @ 2024274
+	.space 0x8
+
+gMoveResultFlags: @ 202427C
+	.space 0x4
+
+gHitMarker: @ 2024280
+	.space 0x4
+
+gUnknown_02024284: @ 2024284
+	.space 0x4
+
+gTakenDmgBanks: @ 2024288
+	.space 0x4
+
+gUnknown_0202428C: @ 202428C
+	.space 0x2
+
+gSideStatuses: @ 202428E
+	.space 0x6
+
+gSideTimers: @ 2024294
+	.space 0x18
+
+gStatuses3: @ 20242AC
+	.space 0x10
+
+gDisableStructs: @ 20242BC
+	.space 0x70
+
+gPauseCounterBattle: @ 202432C
+	.space 0x2
+
+gPaydayMoney: @ 202432E
+	.space 0x2
+
+gRandomTurnNumber: @ 2024330
+	.space 0x2
+
+gBattleCommunication: @ 2024332
+	.space 0x1
+
+gUnknown_02024333: @ 2024333
+	.space 0x7
+
+gBattleOutcome: @ 202433A
+	.space 0x2
+
+gProtectStructs: @ 202433C
+	.space 0x40
+
+gSpecialStatuses: @ 202437C
+	.space 0x50
+
+gBattleWeather: @ 20243CC
+	.space 0x4
+
+gWishFutureKnock: @ 20243D0
+	.space 0x2C
+
+gUnknown_020243FC: @ 20243FC
+	.space 0x2
+
+gSentPokesToOpponent: @ 20243FE
+	.space 0x2
+
+gDynamicBasePower: @ 2024400
+	.space 0x2
+
+gExpShareExp: @ 2024402
+	.space 0x2
+
+gEnigmaBerries: @ 2024404
+	.space 0x70
+
+gBattleScripting: @ 2024474
+	.space 0x28
+
+gBattleStruct: @ 202449C
+	.space 0x4
+
+gLinkBattleSendBuffer: @ 20244A0
+	.space 0x4
+
+gLinkBattleRecvBuffer: @ 20244A4
+	.space 0x4
+
+gBattleResources: @ 20244A8
+	.space 0x4
+
+gActionSelectionCursor: @ 20244AC
+	.space 0x4
+
+gMoveSelectionCursor: @ 20244B0
+	.space 0x4
+
+gUnknown_020244B4: @ 20244B4
+	.space 0x4
+
+gBankInMenu: @ 20244B8
+	.space 0x1
+
+gDoingBattleAnim: @ 20244B9
+	.space 0x3
+
+gTransformedPersonalities: @ 20244BC
+	.space 0x10
+
+gPlayerDpadHoldFrames: @ 20244CC
+	.space 0x4
+
+gBattleSpritesDataPtr: @ 20244D0
+	.space 0x4
+
+gMonSpritesGfxPtr: @ 20244D4
+	.space 0x4
+
+gUnknown_020244D8: @ 20244D8
+	.space 0x4
+
+gUnknown_020244DC: @ 20244DC
+	.space 0x4
+
+gBattleMovePower: @ 20244E0
+	.space 0x2
+
+gMoveToLearn: @ 20244E2
+	.space 0x2
+
+gBattleMonForms: @ 20244E4
+	.space 0x4
+
+	.include "src/pokemon_1.o"
+
+gUnknown_0202499C: @ 202499C
+	.space 0x18
+
+gUnknown_020249B4: @ 20249B4
+	.space 0x8
+
+	.include "src/random.o"
+	.include "src/daycare.o"
+    .include "src/load_save.o"
+
+gUnknown_02032184: @ 2032184
+	.space 0x4
+
+gUnknown_02032188: @ 2032188
+	.space 0x38
+
+gUnknown_020321C0: @ 20321C0
+	.space 0xD8
+
+gUnknown_02032298: @ 2032298
+	.space 0x4
+
+gUnknown_0203229C: @ 203229C
+	.space 0x4
+
+gUnknown_020322A0: @ 20322A0
+	.space 0x4
+    
+    .include "src/berry_blender.o"
+
+gDifferentSaveFile: @ 20322D4
+	.space 0x1
+
+gUnknown_020322D5: @ 20322D5
+	.space 0x3
+
+gUnknown_020322D8: @ 20322D8
+	.space 0x4
+
+gUnknown_020322DC: @ 20322DC
+	.space 0x8
+
+gUnknown_020322E4: @ 20322E4
+	.space 0x8
+
+gUnknown_020322EC: @ 20322EC
+	.space 0x8
+
+gUnknown_020322F4: @ 20322F4
+	.space 0x8
+
+gUnknown_020322FC: @ 20322FC
+	.space 0x4
+
+gUnknown_02032300: @ 2032300
+	.space 0x4
+
+gUnknown_02032304: @ 2032304
+	.space 0x2
+
+gUnknown_02032306: @ 2032306
+	.space 0x2
+
+gLinkPlayerMapObjects: @ 2032308
+	.space 0x10
+
+gUnknown_02032318: @ 2032318
+	.space 0x5000
+
+gMapHeader: @ 2037318
+	.space 0x1C
+
+gCamera: @ 2037334
+	.space 0xC
+
+gUnknown_02037340: @ 2037340
+	.space 0x8
+
+gUnknown_02037348: @ 2037348
+	.space 0x4
+
+gUnknown_0203734C: @ 203734C
+	.space 0x4
+
+gMapObjects: @ 2037350
+	.space 0x240
+
+gPlayerAvatar: @ 2037590
+	.space 0x14
+
+gUnknown_020375A4: @ 20375A4
+	.space 0x8
+
+gUnknown_020375AC: @ 20375AC
+	.space 0x8
+
+gUnknown_020375B4: @ 20375B4
+	.space 0x2
+
+gUnknown_020375B6: @ 20375B6
+	.space 0x2
+
+gUnknown_020375B8: @ 20375B8
+	.space 0x4
+
+    .include "src/field_message_box.o"
+
+    .align 2
+gUnknown_020375C0: @ 20375C0
+	.space 0x4
+
+    .include "src/scrcmd.o"
+
+    .align 2
+gUnknown_020375D4: @ 20375D4
+	.space 0x2
+
+gUnknown_020375D6: @ 20375D6
+	.space 0x2
+
+    .include "src/event_data.o"
+    .include "src/start_menu.o"
+	.include "src/tileset_anims.o"
+	.include "src/palette.o"
+    .include "src/sound.o"
+    .include "src/battle_anim.o"
+
+.align 2
+
+gUnknown_02038444: @ 2038444
+	.space 0x10
+
+gUnknown_02038454: @ 2038454
+	.space 0x200
+
+gUnknown_02038654: @ 2038654
+	.space 0x260
+
+gUnknown_020388B4: @ 20388B4
+	.space 0x2F0
+
+gUnknown_02038BA4: @ 2038BA4
+	.space 0x20
+
+gUnknown_02038BC4: @ 2038BC4
+	.space 0x2
+
+gUnknown_02038BC6: @ 2038BC6
+	.space 0x2
+
+	.include "src/battle_setup.o"
+	.include "src/trainer_see.o"
+    .include "src/wild_encounter.o"
+
+gFieldEffectArguments: @ 2038C08
+	.space 0x20
+
+    .include "src/scanline_effect.o"
+    .include "src/option_menu.o"
+	
+	.align 2
+
+gUnknown_02039B4C: @ 2039B4C
+	.space 0x4
+
+gUnknown_02039B50: @ 2039B50
+	.space 0x2
+
+gUnknown_02039B52: @ 2039B52
+	.space 0x2
+
+gUnknown_02039B54: @ 2039B54
+	.space 0x4
+
+gUnknown_02039B58: @ 2039B58
+	.space 0x14
+
+gUnknown_02039B6C: @ 2039B6C
+	.space 0x2
+
+gUnknown_02039B6E: @ 2039B6E
+	.space 0x1A
+
+gUnknown_02039B88: @ 2039B88
+	.space 0x160
+
+gUnknown_02039CE8: @ 2039CE8
+	.space 0x4
+
+gUnknown_02039CEC: @ 2039CEC
+	.space 0x4
+
+gUnknown_02039CF0: @ 2039CF0
+	.space 0x4
+
+gUnknown_02039CF4: @ 2039CF4
+	.space 0x4
+
+gUnknown_02039CF8: @ 2039CF8
+	.space 0x8
+
+gUnknown_02039D00: @ 2039D00
+	.space 0x4
+
+gUnknown_02039D04: @ 2039D04
+	.space 0x4
+
+gUnknown_02039D08: @ 2039D08
+	.space 0x4
+
+gUnknown_02039D0C: @ 2039D0C
+	.space 0x1
+
+gUnknown_02039D0D: @ 2039D0D
+	.space 0x1
+
+gUnknown_02039D0E: @ 2039D0E
+	.space 0x1
+
+gUnknown_02039D0F: @ 2039D0F
+	.space 0x1
+
+gUnknown_02039D10: @ 2039D10
+	.space 0x2
+
+gUnknown_02039D12: @ 2039D12
+	.space 0x2
+
+gUnknown_02039D14: @ 2039D14
+	.space 0x64
+
+gUnknown_02039D78: @ 2039D78
+	.space 0x1
+
+gUnknown_02039D79: @ 2039D79
+	.space 0x1
+
+gUnknown_02039D7A: @ 2039D7A
+	.space 0x1
+
+gUnknown_02039D7B: @ 2039D7B
+	.space 0x1
+
+gUnknown_02039D7C: @ 2039D7C
+	.space 0x1
+
+gUnknown_02039D7D: @ 2039D7D
+	.space 0x1
+
+gUnknown_02039D7E: @ 2039D7E
+	.space 0x2
+
+gUnknown_02039D80: @ 2039D80
+	.space 0x4
+
+gUnknown_02039D84: @ 2039D84
+	.space 0x4
+
+gUnknown_02039D88: @ 2039D88
+	.space 0x4
+
+gUnknown_02039D8C: @ 2039D8C
+	.space 0x4
+
+gUnknown_02039D90: @ 2039D90
+	.space 0x40
+
+gUnknown_02039DD0: @ 2039DD0
+	.space 0x4
+
+gUnknown_02039DD4: @ 2039DD4
+	.space 0x4
+
+gBagPockets: @ 2039DD8
+	.space 0x28
+
+gUnknown_02039E00: @ 2039E00
+	.space 0x100
+
+gUnknown_02039F00: @ 2039F00
+	.space 0x8
+
+gUnknown_02039F08: @ 2039F08
+	.space 0x8
+
+gUnknown_02039F10: @ 2039F10
+	.space 0x8
+
+gUnknown_02039F18: @ 2039F18
+	.space 0x8
+
+gUnknown_02039F20: @ 2039F20
+	.space 0x4
+
+gUnknown_02039F24: @ 2039F24
+	.space 0x1
+
+gUnknown_02039F25: @ 2039F25
+	.space 0x1
+
+gUnknown_02039F26: @ 2039F26
+	.space 0x4
+
+gUnknown_02039F2A: @ 2039F2A
+	.space 0x1
+
+gUnknown_02039F2B: @ 2039F2B
+	.space 0x1
+
+gSpecialVar_ContestCategory: @ 2039F2C
+	.space 0x2
+
+gSpecialVar_ContestRank: @ 2039F2E
+	.space 0x2
+
+gUnknown_02039F30: @ 2039F30
+	.space 0x1
+
+gUnknown_02039F31: @ 2039F31
+	.space 0x3
+
+gContestResources: @ 2039F34
+	.space 0x4
+
+gUnknown_02039F38: @ 2039F38
+	.space 0x4
+
+gUnknown_02039F3C: @ 2039F3C
+	.space 0x20
+
+gUnknown_02039F5C: @ 2039F5C
+	.space 0x1
+
+gUnknown_02039F5D: @ 2039F5D
+	.space 0x3
+
+gUnknown_02039F60: @ 2039F60
+	.space 0x10
+
+gUnknown_02039F70: @ 2039F70
+	.space 0x4
+
+gUnknown_02039F74: @ 2039F74
+	.space 0x4
+
+gUnknown_02039F78: @ 2039F78
+	.space 0x4
+
+gUnknown_02039F7C: @ 2039F7C
+	.space 0x4
+
+gUnknown_02039F80: @ 2039F80
+	.space 0xC
+
+gUnknown_02039F8C: @ 2039F8C
+	.space 0x4
+
+gUnknown_02039F90: @ 2039F90
+	.space 0x4
+
+    .include "src/naming_screen.o"
+    .include "src/money.o"
+    
+    .align 2
+gUnknown_02039F9C: @ 2039F9C
+	.space 0x78
+
+gUnknown_0203A014: @ 203A014
+	.space 0x4
+
+gUnknown_0203A018: @ 203A018
+	.space 0x4
+
+    .include "src/secret_base.o"
+    .include "src/tv.o"
+
+gUnknown_0203A034: @ 203A034
+	.space 0x4
+
+gUnknown_0203A038: @ 203A038
+	.space 0xC
+
+gUnknown_0203A044: @ 203A044
+	.space 0x4
+
+gUnknown_0203A048: @ 203A048
+	.space 0x4
+
+    .include "src/safari_zone.o"
+
+gUnknown_0203A0F4: @ 203A0F4
+	.space 0x4
+
+gUnknown_0203A0F8: @ 203A0F8
+	.space 0x8
+
+gUnknown_0203A100: @ 203A100
+	.space 0x10
+
+gUnknown_0203A110: @ 203A110
+	.space 0x4
+
+gUnknown_0203A114: @ 203A114
+	.space 0x4
+
+gUnknown_0203A118: @ 203A118
+	.space 0x4
+
+gUnknown_0203A11C: @ 203A11C
+	.space 0x4
+
+gUnknown_0203A120: @ 203A120
+	.space 0x4
+
+gUnknown_0203A124: @ 203A124
+	.space 0x4
+
+gUnknown_0203A128: @ 203A128
+	.space 0x4
+
+gUnknown_0203A12C: @ 203A12C
+	.space 0x4
+
+gUnknown_0203A130: @ 203A130
+	.space 0x4
+
+    .include "src/mail.o"
+
+gUnknown_0203A138: @ 203A138
+	.space 0x8
+
+gUnknown_0203A140: @ 203A140
+	.space 0x4
+
+	.include "src/region_map.o"
+    .include "src/decoration.o"
+    .align 2
+
+@ slot_machine
+
+gUnknown_0203AAC8: @ 203AAC8
+	.space 0x4
+
+gUnknown_0203AACC: @ 203AACC
+	.space 0x4
+
+gUnknown_0203AAD0: @ 203AAD0
+	.space 0x4
+
+gUnknown_0203AAD4: @ 203AAD4
+	.space 0x4
+
+gUnknown_0203AAD8: @ 203AAD8
+	.space 0x4
+
+gUnknown_0203AADC: @ 203AADC
+	.space 0x4
+
+gUnknown_0203AAE0: @ 203AAE0
+	.space 0x4
+
+gUnknown_0203AAE4: @ 203AAE4
+	.space 0x4
+
+gUnknown_0203AAE8: @ 203AAE8
+	.space 0x4
+
+gUnknown_0203AAEC: @ 203AAEC
+	.space 0x4
+
+gUnknown_0203AAF0: @ 203AAF0
+	.space 0x4
+
+gUnknown_0203AAF4: @ 203AAF4
+	.space 0x4
+
+gUnknown_0203AAF8: @ 203AAF8
+	.space 0x4
+
+gUnknown_0203AAFC: @ 203AAFC
+	.space 0x4
+
+gUnknown_0203AB00: @ 203AB00
+	.space 0x4
+
+gUnknown_0203AB04: @ 203AB04
+	.space 0x4
+
+gUnknown_0203AB08: @ 203AB08
+	.space 0x4
+
+gUnknown_0203AB0C: @ 203AB0C
+	.space 0x4
+
+gUnknown_0203AB10: @ 203AB10
+	.space 0x4
+
+gUnknown_0203AB14: @ 203AB14
+	.space 0x4
+
+gUnknown_0203AB18: @ 203AB18
+	.space 0x4
+
+gUnknown_0203AB1C: @ 203AB1C
+	.space 0x4
+
+gUnknown_0203AB20: @ 203AB20
+	.space 0x4
+
+gUnknown_0203AB24: @ 203AB24
+	.space 0x4
+
+gUnknown_0203AB28: @ 203AB28
+	.space 0x4
+
+gUnknown_0203AB2C: @ 203AB2C
+	.space 0x4
+
+gUnknown_0203AB30: @ 203AB30
+	.space 0x4
+
+gUnknown_0203AB34: @ 203AB34
+	.space 0x4
+
+    .include "src/battle_ai_script_commands.o"
+    
+.align 2
+gUnknown_0203AB40: @ 203AB40
+	.space 0x8
+	
+	.include "src/pokeblock.o"
+
+gBikeCyclingChallenge: @ 203AB54
+	.space 0x1
+
+gBikeCollisions: @ 203AB55
+	.space 0x3
+
+gUnknown_0203AB58: @ 203AB58
+	.space 0x4
+
+gUnknown_0203AB5C: @ 203AB5C
+	.space 0x1
+
+gUnknown_0203AB5D: @ 203AB5D
+	.space 0x1
+
+gUnknown_0203AB5E: @ 203AB5E
+	.space 0x2
+
+gUnknown_0203AB60: @ 203AB60
+	.space 0x2
+
+gUnknown_0203AB62: @ 203AB62
+	.space 0x2
+
+gUnknown_0203AB64: @ 203AB64
+	.space 0x4
+
+gUnknown_0203AB68: @ 203AB68
+	.space 0x2
+
+gUnknown_0203AB6A: @ 203AB6A
+	.space 0x2
+
+gUnknown_0203AB6C: @ 203AB6C
+	.space 0x1
+
+gUnknown_0203AB6D: @ 203AB6D
+	.space 0x1
+
+gUnknown_0203AB6E: @ 203AB6E
+	.space 0x1
+
+gUnknown_0203AB6F: @ 203AB6F
+	.space 0x1
+
+gUnknown_0203AB70: @ 203AB70
+	.space 0x4
+
+gResultsWindowId: @ 203AB74
+	.space 0x4
+
+gUnknown_0203AB78: @ 203AB78
+	.space 0x4
+
+gUnknown_0203AB7C: @ 203AB7C
+	.space 0x4
+
+    .include "src/evolution_scene.o"
+
+gUnknown_0203AB88: @ 203AB88
+	.space 0x4
+
+gUnknown_0203AB8C: @ 203AB8C
+	.space 0x4
+
+gUnknown_0203AB90: @ 203AB90
+	.space 0x4
+
+gUnknown_0203AB94: @ 203AB94
+	.space 0x4
+
+gUnknown_0203AB98: @ 203AB98
+	.space 0x4
+
+    .include "src/coins.o"
+    .include "src/battle_transition.o"
+
+gBattlerAbilities: @ 203ABA4
+	.space 0x4
+
+gStringInfo: @ 203ABA8
+	.space 0x4
+
+gUnknown_0203ABAC: @ 203ABAC
+	.space 0x4
+
+gUnknown_0203ABB0: @ 203ABB0
+	.space 0x1
+
+gUnknown_0203ABB1: @ 203ABB1
+	.space 0x1
+
+gUnknown_0203ABB2: @ 203ABB2
+	.space 0x1
+
+gUnknown_0203ABB3: @ 203ABB3
+	.space 0x1
+
+gUnknown_0203ABB4: @ 203ABB4
+	.space 0x1
+
+gUnknown_0203ABB5: @ 203ABB5
+	.space 0x3
+
+gUnknown_0203ABB8: @ 203ABB8
+	.space 0x4
+
+    .include "src/save.o"
+    
+.space 0x4 /*unused var?*/
+
+	.include "src/mystery_event_script.o"
+
+gUnknown_0203BC34: @ 203BC34
+	.space 0x4
+
+gUnknown_0203BC38: @ 203BC38
+	.space 0x8
+
+	.include "src/decoration_inventory.o"
+    .include "src/roamer.o"
+
+gUnknown_0203BC88: @ 203BC88
+	.space 0x4
+
+gUnknown_0203BC8C: @ 203BC8C
+	.space 0x4
+
+	.include "src/use_pokeblock.o"
+
+gUnknown_0203BCB0: @ 203BCB0
+	.space 0x4
+
+gUnknown_0203BCB4: @ 203BCB4
+	.space 0x4
+
+gUnknown_0203BCB8: @ 203BCB8
+	.space 0x2
+
+gUnknown_0203BCBA: @ 203BCBA
+	.space 0x2
+
+gUnknown_0203BCBC: @ 203BCBC
+	.space 0x8
+
+gUnknown_0203BCC4: @ 203BCC4
+	.space 0x4
+
+gUnknown_0203BCC8: @ 203BCC8
+	.space 0x4
+
+gUnknown_0203BCCC: @ 203BCCC
+	.space 0x4
+
+	.include "src/field_region_map.o"
+
+gUnknown_0203BCD4: @ 203BCD4
+	.space 0x4
+
+    .include "src/hall_of_fame.o"
+
+gUnknown_0203BCE0: @ 203BCE0
+	.space 0x2
+
+gUnknown_0203BCE2: @ 203BCE2
+	.space 0x2
+
+gHasHallOfFameRecords: @ 203BCE4
+	.space 0x1
+
+gUnknown_0203BCE5: @ 203BCE5
+	.space 0x3
+
+gUnknown_0203BCE8: @ 203BCE8
+	.space 0x4
+
+    .include "src/lottery_corner.o"
+    .include "src/diploma.o"
+    .include "src/berry_tag_screen.o"
+    .include "src/mystery_event_menu.o"
+    .include "src/save_failed_screen.o"
+
+gBraillePuzzleCallbackFlag: @ 203BD14
+	.space 0x4
+
+	.include "src/pokeblock_feed.o"
+
+gUnknown_0203BD24: @ 203BD24
+	.space 0x2
+
+gUnknown_0203BD26: @ 203BD26
+	.space 0x2
+
+gUnknown_0203BD28: @ 203BD28
+	.space 0x4
+
+    .include "src/recorded_battle.o"
+    .include "src/battle_dome_cards.o"
+    .include "src/lilycove_lady.o"
+
+gUnknown_0203CD70: @ 203CD70
+	.space 0x4
+
+gUnknown_0203CD74: @ 203CD74
+	.space 0x4
+
+gUnknown_0203CD78: @ 203CD78
+	.space 0x4
+
+gUnknown_0203CD7C: @ 203CD7C
+	.space 0x4
+
+gUnknown_0203CD80: @ 203CD80
+	.space 0x8
+
+gUnknown_0203CD88: @ 203CD88
+	.space 0x4
+
+    .include "src/menu.o"
+
+    .align 2
+gUnknown_0203CE2C: @ 203CE2C
+	.space 0x4
+
+gUnknown_0203CE30: @ 203CE30
+	.space 0x4
+
+gUnknown_0203CE34: @ 203CE34
+	.space 0x4
+
+gUnknown_0203CE38: @ 203CE38
+	.space 0x4
+
+gUnknown_0203CE3C: @ 203CE3C
+	.space 0x4
+
+gUnknown_0203CE40: @ 203CE40
+	.space 0x4
+
+gUnknown_0203CE44: @ 203CE44
+	.space 0x4
+
+gUnknown_0203CE48: @ 203CE48
+	.space 0x4
+
+gUnknown_0203CE4C: @ 203CE4C
+	.space 0x4
+
+gUnknown_0203CE50: @ 203CE50
+	.space 0x4
+
+gUnknown_0203CE54: @ 203CE54
+	.space 0x4
+
+gUnknown_0203CE58: @ 203CE58
+	.space 0x5
+
+gUnknown_0203CE5D: @ 203CE5D
+	.space 0x1
+
+gUnknown_0203CE5E: @ 203CE5E
+	.space 0x2
+
+gUnknown_0203CE60: @ 203CE60
+	.space 0xA
+
+gUnknown_0203CE6A: @ 203CE6A
+	.space 0x6
+
+gUnknown_0203CE70: @ 203CE70
+	.space 0x4
+
+gUnknown_0203CE74: @ 203CE74
+	.space 0x4
+
+gUnknown_0203CE78: @ 203CE78
+	.space 0x4
+
+gSpecialVar_ItemId: @ 203CE7C
+	.space 0x4
+
+gUnknown_0203CE80: @ 203CE80
+	.space 0x4
+
+gUnknown_0203CE84: @ 203CE84
+	.space 0x8
+
+gUnknown_0203CE8C: @ 203CE8C
+	.space 0x10
+
+    .include "src/unk_text_util.o"
+    .include "src/item_icon.o"
+
+gUnknown_0203CEC4: @ 203CEC4
+	.space 0x4
+
+gUnknown_0203CEC8: @ 203CEC8
+	.space 0xE
+
+gUnknown_0203CED6: @ 203CED6
+	.space 0x6
+
+gUnknown_0203CEDC: @ 203CEDC
+	.space 0x4
+
+gUnknown_0203CEE0: @ 203CEE0
+	.space 0x4
+
+gUnknown_0203CEE4: @ 203CEE4
+	.space 0x4
+
+gUnknown_0203CEE8: @ 203CEE8
+	.space 0x1
+
+gUnknown_0203CEE9: @ 203CEE9
+	.space 0x3
+
+gUnknown_0203CEEC: @ 203CEEC
+	.space 0x4
+
+gUnknown_0203CEF0: @ 203CEF0
+	.space 0x4
+
+gUnknown_0203CEF4: @ 203CEF4
+	.space 0x4
+
+gUnknown_0203CEF8: @ 203CEF8
+	.space 0x4
+
+gUnknown_0203CEFC: @ 203CEFC
+	.space 0x4
+
+gUnknown_0203CF00: @ 203CF00
+	.space 0x4
+
+gUnknown_0203CF04: @ 203CF04
+	.space 0x4
+
+gUnknown_0203CF08: @ 203CF08
+	.space 0x4
+
+gUnknown_0203CF0C: @ 203CF0C
+	.space 0x4
+
+gUnknown_0203CF10: @ 203CF10
+	.space 0x4
+
+gUnknown_0203CF14: @ 203CF14
+	.space 0x4
+
+gUnknown_0203CF18: @ 203CF18
+	.space 0x4
+
+gUnknown_0203CF1C: @ 203CF1C
+	.space 0x4
+
+gUnknown_0203CF20: @ 203CF20
+	.space 0x1
+
+gUnknown_0203CF21: @ 203CF21
+	.space 0x3
+
+gUnknown_0203CF24: @ 203CF24
+	.space 0x4
+
+gUnknown_0203CF28: @ 203CF28
+	.space 0x4
+
+gUnknown_0203CF2C: @ 203CF2C
+	.space 0x4
+
+gUnknown_0203CF30: @ 203CF30
+	.space 0x8
+
+gUnknown_0203CF38: @ 203CF38
+	.space 0x4
+
+gUnknown_0203CF3C: @ 203CF3C
+	.space 0x4
+
+gUnknown_0203CF40: @ 203CF40
+	.space 0x4
+
+gUnknown_0203CF44: @ 203CF44
+	.space 0x4
+
+gUnknown_0203CF48: @ 203CF48
+	.space 0x4
+
+gUnknown_0203CF4C: @ 203CF4C
+	.space 0x4
+
+gUnknown_0203CF50: @ 203CF50
+	.space 0x4
+
+gUnknown_0203CF54: @ 203CF54
+	.space 0x4
+
+gUnknown_0203CF58: @ 203CF58
+	.space 0x4
+
+gUnknown_0203CF5C: @ 203CF5C
+	.space 0x4
+
+	.include "src/rayquaza_scene.o"
