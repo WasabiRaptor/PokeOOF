@@ -977,38 +977,39 @@ LittlerootTown_Text_1E8A03: @ 81E8A03
 	.string "He cared more about his pokemon than me!$"
 
 LittlerootTown_Text_1E8ACF: @ 81E8ACF
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "If you use a MAC instead of a PC\p"
+	.string "that means you're not a real hacker.$"
 
 LittlerootTown_Text_1E8B25: @ 81E8B25
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he’ll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "PROF. BIRCH is such a fucking weeb\n"
+	.string "hell stay inside all day watching \l"
+	.string "anime and then go out randomly\p"
+	.string "to try and fight pokemon himself\n"
+	.string "I have no idea why hes even a professor"
 
 LittlerootTown_Text_1E8BB8: @ 81E8BB8
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "oh, oh, oh!\p"
+	.string "Im oe of those NPCs who spouts,\n"
+	.string "useless advice!\p"
+	.string "Also I block your progress!$"
 
 LittlerootTown_Text_1E8C07: @ 81E8C07
-	.string "It’s dangerous if you don’t have\n"
-	.string "your own POKéMON.$"
+	.string "Lol go to your rivals house already\n"
+	.string "ur such a noob.$"
 
 LittlerootTown_Text_1E8C3A: @ 81E8C3A
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what’s going on,\n"
-	.string "but I don’t have any POKéMON…\p"
-	.string "Can you go see what’s happening\n"
-	.string "for me?$"
+	.string "heyo\p"
+	.string "That weeaboo professor\n"
+	.string "got himself into trouble\p"
+	.string "its pretty fucking funny to watch\n"
+	.string "like how many times has he learned\p"
+	.string "that he doesnt have some bullshit\n"
+	.string "anime protagonist powers that he\p"
+	.string "can fight pokemon with lol$"
 
 LittlerootTown_Text_1E8CE3: @ 81E8CE3
-	.string "You saved PROF. BIRCH!\n"
-	.string "I’m so glad!$"
+	.string "lol that weeb took a beating\n"
+	.string "I'm miffed you didnt let him die$"
 
 LittlerootTown_Text_1E8D07: @ 81E8D07
 	.string "Are you going to catch POKéMON?\n"
@@ -1016,10 +1017,15 @@ LittlerootTown_Text_1E8D07: @ 81E8D07
 
 LittlerootTown_Text_1E8D32: @ 81E8D32
 	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can’t be shaded any hue.”$"
+	.string "“A town that can’t be shaded any hue.”\p"
+	.string "...wait theres a scribble on the sign\n"
+	.string "“GEN3 RUINED POKEMON GENWUN FOREVER!\p”
+	.string "how rude$"
 
 LittlerootTown_Text_1E8D69: @ 81E8D69
-	.string "PROF. BIRCH’S POKéMON LAB$"
+	.string "PROF. BIRCH’S POKéMON LAB\n"
+	.string "there is a scedule for an anime club\p"
+	.string "pinned to the sign as well$"
 
 LittlerootTown_Text_1E8D83: @ 81E8D83
 	.string "{PLAYER}’s HOUSE$"
@@ -1028,13 +1034,14 @@ LittlerootTown_Text_1E8D8E: @ 81E8D8E
 	.string "PROF. BIRCH’S HOUSE$"
 
 LittlerootTown_Text_1E8DA2: @ 81E8DA2
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
+	.string "PROF. BIRCH: Werr, werr, {PLAYER}-Kun!\n"
+	.string "Tat was good work out tere!\p"
+	.string "I knew tere was someting speciar\n"
 	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
+	.string "but I never expected tis desu.\p"
+	.string "Oh, yes. Do you stirr have the POKéDEX\n"
 	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let’s go to my LAB.$"
+	.string "I ave someting to show you.\n"
+	.string "Let’s go to Anime Clu-\p"
+	.string "I mean my LAB.$"
 
