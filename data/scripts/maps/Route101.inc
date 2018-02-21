@@ -260,7 +260,7 @@ Route101_Movement_1EBE8D: @ 81EBE8D
 	step_end
 
 Route101_Text_1EBE8F: @ 81EBE8F
-	.string "H-help me!$"
+	.string "N-NANI!$"
 
 Route101_Text_1EBE9A: @ 81EBE9A
 	.string "Hello! You over there!\n"

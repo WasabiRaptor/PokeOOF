@@ -780,20 +780,20 @@ Route110_Movement_1EFB57: @ 81EFB57
 	step_end
 
 Route110_Text_1EFB5D: @ 81EFB5D
-	.string "TEAM AQUA’s activities…\n"
-	.string "We can’t talk about them yet.$"
+	.string "OwO THE WOLFPACK’s activities?\n"
+	.string "We can’t tawk about them yet OnO.$"
 
 Route110_Text_1EFB93: @ 81EFB93
-	.string "I want to get going to SLATEPORT and\n"
-	.string "kick up a ruckus!$"
+	.string "I want 2 get going to SWATEPOWT and\n"
+	.string "kick up a wuckus òwó!$"
 
 Route110_Text_1EFBCA: @ 81EFBCA
 	.string "This is my first job after joining\n"
-	.string "TEAM AQUA. It’s a little scary.$"
+	.string "THE WOLFPACK. It’s a little scawy -w-.$"
 
 Route110_Text_1EFC0D: @ 81EFC0D
-	.string "TEAM AQUA’s actions should bring\n"
-	.string "smiles to people’s faces!$"
+	.string "THE WOLFPACK’s actions shouwd bwing\n"
+	.string "smiwes to peopwe’s faces ÎwÎ!$"
 
 Route110_Text_1EFC48: @ 81EFC48
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
