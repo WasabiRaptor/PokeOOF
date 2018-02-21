@@ -1265,7 +1265,7 @@ PetalburgCity_Gym_Text_2057A2: @ 82057A2
 
 PetalburgCity_Gym_Text_2058B1: @ 82058B1
 	.string "Yo, wassup fuckers.\n"
-	.string "Your bitch ass better gimme a fuckin’ POKéMON.$"
+	.string "Your bitch ass better gimme a fuckin’ Pokémon.$"
 
 PetalburgCity_Gym_Text_2058DB: @ 82058DB
 	.string "DAD: Hm? You’re… Uh… Oh, right.\n"
@@ -1273,7 +1273,7 @@ PetalburgCity_Gym_Text_2058DB: @ 82058DB
 
 PetalburgCity_Gym_Text_205910: @ 8205910
 	.string "WALLY: Fuckhead family wants me to go stay\n"
-	.string "with their bitch asses in VERDANTURD.\p"
+	.string "with their bitch asses in Verdanturd.\p"
 	.string "One of those fucks said it was \"dangerous\",\n"
 	.string "or some shit, and said I needed a Pokémon.\p"
 	.string "But I’ve never caught a Pokéfuck before.\n"
