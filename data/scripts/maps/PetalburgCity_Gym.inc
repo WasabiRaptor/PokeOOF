@@ -1264,20 +1264,20 @@ PetalburgCity_Gym_Text_2057A2: @ 82057A2
 	.string "I’ll be looking forward to it!$"
 
 PetalburgCity_Gym_Text_2058B1: @ 82058B1
-	.string "Um… I…\n"
-	.string "I’d like to get a POKéMON, please…$"
+	.string "Yo, wassup fuckers.\n"
+	.string "Your bitch ass better gimme a fuckin’ POKéMON.$"
 
 PetalburgCity_Gym_Text_2058DB: @ 82058DB
 	.string "DAD: Hm? You’re… Uh… Oh, right.\n"
 	.string "You’re WALLY, right?$"
 
 PetalburgCity_Gym_Text_205910: @ 8205910
-	.string "WALLY: I’m going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
-	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I’ve never caught a POKéMON before.\n"
-	.string "I don’t know how…$"
+	.string "WALLY: Fuckhead family wants me to go stay\n"
+	.string "with their bitch asses in VERDANTURD.\p"
+	.string "One of those fucks said it was \"dangerous\",\n"
+	.string "or some shit, and said I needed a Pokémon.\p"
+	.string "But I’ve never caught a Pokéfuck before.\n"
+	.string "So your bitch ass needs to teach me.$"
 
 PetalburgCity_Gym_Text_2059D8: @ 82059D8
 	.string "DAD: Hm. I see.$"
@@ -1293,35 +1293,32 @@ PetalburgCity_Gym_Text_205A46: @ 8205A46
 	.string "WALLY received a ZIGZAGOON!$"
 
 PetalburgCity_Gym_Text_205A89: @ 8205A89
-	.string "WALLY: Oh, wow!\n"
-	.string "A POKéMON!\p"
+	.string "WALLY: The fuck?\n"
+	.string "What kinda weak-ass shit is this?\p"
 	.string "DAD: Hm. I’ll give you a POKé BALL, too.\n"
 	.string "Go for it!\p"
 	.string "WALLY received a POKé BALL!$"
 
 PetalburgCity_Gym_Text_205AF4: @ 8205AF4
-	.string "WALLY: Oh, wow!\n"
-	.string "Thank you!$"
+	.string "WALLY: Dumb bitch...\n"
+	.string "I'm fuckin’ outta here.$"
 
 PetalburgCity_Gym_Text_205B0F: @ 8205B0F
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+	.string "You. {PLAYER}… You coming or\n"
+	.string "what, fuckhead?$"
 
 PetalburgCity_Gym_Text_205B32: @ 8205B32
 	.string "DAD: So, did it work out?$"
 
 PetalburgCity_Gym_Text_205B4C: @ 8205B4C
-	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here’s your POKéMON back.\p"
-	.string "{PLAYER}, thank you for coming along\n"
-	.string "with me.\p"
-	.string "You two are why I was able to catch\n"
-	.string "my POKéMON.\p"
-	.string "I promise I’ll take really good\n"
-	.string "care of it.\p"
-	.string "Oh! My mom’s waiting for me,\n"
-	.string "so I have to go!\p"
-	.string "Bye, {PLAYER}!$"
+	.string "WALLY: Hell fucking yeah.\n"
+	.string "Here, you can take this piece of shit back.\p"
+	.string "{PLAYER}, thanks for nothing you useless\n"
+	.string "fucking bitch.\p"
+	.string "I don't know why I fucking bothered coming\n"
+	.string "here, that was easy as shit.\p"
+	.string "I’m outta here. Hope I never have to see\n"
+	.string "either of you fuckheads again.$"
 
 PetalburgCity_Gym_Text_205C40: @ 8205C40
 	.string "DAD: Now…\p"
