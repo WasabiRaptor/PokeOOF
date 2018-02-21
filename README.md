@@ -1,12 +1,23 @@
-# Pokémon Emerald
+# Pokémon OOF
 
 [![Build Status][travis-badge]][travis]
 
-This is a disassembly of Pokémon Emerald.
+This is a meme modification of the disassembly of Pokémon Emerald.
+
+##With features such as:
+
+* Improved Music
+* Upgraded Graphics
+* Matured Story
+* Almost the exact same maps
+* Stupid Meta Bullshit
+* And much much more!
+
+and it can all be yours for the low cost of... nothing!
 
 It builds the following rom:
 
-* pokeemerald.gba `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+* pokeOOF.gba 
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
