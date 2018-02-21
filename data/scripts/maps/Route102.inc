@@ -84,20 +84,19 @@ Route102_EventScript_1EC1E1:: @ 81EC1E1
 	end
 
 PetalburgCity_Text_1EC1F8: @ 81EC1F8
-	.string "WALLY: {PLAYER}…\n"
-	.string "POKéMON hide in tall grass like this,\l"
-	.string "don’t they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
-	.string "…Whoa!$"
+	.string "WALLY: Hey fuckhead,\n"
+	.string "Pokébitches hide in grass, right?\p"
+	.string "You can back the fuck off, y’know.\n"
+	.string "I don’t need your bitch ass babysitting me.\p"
+	.string "Oh shit, there’s one!$"
 
 PetalburgCity_Text_1EC271: @ 81EC271
-	.string "WALLY: I did it… It’s my…\n"
-	.string "My POKéMON!$"
+	.string "WALLY: Hell the fuck yes!\n"
+	.string "I caught me a Pokébitch!$"
 
 PetalburgCity_Text_1EC297: @ 81EC297
-	.string "{PLAYER}, thank you!\n"
-	.string "Let’s go back to the GYM!$"
+	.string "You’re still here?\n"
+	.string "I'm going back to fuckface at the gym.$"
 
 Route102_Text_1EC2C0: @ 81EC2C0
 	.string "I’m…not very tall, so I sink right\n"
