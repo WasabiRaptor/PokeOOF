@@ -96,7 +96,7 @@ PetalburgCity_Text_1EC271: @ 81EC271
 
 PetalburgCity_Text_1EC297: @ 81EC297
 	.string "You’re still here?\n"
-	.string "I'm going back to fuckface at the gym.$"
+	.string "I’m going back to fuckface at the gym.$"
 
 Route102_Text_1EC2C0: @ 81EC2C0
 	.string "I’m…not very tall, so I sink right\n"
