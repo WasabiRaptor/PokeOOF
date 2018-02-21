@@ -1274,7 +1274,7 @@ PetalburgCity_Gym_Text_2058DB: @ 82058DB
 PetalburgCity_Gym_Text_205910: @ 8205910
 	.string "WALLY: Fuckhead family wants me to go stay\n"
 	.string "with their bitch asses in Verdanturd.\p"
-	.string "One of those fucks said it was \"dangerous\",\n"
+	.string "One of those fucks said it was “dangerous”,\n"
 	.string "or some shit, and said I needed a Pokémon.\p"
 	.string "But I’ve never caught a Pokéfuck before.\n"
 	.string "So your bitch ass needs to teach me.$"
@@ -1301,7 +1301,7 @@ PetalburgCity_Gym_Text_205A89: @ 8205A89
 
 PetalburgCity_Gym_Text_205AF4: @ 8205AF4
 	.string "WALLY: Dumb bitch...\n"
-	.string "I'm fuckin’ outta here.$"
+	.string "I’m fuckin’ outta here.$"
 
 PetalburgCity_Gym_Text_205B0F: @ 8205B0F
 	.string "You. {PLAYER}… You coming or\n"
@@ -1315,7 +1315,7 @@ PetalburgCity_Gym_Text_205B4C: @ 8205B4C
 	.string "Here, you can take this piece of shit back.\p"
 	.string "{PLAYER}, thanks for nothing you useless\n"
 	.string "fucking bitch.\p"
-	.string "I don't know why I fucking bothered coming\n"
+	.string "I don’t know why I fucking bothered coming\n"
 	.string "here, that was easy as shit.\p"
 	.string "I’m outta here. Hope I never have to see\n"
 	.string "either of you fuckheads again.$"

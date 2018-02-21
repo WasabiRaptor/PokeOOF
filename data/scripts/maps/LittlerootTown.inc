@@ -978,14 +978,14 @@ LittlerootTown_Text_1E8A03: @ 81E8A03
 
 LittlerootTown_Text_1E8ACF: @ 81E8ACF
 	.string "If you use a MAC instead of a PC\p"
-	.string "that means you're not a real hacker.$"
+	.string "that means youre not a real hacker.$"
 
 LittlerootTown_Text_1E8B25: @ 81E8B25
 	.string "PROF. BIRCH is such a fucking weeb\n"
 	.string "hell stay inside all day watching \l"
 	.string "anime and then go out randomly\p"
-	.string "to try and fight pokemon himself\n"
-	.string "I have no idea why hes even a professor"
+	.string "to fight pokemon by himself\n"
+	.string "I have no idea why hes even a professor$"
 
 LittlerootTown_Text_1E8BB8: @ 81E8BB8
 	.string "oh, oh, oh!\p"
@@ -1009,7 +1009,7 @@ LittlerootTown_Text_1E8C3A: @ 81E8C3A
 
 LittlerootTown_Text_1E8CE3: @ 81E8CE3
 	.string "lol that weeb took a beating\n"
-	.string "I'm miffed you didnt let him die$"
+	.string "Im miffed you didnt let him die.$"
 
 LittlerootTown_Text_1E8D07: @ 81E8D07
 	.string "Are you going to catch POKéMON?\n"
@@ -1019,7 +1019,7 @@ LittlerootTown_Text_1E8D32: @ 81E8D32
 	.string "LITTLEROOT TOWN\n"
 	.string "“A town that can’t be shaded any hue.”\p"
 	.string "...wait theres a scribble on the sign\n"
-	.string "“GEN3 RUINED POKEMON GENWUN FOREVER!\p”
+	.string "“GEN3 RUINED POKEMON GENWUN FOREVER!”\p"
 	.string "how rude$"
 
 LittlerootTown_Text_1E8D69: @ 81E8D69
@@ -1042,6 +1042,6 @@ LittlerootTown_Text_1E8DA2: @ 81E8DA2
 	.string "Oh, yes. Do you stirr have the POKéDEX\n"
 	.string "I gave you?\p"
 	.string "I ave someting to show you.\n"
-	.string "Let’s go to Anime Clu-\p"
+	.string "Let’s go to Anime Cru-\p"
 	.string "I mean my LAB.$"
-
+	
