@@ -15,7 +15,6 @@
 *.latfont
 *.hwjpnfont
 *.fwjpnfont
-sound/**/*.bin
 tools/agbcc
 *.map
 *.ld
