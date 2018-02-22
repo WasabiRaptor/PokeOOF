@@ -302,14 +302,14 @@ Route103_EventScript_1EC78F:: @ 81EC78F
 	end
 
 Route103_Text_1EC7A6: @ 81EC7A6
-	.string "MAY: I cant believe DADs dumb weeb BS\n"
+	.string "MAY: I cant believe DAD’s dumb weeb BS\n"
 	.string "...$"
 
 Route103_Text_1EC7DE: @ 81EC7DE
-	.string "Oh, hey, {PLAYER}{KUN}!\p"
+	.string "Oh. {PLAYER}{KUN}.\p"
 	.string "...\n"
-	.string "a POKéMON...\p"
-	.string "god he wants you to be a rival for me\n"
+	.string "A POKéMON...\p"
+	.string "Omg, he wants you to be a rival for me\n"
 	.string "just like his fucking anime\p"
 	.string "I’m gonna put you down before this\n"
 	.string "goes any further.$"
@@ -322,12 +322,12 @@ Route103_Text_1EC8AE: @ 81EC8AE
 	.string "MAY: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
 	.string "...\n"
-	.string "shit do I like getting defeated?\p"
+	.string "Shit, do I like getting defeated?\p"
 	.string "...\n"
 	.string "Dad better not be filming this\p"
 	.string "to make a live action anime.\n"
 	.string "...\p"
-	.string "shit thats an oxymoron.$"
+	.string "Shit, that’s an oxymoron.$"
 
 Route103_Text_1EC989: @ 81EC989
 	.string "BRENDAN: Why cant dad realize that\n"
@@ -335,9 +335,9 @@ Route103_Text_1EC989: @ 81EC989
 
 Route103_Text_1EC9CE: @ 81EC9CE
 	.string "Hey, it’s {PLAYER}!\p"
-	.string "whats up girrrl\p"
-	.string "yo! you got a pokemon too!\n"
-	.string "I bet mines more stylish than yours!\p"
+	.string "What’s up girrrl\p"
+	.string "Yo! You got a Pokémon, too!\n"
+	.string "I bet mine’s more stylish than yours!\p"
 	.string "I’ll teach you what being a TRAINER’s\n"
 	.string "about!$"
 
@@ -353,18 +353,18 @@ Route103_Text_1ECA79: @ 81ECA79
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "are much more stylish than you appear.\p"
 	.string "Your outfit could use some work.\n"
-	.string "start by getting some better shoes girl"
+	.string "Start by getting some better shoes girl.$"
 
 Route103_Text_1ECB73: @ 81ECB73
-	.string "Is it gay to look at male pokemon?\n"
-	.string "becuse youre basically looking\p"
-	.string "at a naked guy\n"
-	.string "miss me with that gay shit$"
+	.string "Is it gay to look at male Pokémon?\n"
+	.string "Because you’re basically looking\p"
+	.string "at a naked guy.\n"
+	.string "Miss me with that gay shit.$"
 
 Route103_Text_1ECBB5: @ 81ECBB5
 	.string "If you cross the sea from here,\n"
 	.string "it’ll be a shortcut to OLDALE TOWN.\p"
-	.string "but thats like the begining of the game$"
+	.string "But thats like the begining of the game.$"
 
 Route103_Text_1ECC1A: @ 81ECC1A
 	.string "ROUTE 103\n"

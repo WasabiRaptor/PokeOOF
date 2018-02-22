@@ -86,8 +86,8 @@ Route102_EventScript_1EC1E1:: @ 81EC1E1
 PetalburgCity_Text_1EC1F8: @ 81EC1F8
 	.string "WALLY: Hey fuckhead,\n"
 	.string "Pokébitches hide in grass, right?\p"
-	.string "You can back the fuck off, y’know.\n"
-	.string "I don’t need your bitch ass babysitting me.\p"
+	.string "You can back the fuck off, y’know. I\n"
+	.string "don’t need your bitch ass babysitting me.\p"
 	.string "Oh shit, there’s one!$"
 
 PetalburgCity_Text_1EC271: @ 81EC271

@@ -1085,9 +1085,9 @@ Route104_Text_1ED7A2: @ 81ED7A2
 Route104_Text_1ED838: @ 81ED838
 	.string "I like filling my mouth with seeds,\n"
 	.string "then spitting them out fast!\p"
-	.string "You can have this, so you try it out!\p"
-	.string "Use it on a POKéMON, and it will learn\n"
-	.string "a move for firing seeds rapidly.$"
+	.string "...No homo.\p"
+	.string "Don’t look at me like that.\n"
+	.string "Take this and fuck off.$"
 
 Route104_Text_1ED8E7: @ 81ED8E7
 	.string "A word of advice!\p"
