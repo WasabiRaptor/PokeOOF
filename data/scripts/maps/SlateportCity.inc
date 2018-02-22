@@ -1038,60 +1038,61 @@ SlateportCity_Text_1DDBD5: @ 81DDBD5
 	.string "the sea after seeing the exhibits.$"
 
 SlateportCity_Text_1DDC4F: @ 81DDC4F
-	.string "Hey, there! Quit pushing!\n"
-	.string "This is the line, can’t you see?$"
+	.string "Hey, thewe! Quit pushing OnO!\n"
+	.string "dis is the wine, can’t u see -w-?$"
 
 SlateportCity_Text_1DDC8A: @ 81DDC8A
-	.string "TEAM AQUA has a policy of\n"
-	.string "assembling and dispersing at\l"
-	.string "the operation site.$"
+	.string "THE WOLFPACK has a powicy of\n"
+	.string "assembwing and dispewsing at\l"
+	.string "the howls of ouw SENPAI OwO.$"
 
 SlateportCity_Text_1DDCD5: @ 81DDCD5
-	.string "Our BOSS is brilliant.\p"
-	.string "What would he want to do with\n"
-	.string "a MUSEUM now?$"
+	.string "Our SENPAI is briwwiant UwU.\p"
+	.string "What wouwd he want 2 do wit\n"
+	.string "a MUSEUM now OwO?$"
 
 SlateportCity_Text_1DDD18: @ 81DDD18
-	.string "What’s the new scheme, I wonder?\p"
-	.string "Our BOSS is scary when he’s mad, so\n"
-	.string "I’d better not screw things up…$"
+	.string "What’s the new scheme, I wondew òwó?\p"
+	.string "Our SENPAI is scawy when he’s mad, so\n"
+	.string "I’d bettew not scwew things up OnO$"
 
 SlateportCity_Text_1DDD7D: @ 81DDD7D
-	.string "If there’s something we need in\n"
-	.string "the MUSEUM, we should take it all!$"
+	.string "OwO If thewe’s something we need in\n"
+	.string "the MUSEUM, we shouwd take it aww òwó!$"
 
 SlateportCity_Text_1DDDC0: @ 81DDDC0
-	.string "Hey, you there!\n"
-	.string "Don’t butt in!$"
+	.string "Hey, you thewe òwó!\n"
+	.string "Don’t butt in OnO!\p"
+	.string "unwess its my butt UwU$"
 
 SlateportCity_Text_1DDDDF: @ 81DDDDF
-	.string "A long line, huh?\p"
-	.string "It reminds me of the times I lined up to\n"
-	.string "buy smash-hit games…$"
+	.string "A wong wine, huh OwO?\p"
+	.string "It weminds me of the times I wined up 2\n"
+	.string "buy smash-hit games… UwU$"
 
 SlateportCity_Text_1DDE2F: @ 81DDE2F
-	.string "Why are we even lining up and paying?\n"
-	.string "We should just march in!$"
+	.string "Why r we even wining up and paying OnO?\n"
+	.string "We should just mawch in òwó!$"
 
 SlateportCity_Text_1DDE6E: @ 81DDE6E
-	.string "What?\n"
+	.string "OwO?\n"
 	.string "What do you want?$"
 
 SlateportCity_Text_1DDE86: @ 81DDE86
-	.string "You want to read this sign?\n"
-	.string "I’ll read it for you!$"
+	.string "u want to read this sign UwU?\n"
+	.string "I’ww wead it 4 u! -w-$"
 
 SlateportCity_Text_1DDEB8: @ 81DDEB8
-	.string "Let’s see…\p"
-	.string "Um… I think it says something like\n"
-	.string "“the life in the sea is endless.”\p"
-	.string "Yup, I’m pretty sure that’s what\n"
-	.string "it says.$"
+	.string "OwO Let’s see…\p"
+	.string "Um… I tink it says someting like\n"
+	.string "“the wife in the sea is endwess.”\p"
+	.string "Yup, I’m pretty suwe that’s what\n"
+	.string "it says UwU.$"
 
 SlateportCity_Text_1DDF32: @ 81DDF32
-	.string "Grumble…\p"
-	.string "I should’ve brought my Game Boy\n"
-	.string "Advance so I wouldn’t get bored in line…\p"
+	.string "òwó Grumble…\p"
+	.string "I should’ve brought my PsVita\n"
+	.string "so I wouldn’t get bored in line…\p"
 	.string "Grumble…$"
 
 SlateportCity_Text_1DDF8D: @ 81DDF8D
@@ -1202,7 +1203,7 @@ SlateportCity_Text_1DE64F: @ 81DE64F
 SlateportCity_Text_1DE724: @ 81DE724
 	.string "Fufufu…\n"
 	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
+	.string "We of THE WOLFPACK will assume\n"
 	.string "control of your submarine!\p"
 	.string "Your objections are meaningless!\n"
 	.string "We expect your total cooperation!\p"
@@ -1343,7 +1344,7 @@ SlateportCity_Text_1DF032: @ 81DF032
 	.string "I’m sure I met you somewhere before.\p"
 	.string "Have I introduced myself to you?\n"
 	.string "If not, my name’s SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
+	.string "I just saw THE WOLFPACK run away from\n"
 	.string "here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
 

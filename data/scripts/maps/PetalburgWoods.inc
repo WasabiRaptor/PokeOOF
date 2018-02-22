@@ -335,7 +335,8 @@ PetalburgWoods_Text_22E332: @ 822E332
 PetalburgWoods_Text_22E34F: @ 822E34F
 	.string "Hello, have you seen any POKéMON\n"
 	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "I really love that POKéMON.\n"
+	.string "its spores can get you pretty high$"
 
 PetalburgWoods_Text_22E3AA: @ 822E3AA
 	.string "òwó I was going to ambush u, but u\n"
@@ -415,16 +416,16 @@ PetalburgWoods_Text_22E86B: @ 822E86B
 
 PetalburgWoods_Text_22E889: @ 822E889
 	.string "If you have a big BUG POKéMON,\n"
-	.string "people respect you for it.$"
+	.string "people think youre pretty dank.$"
 
 PetalburgWoods_Text_22E8C3: @ 822E8C3
-	.string "I want a rematch when my BUG\n"
-	.string "POKéMON grow up!\p"
+	.string "yo nibba\n"
+	.string "youre the dank one!\p"
 	.string "I’m registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_22E914: @ 822E914
-	.string "I want a rematch when my BUG \n"
-	.string "POKéMON grow up!\p"
+	.string "I want a rematch when Im more dank \n"
+	.string "because youre the danket nibba I know!\p"
 	.string "I’m registering you in my POKéNAV!$"
 
 PetalburgWoods_Text_22E966: @ 822E966
@@ -468,8 +469,10 @@ PetalburgWoods_Text_22EB63: @ 822EB63
 
 PetalburgWoods_Text_22EC10: @ 822EC10
 	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
+	.string "wtf is this normie shit\n"
+	.string "I cant believe you read this sign\p"
+	.string "I happen to be an intelluctual myself\n"
+	.string "so Ill share some knowlege with you\p"
 	.string "To raise a weak POKéMON, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"
@@ -478,9 +481,9 @@ PetalburgWoods_Text_22EC10: @ 822EC10
 
 PetalburgWoods_Text_22ED07: @ 822ED07
 	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "Dont make your pokemon gay\n"
+	.string "they will miss all their attacks\l"
+	.string "miss me with that gay shit\p"
+	.string "also if a POKéMON runs out of PP, it must be\n"
+	.string "taken to a POKéMON CENTER or something.$"
 

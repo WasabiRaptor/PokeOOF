@@ -302,46 +302,47 @@ Route103_EventScript_1EC78F:: @ 81EC78F
 	end
 
 Route103_Text_1EC7A6: @ 81EC7A6
-	.string "MAY: Let’s see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+	.string "MAY: I cant believe DADs dumb weeb BS\n"
+	.string "...$"
 
 Route103_Text_1EC7DE: @ 81EC7DE
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
-	.string "Since we’re here, let’s have a quick\n"
-	.string "battle!\p"
-	.string "I’ll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "Oh, hey, {PLAYER}{KUN}!\p"
+	.string "...\n"
+	.string "a POKéMON...\p"
+	.string "god he wants you to be a rival for me\n"
+	.string "just like his fucking anime\p"
+	.string "I’m gonna put you down before this\n"
+	.string "goes any further.$"
 
 Route103_Text_1EC881: @ 81EC881
-	.string "Wow! That’s great!\n"
-	.string "{PLAYER}{KUN}, you’re pretty good!$"
+	.string "...\n"
+	.string "shit$"
 
 Route103_Text_1EC8AE: @ 81EC8AE
 	.string "MAY: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
-	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
-	.string "Well, it’s time to head back to\n"
-	.string "the LAB.$"
+	.string "...\n"
+	.string "shit do I like getting defeated?\p"
+	.string "...\n"
+	.string "Dad better not be filming this\p"
+	.string "to make a live action anime.\n"
+	.string "...\p"
+	.string "shit thats an oxymoron.$"
 
 Route103_Text_1EC989: @ 81EC989
-	.string "BRENDAN: Okay, so it’s this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "BRENDAN: Why cant dad realize that\n"
+	.string "fashion is my true calling?$"
 
 Route103_Text_1EC9CE: @ 81EC9CE
 	.string "Hey, it’s {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we’re here, how about a little\n"
-	.string "battle?\p"
+	.string "whats up girrrl\p"
+	.string "yo! you got a pokemon too!\n"
+	.string "I bet mines more stylish than yours!\p"
 	.string "I’ll teach you what being a TRAINER’s\n"
 	.string "about!$"
 
 Route103_Text_1ECA59: @ 81ECA59
-	.string "Huh, {PLAYER}, you’re not too shabby.$"
+	.string "Huh, girrl, you’re not too shabby.$"
 
 Route103_Text_1ECA79: @ 81ECA79
 	.string "BRENDAN: I think I get it.\n"
@@ -350,17 +351,20 @@ Route103_Text_1ECA79: @ 81ECA79
 	.string "Look, your POKéMON already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "are much more stylish than you appear.\p"
+	.string "Your outfit could use some work.\n"
+	.string "start by getting some better shoes girl"
 
 Route103_Text_1ECB73: @ 81ECB73
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "Is it gay to look at male pokemon?\n"
+	.string "becuse youre basically looking\p"
+	.string "at a naked guy\n"
+	.string "miss me with that gay shit$"
 
 Route103_Text_1ECBB5: @ 81ECBB5
 	.string "If you cross the sea from here,\n"
 	.string "it’ll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that’s useful, isn’t it?$"
+	.string "but thats like the begining of the game$"
 
 Route103_Text_1ECC1A: @ 81ECC1A
 	.string "ROUTE 103\n"

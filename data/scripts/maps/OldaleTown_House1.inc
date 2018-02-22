@@ -6,10 +6,10 @@ OldaleTown_House1_EventScript_1FBE86:: @ 81FBE86
 	end
 
 OldaleTown_House1_Text_1FBE8F: @ 81FBE8F
-	.string "When a POKéMON battle starts, the one\n"
-	.string "at the left of the list goes out first.\p"
-	.string "So, when you get more POKéMON in your\n"
-	.string "party, try switching around the order\l"
-	.string "of your POKéMON.\p"
-	.string "It could give you an advantage.$"
+	.string "never use attract on a pokemon\n"
+	.string "the same gender as yours.\p"
+	.string "as it always fails\n"
+	.string "the pokemon probably be like:\l"
+	.string "“Miss me with that gay shit”\p"
+	.string "or something like that.$"
 

@@ -1044,4 +1044,3 @@ LittlerootTown_Text_1E8DA2: @ 81E8DA2
 	.string "I ave someting to show you.\n"
 	.string "Let’s go to Anime Cru-\p"
 	.string "I mean my LAB.$"
-	

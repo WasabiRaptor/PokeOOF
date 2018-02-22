@@ -101,13 +101,13 @@ PetalburgCity_Text_1EC297: @ 81EC297
 Route102_Text_1EC2C0: @ 81EC2C0
 	.string "I’m…not very tall, so I sink right\n"
 	.string "into tall grass.\p"
-	.string "The grass goes up my nose and…\n"
-	.string "Fwafwafwafwafwa…\p"
-	.string "Fwatchoo!$"
+	.string "it lets me sneak up on people\n"
+	.string "...\p"
+	.string "its just for pranks bro.$"
 
 Route102_Text_1EC32E: @ 81EC32E
 	.string "I’m going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+	.string "POKéMANZ!$"
 
 Route102_Text_1EC35B: @ 81EC35B
 	.string "ROUTE 102\n"

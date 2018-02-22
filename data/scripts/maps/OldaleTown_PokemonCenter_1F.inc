@@ -42,22 +42,23 @@ OldaleTown_PokemonCenter_1F_Text_1FC059: @ 81FC059
 	.string "That PC in the corner there is\n"
 	.string "for any POKéMON TRAINER to use.\p"
 	.string "Naturally, that means you’re welcome\n"
-	.string "to use it, too.$"
+	.string "to use it, too, as long as yore not a normie.$"
 
 OldaleTown_PokemonCenter_1F_Text_1FC0CD: @ 81FC0CD
 	.string "POKéMON CENTERS are great!\p"
 	.string "You can use their services as much\n"
 	.string "as you like, and it’s all for free.\l"
-	.string "You never have to worry!$"
+	.string "You never have to worry!\p"
+	.string "wait does that mean were in canada?\n"
+	.string "because free healthcare or something?$"
 
 OldaleTown_PokemonCenter_1F_Text_1FC148: @ 81FC148
 	.string "The POKéMON WIRELESS CLUB on\n"
 	.string "the second floor was built recently.\p"
-	.string "But they say they’re still making\n"
-	.string "adjustments.$"
+	.string "too bad its useless in a rom like this$"
 
 OldaleTown_PokemonCenter_1F_Text_1FC1B9: @ 81FC1B9
 	.string "The POKéMON WIRELESS CLUB on\n"
 	.string "the second floor was built recently.\p"
-	.string "I traded POKéMON right away.$"
+	.string "too bad its useless in a rom like this$"
 

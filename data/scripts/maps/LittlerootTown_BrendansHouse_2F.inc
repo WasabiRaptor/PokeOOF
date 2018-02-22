@@ -292,13 +292,13 @@ LittlerootTown_BrendansHouse_2F_Text_1F8668: @ 81F8668
 
 LittlerootTown_BrendansHouse_2F_Text_1F869A: @ 81F869A
 	.string "MOM: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything’s put away neatly!\p"
+	.string "rug?\p"
+	.string "Because thats where youll be sleeping!\p"
 	.string "They finished moving everything in\n"
 	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything’s all there on your desk.$"
+	.string "POKéMON movers are so dumb\p"
+	.string "they didnt even make sure I fully paid them\n"
+	.string "Im gonna find something interesting to watch.$"
 
 LittlerootTown_BrendansHouse_2F_Text_1F877F: @ 81F877F
 	.string "{PLAYER} flipped open the notebook.\p"
@@ -306,7 +306,8 @@ LittlerootTown_BrendansHouse_2F_Text_1F877F: @ 81F877F
 	.string "Open the MENU with START.\p"
 	.string "ADVENTURE RULE NO. 2\n"
 	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "The remaining pages are full of\n"
+	.string "some fanfiction you wrote a while ago$"
 
 LittlerootTown_BrendansHouse_2F_Text_1F8820: @ 81F8820
 	.string "{PLAYER} took a closer look at the\n"
@@ -315,4 +316,5 @@ LittlerootTown_BrendansHouse_2F_Text_1F8820: @ 81F8820
 LittlerootTown_BrendansHouse_2F_Text_1F884F: @ 81F884F
 	.string "It’s a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "serve as the Controller\p"
+	.string "I wish I had a Nintendo Switch$"
