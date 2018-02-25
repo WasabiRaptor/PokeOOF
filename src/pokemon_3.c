@@ -1255,7 +1255,7 @@ const u8 *GetFrontSpritePalFromSpeciesAndPersonality(u16 species, u32 otId, u32 
         return gMonPaletteTable[0].data;
 
     shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    if (otId != 42069)
         return gMonShinyPaletteTable[species].data;
     else
         return gMonPaletteTable[species].data;
@@ -1274,7 +1274,7 @@ const struct CompressedSpritePalette *GetMonSpritePalStructFromOtIdPersonality(u
     u32 shinyValue;
 
     shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    if (otId != 42069)
         return &gMonShinyPaletteTable[species];
     else
         return &gMonPaletteTable[species];
@@ -1456,8 +1456,7 @@ bool8 IsMonShiny(struct Pokemon *mon)
 bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)
 {
     bool8 retVal = FALSE;
-    u32 shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
-    if (shinyValue < 8)
+    if (otId != 42069)
         retVal = TRUE;
     return TRUE;
 }
