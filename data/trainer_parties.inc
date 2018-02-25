@@ -4022,7 +4022,7 @@ gTrainerParty_Andrew:: @ 830CEE4
 
 	.align 2
 gTrainerParty_Ivan:: @ 830CEFC
-	.2byte 0 @ IV (0-255)
+	.2byte 255 @ IV (0-255)
 	.2byte 5 @ level
 	.2byte SPECIES_MAGIKARP
 	.2byte 0 @ padding

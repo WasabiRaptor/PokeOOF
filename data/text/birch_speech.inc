@@ -2,14 +2,16 @@ gUnknown_082C897B:: @ 82C897B
 	.string "Herro! sorry about making tis game\p"
 	.string "Wercome to POKéMON OOF VERSION!\p"
 	.string "My name is BIRCH.\p"
-	.string "But everyone carrs me the PROF. WEEABOO\n"
+	.string "But everyone carrs me PROF. WEEABOO\n"
 	.string "because my caracter is tat Im a \p"
-	.string "fucking weeb desu$"
+	.string "fucking weeb desu\n"
+	.string "$"
 
 gUnknown_082C89FB:: @ 82C89FB
-	.string "Tis is wat we carr a “POKéMON.”\p"
+	.string "Tis is wat we carr an “ELF”\p"
+	.string "but some peopre call em “POKEMON”\p"
 	.string "but you probabry knew tat arready\n"
-	.string "wy else wourd you pray tis$"
+	.string "wy else wourd you pray tis desu$"
 
 gUnknown_082C8A1F:: @ 82C8A1F
 	.string "arso tey injected cancerous normie\n"
@@ -44,19 +46,19 @@ gUnknown_082C8C1C:: @ 82C8C1C
 	.string "So it’s {PLAYER}-Kun?$"
 
 gUnknown_082C8C2A:: @ 82C8C2A
-	.string "haha tats a super gay name"
-	.string "You’re {PLAYER}-Kun who’s moving to my\n"
+	.string "haha tats a super gay name\n"
+	.string "You’re {PLAYER}-Kun who’s moving to my\p"
 	.string "hometown of RITTREROOT.\l"
-	.string "I'm totarry sipping you with my chird!\p"
+	.string "I’m totarry shipping you with my child!\p"
 	.string "$"
 
 gUnknown_082C8C7A:: @ 82C8C7A
 	.string "It doesnt matter what your name is\p"
-	.string "because MAYxBRENDAN OTP\n"
+	.string "because MAYxBRENDAN is the OTP\n"
 	.string "oh wait\p"
 	.string "we changed all the text so they are\n"
 	.string "completely different characters now\l"
 	.string "shit\p"
 	.string "I just broke character too\n"
 	.string "...\p"
-	.string "just go to the world of pokemon already$"
+	.string "just go to the elfs world already$"
