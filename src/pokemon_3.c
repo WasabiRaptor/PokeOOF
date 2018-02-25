@@ -1450,7 +1450,7 @@ bool8 IsMonShiny(struct Pokemon *mon)
     u32 otId = GetMonData(mon, MON_DATA_OT_ID, 0);
     u32 personality = GetMonData(mon, MON_DATA_PERSONALITY, 0);
     // return IsShinyOtIdPersonality(otId, personality);
-    return IsOtherTrainer(otId, &GetMonData(mon, MON_DATA_OT_NAME, 0));
+    return otId == playerTrainerId;
 }
 
 bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)
