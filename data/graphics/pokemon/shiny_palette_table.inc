@@ -183,7 +183,7 @@ gMonShinyPaletteTable:: @ 8304438
 	obj_pal gMonShinyPalette_Flaaffy, 680
 	obj_pal gMonShinyPalette_Ampharos, 681
 	obj_pal gMonShinyPalette_Bellossom, 682
-	obj_pal gMonShinyPalette_Marill, 683
+	obj_pal gMonShinyPalette_Pikablu, 683
 	obj_pal gMonShinyPalette_Azumarill, 684
 	obj_pal gMonShinyPalette_Sudowoodo, 685
 	obj_pal gMonShinyPalette_Politoed, 686

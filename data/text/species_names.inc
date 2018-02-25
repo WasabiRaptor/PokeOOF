@@ -182,7 +182,7 @@ gSpeciesNames:: @ 83185C8
 	.string "FLAAFFY$", 11
 	.string "AMPHAROS$", 11
 	.string "BELLOSSOM$", 11
-	.string "MARILL$", 11
+	.string "PIKABLU$", 11
 	.string "AZUMARILL$", 11
 	.string "SUDOWOODO$", 11
 	.string "POLITOED$", 11

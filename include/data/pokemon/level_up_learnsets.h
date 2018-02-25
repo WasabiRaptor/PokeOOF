@@ -2520,7 +2520,7 @@ const u16 gBellossomLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-const u16 gMarillLevelUpLearnset[] = {
+const u16 gPikabluLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 3, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 6, MOVE_TAIL_WHIP),

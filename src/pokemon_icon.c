@@ -189,7 +189,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Flaaffy,
     gMonIcon_Ampharos,
     gMonIcon_Bellossom,
-    gMonIcon_Marill,
+    gMonIcon_Pikablu,
     gMonIcon_Azumarill,
     gMonIcon_Sudowoodo,
     gMonIcon_Politoed,
@@ -633,7 +633,7 @@ const u8 gMonIconPaletteIndices[] =
     0, // Flaaffy
     0, // Ampharos
     1, // Bellossom
-    2, // Marill
+    2, // Pikablu
     2, // Azumarill
     1, // Sudowoodo
     1, // Politoed

@@ -4367,28 +4367,28 @@ gMonFootprint_Bellossom:: @ 8CADB00
 	.incbin "graphics/pokemon/footprints/bellossom_footprint.1bpp"
 
 	.align 2
-gMonStillFrontPic_Marill:: @ 8CADB20
-	.incbin "graphics/pokemon/front_pics/marill_still_front_pic.4bpp.lz"
+gMonStillFrontPic_Pikablu:: @ 8CADB20
+	.incbin "graphics/pokemon/front_pics/pikablu_still_front_pic.4bpp.lz"
 
 	.align 2
-gMonPalette_Marill:: @ 8CADDE4
-	.incbin "graphics/pokemon/palettes/marill_palette.gbapal.lz"
+gMonPalette_Pikablu:: @ 8CADDE4
+	.incbin "graphics/pokemon/palettes/pikablu_palette.gbapal.lz"
 
 	.align 2
-gMonBackPic_Marill:: @ 8CADE0C
-	.incbin "graphics/pokemon/back_pics/marill_back_pic.4bpp.lz"
+gMonBackPic_Pikablu:: @ 8CADE0C
+	.incbin "graphics/pokemon/back_pics/pikablu_back_pic.4bpp.lz"
 
 	.align 2
-gMonShinyPalette_Marill:: @ 8CAE0B8
-	.incbin "graphics/pokemon/palettes/marill_shiny_palette.gbapal.lz"
+gMonShinyPalette_Pikablu:: @ 8CAE0B8
+	.incbin "graphics/pokemon/palettes/pikablu_shiny_palette.gbapal.lz"
 
 	.align 2
-gMonIcon_Marill:: @ 8CAE0E0
-	.incbin "graphics/pokemon/icons/marill_icon.4bpp"
+gMonIcon_Pikablu:: @ 8CAE0E0
+	.incbin "graphics/pokemon/icons/pikablu_icon.4bpp"
 
 	.align 2
-gMonFootprint_Marill:: @ 8CAE4E0
-	.incbin "graphics/pokemon/footprints/marill_footprint.1bpp"
+gMonFootprint_Pikablu:: @ 8CAE4E0
+	.incbin "graphics/pokemon/footprints/pikablu_footprint.1bpp"
 
 	.align 2
 gMonStillFrontPic_Azumarill:: @ 8CAE500

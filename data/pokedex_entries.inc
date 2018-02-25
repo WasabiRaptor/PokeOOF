@@ -367,7 +367,7 @@ gPokedexEntries:: @ 856B5B0
 	.string "FLOWER$", 12
 	pokedex_entry   4,   58,  gBellossomPokedexText, 472,  21,  256,  0
 	.string "AQUA MOUSE$", 12
-	pokedex_entry   4,   85,	 gMarillPokedexText, 476,  20,  256,  0
+	pokedex_entry   4,   85,	 gPikabluPokedexText, 476,  20,  256,  0
 	.string "AQUA RABBIT$", 12
 	pokedex_entry   8,  285,  gAzumarillPokedexText, 448,  16,  256,  0
 	.string "IMITATION$", 12

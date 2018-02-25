@@ -1446,8 +1446,8 @@ gFieldObjectPicTable_PikachuDoll:: @ 8507BEC
 	obj_tiles gFieldObjectPic_PikachuDoll, 0x80
 
 	.align 2
-gFieldObjectPicTable_MarillDoll:: @ 8507BF4
-	obj_tiles gFieldObjectPic_MarillDoll, 0x80
+gFieldObjectPicTable_PikabluDoll:: @ 8507BF4
+	obj_tiles gFieldObjectPic_PikabluDoll, 0x80
 
 	.align 2
 gFieldObjectPicTable_TogepiDoll:: @ 8507BFC

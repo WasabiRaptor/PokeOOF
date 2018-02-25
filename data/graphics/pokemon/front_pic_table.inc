@@ -183,7 +183,7 @@ gMonFrontPicTable:: @ 830A18C
 	obj_tiles gMonFrontPic_Flaaffy, 0x800, 180
 	obj_tiles gMonFrontPic_Ampharos, 0x800, 181
 	obj_tiles gMonFrontPic_Bellossom, 0x800, 182
-	obj_tiles gMonFrontPic_Marill, 0x800, 183
+	obj_tiles gMonFrontPic_Pikablu, 0x800, 183
 	obj_tiles gMonFrontPic_Azumarill, 0x800, 184
 	obj_tiles gMonFrontPic_Sudowoodo, 0x800, 185
 	obj_tiles gMonFrontPic_Politoed, 0x800, 186

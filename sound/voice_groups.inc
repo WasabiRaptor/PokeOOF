@@ -14221,7 +14221,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Flaaffy  @ 869E558
 	cry Cry_Ampharos  @ 869E564
 	cry Cry_Bellossom  @ 869E570
-	cry Cry_Marill  @ 869E57C
+	cry Cry_Pikablu  @ 869E57C
 	cry Cry_Azumarill  @ 869E588
 	cry Cry_Sudowoodo  @ 869E594
 	cry Cry_Politoed  @ 869E5A0
@@ -14612,7 +14612,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Flaaffy  @ 869F788
 	cry2 Cry_Ampharos  @ 869F794
 	cry2 Cry_Bellossom  @ 869F7A0
-	cry2 Cry_Marill  @ 869F7AC
+	cry2 Cry_Pikablu  @ 869F7AC
 	cry2 Cry_Azumarill  @ 869F7B8
 	cry2 Cry_Sudowoodo  @ 869F7C4
 	cry2 Cry_Politoed  @ 869F7D0

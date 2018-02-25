@@ -79,7 +79,7 @@
 #define DECOR_KISS_POSTER      75
 #define DECOR_PICHU_DOLL       76
 #define DECOR_PIKACHU_DOLL     77
-#define DECOR_MARILL_DOLL      78
+#define DECOR_PIKABLU_DOLL      78
 #define DECOR_TOGEPI_DOLL      79
 #define DECOR_CYNDAQUIL_DOLL   80
 #define DECOR_CHIKORITA_DOLL   81

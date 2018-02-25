@@ -217,7 +217,7 @@ const u16 gPokedexOrder_Alphabetical[] =
      56,  // Mankey
     226,  // Mantine
     179,  // Mareep
-    183,  // Marill
+    183,  // Pikablu
     105,  // Marowak
     259,  // Marshtomp
     284,  // Masquerain
@@ -502,7 +502,7 @@ const u16 gPokedexOrder_Weight[] =
     116,  // Horsea
       4,  // Charmander
     192,  // Sunflora
-    183,  // Marill
+    183,  // Pikablu
     194,  // Wooper
     167,  // Spinarak
      44,  // Gloom
@@ -857,7 +857,7 @@ const u16 gPokedexOrder_Height[] =
     255,  // Torchic
     366,  // Clamperl
      74,  // Geodude
-    183,  // Marill
+    183,  // Pikablu
     339,  // Barboach
     238,  // Smoochum
     100,  // Voltorb

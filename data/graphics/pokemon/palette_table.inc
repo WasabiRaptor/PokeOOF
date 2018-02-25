@@ -183,7 +183,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Flaaffy, 180
 	obj_pal gMonPalette_Ampharos, 181
 	obj_pal gMonPalette_Bellossom, 182
-	obj_pal gMonPalette_Marill, 183
+	obj_pal gMonPalette_Pikablu, 183
 	obj_pal gMonPalette_Azumarill, 184
 	obj_pal gMonPalette_Sudowoodo, 185
 	obj_pal gMonPalette_Politoed, 186

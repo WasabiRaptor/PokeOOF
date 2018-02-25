@@ -966,8 +966,8 @@ gEasyChatWordsByLetter_M:: @ 859D7F6
 	.2byte EC_POKEMON2(MANTINE)
 	.2byte EC_POKEMON2(MAREEP)
 	.2byte -1, 2 @ doubled Pokémon species names
-	.2byte EC_POKEMON(MARILL)
-	.2byte EC_POKEMON2(MARILL)
+	.2byte EC_POKEMON(PIKABLU)
+	.2byte EC_POKEMON2(PIKABLU)
 	.2byte EC_POKEMON2(MAROWAK)
 	.2byte EC_POKEMON(MARSHTOMP)
 	.2byte EC_WORD_MARVEL_SCALE
@@ -2198,8 +2198,8 @@ gEasyChatWordsByLetter_UnusedJapaneseMa:: @ 859E19C
 	.2byte EC_MOVE2(PROTECT)
 	.2byte EC_POKEMON(CASCOON)
 	.2byte -1, 2 @ doubled Pokémon species names
-	.2byte EC_POKEMON2(MARILL)
-	.2byte EC_POKEMON(MARILL)
+	.2byte EC_POKEMON2(PIKABLU)
+	.2byte EC_POKEMON(PIKABLU)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON2(AZUMARILL)
 	.2byte EC_POKEMON(AZUMARILL)

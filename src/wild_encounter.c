@@ -83,10 +83,10 @@ const struct WildPokemonInfo gRoute102_LandMonsInfo = {20, gRoute102_LandMons};
 
 const struct WildPokemon gRoute102_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 	{20, 30, SPECIES_GOLDEEN},
 };
 
@@ -158,8 +158,8 @@ const struct WildPokemon gRoute104_LandMons[] =
 	{4, 4, SPECIES_POOCHYENA},
 	{4, 4, SPECIES_WURMPLE},
 	{5, 5, SPECIES_POOCHYENA},
-	{5, 5, SPECIES_MARILL},
-	{4, 4, SPECIES_MARILL},
+	{5, 5, SPECIES_PIKABLU},
+	{4, 4, SPECIES_PIKABLU},
 	{5, 5, SPECIES_POOCHYENA},
 	{4, 4, SPECIES_TAILLOW},
 	{5, 5, SPECIES_TAILLOW},
@@ -290,10 +290,10 @@ const struct WildPokemonInfo gRoute111_LandMonsInfo = {10, gRoute111_LandMons};
 
 const struct WildPokemon gRoute111_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 	{20, 30, SPECIES_GOLDEEN},
 };
 
@@ -330,12 +330,12 @@ const struct WildPokemon gRoute112_LandMons[] =
 {
 	{15, 15, SPECIES_NUMEL},
 	{15, 15, SPECIES_NUMEL},
-	{15, 15, SPECIES_MARILL},
+	{15, 15, SPECIES_PIKABLU},
 	{14, 14, SPECIES_NUMEL},
 	{14, 14, SPECIES_NUMEL},
-	{14, 14, SPECIES_MARILL},
+	{14, 14, SPECIES_PIKABLU},
 	{16, 16, SPECIES_NUMEL},
-	{16, 16, SPECIES_MARILL},
+	{16, 16, SPECIES_PIKABLU},
 	{16, 16, SPECIES_NUMEL},
 	{16, 16, SPECIES_NUMEL},
 	{16, 16, SPECIES_NUMEL},
@@ -382,10 +382,10 @@ const struct WildPokemonInfo gRoute114_LandMonsInfo = {20, gRoute114_LandMons};
 
 const struct WildPokemon gRoute114_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 	{20, 30, SPECIES_GOLDEEN},
 };
 
@@ -442,7 +442,7 @@ const struct WildPokemon gRoute117_LandMons[] =
 	{13, 13, SPECIES_ODDISH},
 	{14, 14, SPECIES_POOCHYENA},
 	{14, 14, SPECIES_ODDISH},
-	{13, 13, SPECIES_MARILL},
+	{13, 13, SPECIES_PIKABLU},
 	{13, 13, SPECIES_ODDISH},
 	{13, 13, SPECIES_ILLUMISE},
 	{13, 13, SPECIES_ILLUMISE},
@@ -456,10 +456,10 @@ const struct WildPokemonInfo gRoute117_LandMonsInfo = {20, gRoute117_LandMons};
 
 const struct WildPokemon gRoute117_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 	{20, 30, SPECIES_GOLDEEN},
 };
 
@@ -1049,10 +1049,10 @@ const struct WildPokemon gRoute120_LandMons[] =
 	{25, 25, SPECIES_MIGHTYENA},
 	{27, 27, SPECIES_MIGHTYENA},
 	{25, 25, SPECIES_ODDISH},
-	{25, 25, SPECIES_MARILL},
+	{25, 25, SPECIES_PIKABLU},
 	{26, 26, SPECIES_ODDISH},
 	{27, 27, SPECIES_ODDISH},
-	{27, 27, SPECIES_MARILL},
+	{27, 27, SPECIES_PIKABLU},
 	{25, 25, SPECIES_ABSOL},
 	{27, 27, SPECIES_ABSOL},
 	{25, 25, SPECIES_KECLEON},
@@ -1063,10 +1063,10 @@ const struct WildPokemonInfo gRoute120_LandMonsInfo = {20, gRoute120_LandMons};
 
 const struct WildPokemon gRoute120_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 	{20, 30, SPECIES_GOLDEEN},
 };
 
@@ -2615,11 +2615,11 @@ const struct WildPokemonInfo gEverGrandeCity_FishingMonsInfo = {10, gEverGrandeC
 
 const struct WildPokemon gPetalburgCity_WaterMons[] =
 {
-	{20, 30, SPECIES_MARILL},
-	{10, 20, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
-	{5, 10, SPECIES_MARILL},
+	{20, 30, SPECIES_PIKABLU},
+	{10, 20, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
+	{5, 10, SPECIES_PIKABLU},
 };
 
 const struct WildPokemonInfo gPetalburgCity_WaterMonsInfo = {1, gPetalburgCity_WaterMons};
@@ -2771,9 +2771,9 @@ const struct WildPokemonInfo gSafariZone_Southeast_LandMonsInfo = {25, gSafariZo
 const struct WildPokemon gSafariZone_Southeast_WaterMons[] =
 {
 	{25, 30, SPECIES_WOOPER},
-	{25, 30, SPECIES_MARILL},
-	{25, 30, SPECIES_MARILL},
-	{30, 35, SPECIES_MARILL},
+	{25, 30, SPECIES_PIKABLU},
+	{25, 30, SPECIES_PIKABLU},
+	{30, 35, SPECIES_PIKABLU},
 	{35, 40, SPECIES_QUAGSIRE},
 };
 

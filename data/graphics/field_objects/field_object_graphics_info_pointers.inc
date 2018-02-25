@@ -144,7 +144,7 @@ gFieldObjectGraphicsInfoPointers:: @ 8505620
 	.4byte gFieldObjectGraphicsInfo_SubmarineShadow
 	.4byte gFieldObjectGraphicsInfo_PichuDoll
 	.4byte gFieldObjectGraphicsInfo_PikachuDoll
-	.4byte gFieldObjectGraphicsInfo_MarillDoll
+	.4byte gFieldObjectGraphicsInfo_PikabluDoll
 	.4byte gFieldObjectGraphicsInfo_TogepiDoll
 	.4byte gFieldObjectGraphicsInfo_CyndaquilDoll
 	.4byte gFieldObjectGraphicsInfo_ChikoritaDoll

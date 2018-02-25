@@ -630,50 +630,50 @@ gTrainerParty_Lola1:: @ 830B9AC
 gTrainerParty_Austina:: @ 830B9BC
 	.2byte 0 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Gwen:: @ 830B9C4
 	.2byte 0 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Lola2:: @ 830B9CC
 	.2byte 10 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 10 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Lola3:: @ 830B9DC
 	.2byte 20 @ IV (0-255)
 	.2byte 29 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 20 @ IV (0-255)
 	.2byte 29 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Lola4:: @ 830B9EC
 	.2byte 30 @ IV (0-255)
 	.2byte 32 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 30 @ IV (0-255)
 	.2byte 32 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -705,14 +705,14 @@ gTrainerParty_Simon:: @ 830BA1C
 
 	.2byte 0 @ IV (0-255)
 	.2byte 12 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Charlie:: @ 830BA2C
 	.2byte 0 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -1421,7 +1421,7 @@ gTrainerParty_Cindy6:: @ 830BE64
 gTrainerParty_Melissa:: @ 830BE74
 	.2byte 0 @ IV (0-255)
 	.2byte 21 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -3599,7 +3599,7 @@ gTrainerParty_Bethany:: @ 830CC4C
 
 	.2byte 100 @ IV (0-255)
 	.2byte 37 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte ITEM_ORAN_BERRY
 
 	.2byte 100 @ IV (0-255)
@@ -4899,7 +4899,7 @@ gTrainerParty_Dianne:: @ 830D364
 gTrainerParty_Jani:: @ 830D384
 	.2byte 0 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -5214,7 +5214,7 @@ gTrainerParty_Beverly:: @ 830D5CC
 gTrainerParty_Imani:: @ 830D5DC
 	.2byte 0 @ IV (0-255)
 	.2byte 26 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -5252,7 +5252,7 @@ gTrainerParty_Tara:: @ 830D604
 
 	.2byte 0 @ IV (0-255)
 	.2byte 25 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -5290,7 +5290,7 @@ gTrainerParty_Jenny1:: @ 830D634
 gTrainerParty_Grace:: @ 830D63C
 	.2byte 0 @ IV (0-255)
 	.2byte 34 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -5311,7 +5311,7 @@ gTrainerParty_Sharon:: @ 830D64C
 gTrainerParty_Nikki:: @ 830D654
 	.2byte 0 @ IV (0-255)
 	.2byte 33 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 0 @ IV (0-255)
@@ -5488,7 +5488,7 @@ gTrainerParty_Becky:: @ 830D73C
 
 	.2byte 0 @ IV (0-255)
 	.2byte 22 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte MOVE_ROLLOUT, MOVE_BUBBLE_BEAM, MOVE_TAIL_WHIP, MOVE_DEFENSE_CURL
 	.2byte 0 @ padding
 
@@ -5508,7 +5508,7 @@ gTrainerParty_Carol:: @ 830D75C
 gTrainerParty_Nancy:: @ 830D76C
 	.2byte 0 @ IV (0-255)
 	.2byte 18 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 0 @ IV (0-255)
@@ -5562,7 +5562,7 @@ gTrainerParty_Irene:: @ 830D7B4
 
 	.2byte 0 @ IV (0-255)
 	.2byte 17 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -6573,7 +6573,7 @@ gTrainerParty_Lydia1:: @ 830DD94
 
 	.2byte 0 @ IV (0-255)
 	.2byte 11 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 0 @ IV (0-255)
@@ -6624,7 +6624,7 @@ gTrainerParty_Lydia2:: @ 830DDDC
 
 	.2byte 10 @ IV (0-255)
 	.2byte 22 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 10 @ IV (0-255)
@@ -6656,7 +6656,7 @@ gTrainerParty_Lydia3:: @ 830DE0C
 
 	.2byte 20 @ IV (0-255)
 	.2byte 25 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 20 @ IV (0-255)
@@ -6688,7 +6688,7 @@ gTrainerParty_Lydia4:: @ 830DE3C
 
 	.2byte 30 @ IV (0-255)
 	.2byte 28 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 30 @ IV (0-255)
@@ -7285,14 +7285,14 @@ gTrainerParty_Haley1:: @ 830E154
 gTrainerParty_Janice:: @ 830E164
 	.2byte 0 @ IV (0-255)
 	.2byte 9 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
 gTrainerParty_Vivi:: @ 830E16C
 	.2byte 100 @ IV (0-255)
 	.2byte 15 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 100 @ IV (0-255)
@@ -7379,7 +7379,7 @@ gTrainerParty_Robin:: @ 830E1D4
 
 	.2byte 0 @ IV (0-255)
 	.2byte 14 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -8613,7 +8613,7 @@ gTrainerParty_Darian:: @ 830E9BC
 gTrainerParty_Hailey:: @ 830E9C4
 	.2byte 0 @ IV (0-255)
 	.2byte 13 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -8705,7 +8705,7 @@ gTrainerParty_Hayden:: @ 830EA2C
 gTrainerParty_Sophie:: @ 830EA34
 	.2byte 0 @ IV (0-255)
 	.2byte 17 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 0 @ IV (0-255)
@@ -8758,7 +8758,7 @@ gTrainerParty_Angelina:: @ 830EA74
 
 	.2byte 0 @ IV (0-255)
 	.2byte 18 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -8976,7 +8976,7 @@ gTrainerParty_Pete:: @ 830EB84
 gTrainerParty_Isabelle:: @ 830EB8C
 	.2byte 0 @ IV (0-255)
 	.2byte 15 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.align 2
@@ -9060,7 +9060,7 @@ gTrainerParty_Elijah:: @ 830EBEC
 gTrainerParty_Celia:: @ 830EBFC
 	.2byte 0 @ IV (0-255)
 	.2byte 22 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 0 @ IV (0-255)
@@ -9342,7 +9342,7 @@ gTrainerParty_Pat:: @ 830ED64
 
 	.2byte 10 @ IV (0-255)
 	.2byte 25 @ level
-	.2byte SPECIES_MARILL
+	.2byte SPECIES_PIKABLU
 	.2byte 0 @ padding
 
 	.2byte 10 @ IV (0-255)

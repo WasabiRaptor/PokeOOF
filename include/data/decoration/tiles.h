@@ -471,8 +471,8 @@ const u16 DecorGfx_PIKACHU_DOLL[] = {
     MAP_OBJ_GFX_PIKACHU_DOLL
 };
 
-const u16 DecorGfx_MARILL_DOLL[] = {
-    MAP_OBJ_GFX_MARILL_DOLL
+const u16 DecorGfx_PIKABLU_DOLL[] = {
+    MAP_OBJ_GFX_PIKABLU_DOLL
 };
 
 const u16 DecorGfx_TOGEPI_DOLL[] = {

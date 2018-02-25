@@ -186,7 +186,7 @@ const u16 *const gLevelUpLearnsets[] =
     gFlaaffyLevelUpLearnset,
     gAmpharosLevelUpLearnset,
     gBellossomLevelUpLearnset,
-    gMarillLevelUpLearnset,
+    gPikabluLevelUpLearnset,
     gAzumarillLevelUpLearnset,
     gSudowoodoLevelUpLearnset,
     gPolitoedLevelUpLearnset,

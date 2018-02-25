@@ -1115,8 +1115,8 @@ Cry_Bellossom:: @ 8803640
 	.incbin "sound/direct_sound_samples/cry_bellossom.bin"
 
 	.align 2
-Cry_Marill:: @ 8804458
-	.incbin "sound/direct_sound_samples/cry_marill.bin"
+Cry_Pikablu:: @ 8804458
+	.incbin "sound/direct_sound_samples/cry_pikablu.bin"
 
 	.align 2
 Cry_Azumarill:: @ 880516C

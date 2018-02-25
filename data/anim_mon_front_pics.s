@@ -733,8 +733,8 @@ gMonFrontPic_Bellossom:: @ 8B462C0
 	.incbin "graphics/pokemon/anim_front_pics/bellossom_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Marill:: @ 8B46758
-	.incbin "graphics/pokemon/anim_front_pics/marill_front_pic.4bpp.lz"
+gMonFrontPic_Pikablu:: @ 8B46758
+	.incbin "graphics/pokemon/anim_front_pics/pikablu_front_pic.4bpp.lz"
 
 	.align 2
 gMonFrontPic_Azumarill:: @ 8B46C84

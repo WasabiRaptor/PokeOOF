@@ -184,7 +184,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_FLAAFFY
 	.byte  0 @ SPECIES_AMPHAROS
 	.byte  0 @ SPECIES_BELLOSSOM
-	.byte  0 @ SPECIES_MARILL
+	.byte  0 @ SPECIES_PIKABLU
 	.byte  0 @ SPECIES_AZUMARILL
 	.byte  0 @ SPECIES_SUDOWOODO
 	.byte  0 @ SPECIES_POLITOED

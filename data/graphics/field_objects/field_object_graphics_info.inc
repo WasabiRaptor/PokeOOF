@@ -2464,7 +2464,7 @@ gFieldObjectGraphicsInfo_PikachuDoll:: @ 850AD94
 	.4byte gDummySpriteAffineAnimTable
 
 	.align 2
-gFieldObjectGraphicsInfo_MarillDoll:: @ 850ADB8
+gFieldObjectGraphicsInfo_PikabluDoll:: @ 850ADB8
 	.2byte 0xFFFF @ tiles tag
 	.2byte 0x1103 @ palette tag
 	.2byte 0x11FF @ palette tag 2
@@ -2477,7 +2477,7 @@ gFieldObjectGraphicsInfo_MarillDoll:: @ 850ADB8
 	.4byte gFieldObjectBaseOam_16x16
 	.4byte gFieldObjectSpriteOamTables_16x16
 	.4byte gFieldObjectImageAnimTable_Inanimate
-	.4byte gFieldObjectPicTable_MarillDoll
+	.4byte gFieldObjectPicTable_PikabluDoll
 	.4byte gDummySpriteAffineAnimTable
 
 	.align 2

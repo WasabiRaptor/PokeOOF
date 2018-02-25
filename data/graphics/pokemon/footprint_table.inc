@@ -183,7 +183,7 @@ gMonFootprintTable:: @ 856E694
 	.4byte gMonFootprint_Flaaffy
 	.4byte gMonFootprint_Ampharos
 	.4byte gMonFootprint_Bellossom
-	.4byte gMonFootprint_Marill
+	.4byte gMonFootprint_Pikablu
 	.4byte gMonFootprint_Azumarill
 	.4byte gMonFootprint_Sudowoodo
 	.4byte gMonFootprint_Politoed

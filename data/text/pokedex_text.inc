@@ -1096,7 +1096,7 @@ gBellossomPokedexText:: @ 8563F67
 	.string "persists, it does a dance that is thought\n"
 	.string "to be a ritual for summoning the sun.$"
 
-gMarillPokedexText:: @ 856400B
+gPikabluPokedexText:: @ 856400B
 	.string "Its body is covered with water-repellent\n"
 	.string "fur. Because of the fur, it can swim\n"
 	.string "through water at high speed without being\n"

@@ -4203,8 +4203,8 @@ gFieldObjectPic_PikachuDoll:: @ 84E22B8
 	.incbin "graphics/map_objects/pics/dolls/pikachu_doll.4bpp"
 
 	.align 2
-gFieldObjectPic_MarillDoll:: @ 84E2338
-	.incbin "graphics/map_objects/pics/dolls/marill_doll.4bpp"
+gFieldObjectPic_PikabluDoll:: @ 84E2338
+	.incbin "graphics/map_objects/pics/dolls/pikablu_doll.4bpp"
 
 	.align 2
 gFieldObjectPic_TogepiDoll:: @ 84E23B8

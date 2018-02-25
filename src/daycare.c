@@ -754,7 +754,7 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
 
         if (*species == SPECIES_AZURILL && motherItem != ITEM_SEA_INCENSE && fatherItem != ITEM_SEA_INCENSE)
         {
-            *species = SPECIES_MARILL;
+            *species = SPECIES_PIKABLU;
         }
     }
 }

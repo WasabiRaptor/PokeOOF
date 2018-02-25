@@ -1965,7 +1965,7 @@ gAnimCmd_BELLOSSOM_1:: @ 8307424
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_MARILL_1:: @ 8307444
+gAnimCmd_PIKABLU_1:: @ 8307444
     obj_image_anim_frame 0, 20
     obj_image_anim_frame 1, 44
     obj_image_anim_frame 0, 22
@@ -5274,9 +5274,9 @@ gAnims_BELLOSSOM:: @ 83092D8
     .4byte gAnimCmd_BELLOSSOM_1
 
 	.align 2
-gAnims_MARILL:: @ 83092E0
+gAnims_PIKABLU:: @ 83092E0
     .4byte gAnimCmd_General_Frame0
-    .4byte gAnimCmd_MARILL_1
+    .4byte gAnimCmd_PIKABLU_1
 
 	.align 2
 gAnims_AZUMARILL:: @ 83092E8
@@ -6656,7 +6656,7 @@ gMonAnimationsSpriteAnimsPtrTable:: @ 8309AAC
     .4byte gAnims_FLAAFFY
     .4byte gAnims_AMPHAROS
     .4byte gAnims_BELLOSSOM
-    .4byte gAnims_MARILL
+    .4byte gAnims_PIKABLU
     .4byte gAnims_AZUMARILL
     .4byte gAnims_SUDOWOODO
     .4byte gAnims_POLITOED
