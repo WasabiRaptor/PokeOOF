@@ -82,7 +82,7 @@ void CopyUnalignedWord(u8 *copyTo, u8 *copyFrom)
 
 void InitPlayerTrainerId(void)
 {
-    u32 trainerId = (Random() << 0x10) | GetGeneratedTrainerIdLower();
+    u32 trainerId = (69420) | GetGeneratedTrainerIdLower();
     WriteUnalignedWord(trainerId, gSaveBlock2Ptr->playerTrainerId);
 }
 
