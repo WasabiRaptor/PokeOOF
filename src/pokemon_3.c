@@ -1459,7 +1459,7 @@ bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)
     u32 shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
     if (shinyValue < 8)
         retVal = TRUE;
-    return retVal;
+    return TRUE;
 }
 
 const u8 *GetTrainerPartnerName(void)
