@@ -2622,7 +2622,7 @@ gAnimCmd_CELEBI_1:: @ 8307AC0
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_OLD_UNOWN_B_1:: @ 8307AD4
+gAnimCmd_FAKEZIGZAGOON_1:: @ 8307AD4
     obj_image_anim_frame 0, 30
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 0, 1
@@ -5629,9 +5629,9 @@ gAnims_CELEBI:: @ 8309528
     .4byte gAnimCmd_CELEBI_1
 
 	.align 2
-gAnims_OLD_UNOWN_B:: @ 8309530
+gAnims_FAKEZIGZAGOON:: @ 8309530
     .4byte gAnimCmd_General_Frame0
-    .4byte gAnimCmd_OLD_UNOWN_B_1
+    .4byte gAnimCmd_ZIGZAGOON_1
 
 	.align 2
 gAnims_TREECKO:: @ 8309538
@@ -6725,31 +6725,31 @@ gMonAnimationsSpriteAnimsPtrTable:: @ 8309AAC
     .4byte gAnims_LUGIA
     .4byte gAnims_HO_OH
     .4byte gAnims_CELEBI
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
-    .4byte gAnims_OLD_UNOWN_B
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
+    .4byte gAnims_FAKEZIGZAGOON
     .4byte gAnims_TREECKO
     .4byte gAnims_GROVYLE
     .4byte gAnims_SCEPTILE

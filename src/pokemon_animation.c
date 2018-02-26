@@ -435,7 +435,7 @@ static const u8 sSpeciesToBackAnimSet[] =
     0x19, // SPECIES_LUGIA
     0x17, // SPECIES_HO_OH
     0x18, // SPECIES_CELEBI
-    0x00, // SPECIES_OLD_UNOWN_B
+    0x0f, // SPECIES_FAKEZIGZAGOON
     0x00, // SPECIES_OLD_UNOWN_C
     0x00, // SPECIES_OLD_UNOWN_D
     0x00, // SPECIES_OLD_UNOWN_E

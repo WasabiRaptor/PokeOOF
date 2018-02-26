@@ -252,7 +252,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Lugia, 249
 	obj_pal gMonPalette_HoOh, 250
 	obj_pal gMonPalette_Celebi, 251
-	obj_pal gMonPalette_DoubleQuestionMark, 252
+	obj_pal gMonShinyPalette_Zigzagoon, 252
 	obj_pal gMonPalette_DoubleQuestionMark, 253
 	obj_pal gMonPalette_DoubleQuestionMark, 254
 	obj_pal gMonPalette_DoubleQuestionMark, 255

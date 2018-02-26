@@ -252,7 +252,7 @@ gMonFrontPicTable:: @ 830A18C
 	obj_tiles gMonFrontPic_Lugia, 0x800, 249
 	obj_tiles gMonFrontPic_HoOh, 0x800, 250
 	obj_tiles gMonFrontPic_Celebi, 0x800, 251
-	obj_tiles gMonFrontPic_DoubleQuestionMark, 0x800, 252
+	obj_tiles gMonFrontPic_Zigzagoon, 0x800, 252
 	obj_tiles gMonFrontPic_DoubleQuestionMark, 0x800, 253
 	obj_tiles gMonFrontPic_DoubleQuestionMark, 0x800, 254
 	obj_tiles gMonFrontPic_DoubleQuestionMark, 0x800, 255

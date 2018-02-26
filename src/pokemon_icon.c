@@ -258,7 +258,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Lugia,
     gMonIcon_HoOh,
     gMonIcon_Celebi,
-    gMonIcon_QuestionMark,
+    gMonIcon_Zigzagoon,
     gMonIcon_QuestionMark,
     gMonIcon_QuestionMark,
     gMonIcon_QuestionMark,
