@@ -1052,6 +1052,22 @@ Route104_EventScript_1ED5D5:: @ 81ED5D5
 	msgbox Route104_Text_295CD3, 6
 	end
 
+Route104_EventScript_bondolo::
+	msgbox Route104_Text_bondolo, 4
+	closemessage
+	end
+
+Route104_Text_bondolo:
+	.string "bondolo: The level of humour\n" 
+	.string "in your hack, it’s very juvinile.\p"
+	.string "Now if I was a “yandre” this is\n" 
+	.string "the part where I would threaten\p" 
+	.string "or attempt to mailbomb raptor\n"
+	.string "...\p"
+	.string "Raptor can you stop directly\n"
+	.string "quoting me without context\p"
+	.string "then putting it in your romhack$"
+
 Route104_Text_1ED5EC: @ 81ED5EC
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"

@@ -33,6 +33,7 @@ Route104_MapObjects: @ 85282E4
 	object_event 32, MAP_OBJ_GFX_BOY_2, 0, 0, 5, 26, 3, 1, 17, 0, 0, 0, Route104_EventScript_1ED057, 0, 0, 0
 	object_event 33, MAP_OBJ_GFX_FISHERMAN, 0, 0, 15, 59, 3, 9, 0, 0, 1, 0, Route104_EventScript_1ED5D5, 0, 0, 0
 	object_event 34, MAP_OBJ_GFX_HIPSTER, 0, 0, 17, 50, 0, 1, 17, 0, 0, 0, Route104_EventScript_1ECC9E, 719, 0, 0
+	object_event 35, MAP_OBJ_GFX_CYNDAQUIL_DOLL, 0, 0, 27, 74, 0, 0, 0, 0, 0, 0, Route104_EventScript_bondolo, 0, 0, 0
 
 Route104_MapWarps: @ 8528614
 	warp_def 17, 50, 0, 0, ROUTE_104_MR_BRINEYS_HOUSE

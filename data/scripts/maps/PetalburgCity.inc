@@ -715,40 +715,42 @@ PetalburgCity_Text_1DC837: @ 81DC837
 
 PetalburgCity_Text_1DC881: @ 81DC881
 	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "A NORMIE?\p"
+	.string "Did you know normies are normies\n"
+	.string "r/dankmemes is all normies by now\p"
+	.string "also I gotta block your progress\n"
+	.string "ya normie$"
 
 PetalburgCity_Text_1DC91B: @ 81DC91B
 	.string "See? This is PETALBURG CITY’s GYM.$"
 
 PetalburgCity_Text_1DC93E: @ 81DC93E
-	.string "This is the GYM’s sign. Look for it\n"
-	.string "whenever you’re looking for a GYM.$"
+	.string "the leader is named NORMAN\n"
+	.string "so hes the biggest normie$"
 
 PetalburgCity_Text_1DC985: @ 81DC985
 	.string "My face is reflected in the water.\p"
 	.string "It’s a shining grin full of hope…\p"
 	.string "Or it could be a look of somber silence\n"
 	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "What do you see reflected in your face?\n"
+	.string "r/im14andthisisdeep$"
 
 PetalburgCity_Text_1DCA30: @ 81DCA30
 	.string "Let’s say you have six POKéMON.\n"
 	.string "If you catch another one…\p"
 	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "I think thats pretty BS\p"
+	.string "why not have seven pokemon?$"
 
 PetalburgCity_Text_1DCAAA: @ 81DCAAA
 	.string "PETALBURG CITY POKéMON GYM\n"
 	.string "LEADER: NORMAN\l"
-	.string "“A man in pursuit of power!”$"
+	.string "“A man whos a fuken normie”$"
 
 PetalburgCity_Text_1DCAF1: @ 81DCAF1
 	.string "PETALBURG CITY\n"
-	.string "“Where people mingle with nature.”$"
+	.string "“Where people mingle with normies.”$"
 
 PetalburgCity_Text_1DCB23: @ 81DCB23
 	.string "WALLY’S HOUSE$"
@@ -756,16 +758,16 @@ PetalburgCity_Text_1DCB23: @ 81DCB23
 PetalburgCity_Text_1DCB31: @ 81DCB31
 	.string "Excuse me!\p"
 	.string "Let me guess, from the way you’re\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "dressed, are you a memer?$"
 
 PetalburgCity_Text_1DCB82: @ 81DCB82
 	.string "… … … … … …\p"
 	.string "Well, maybe not.\n"
-	.string "Your clothes aren’t all that dirty.\p"
-	.string "You’re either a rookie TRAINER,\n"
+	.string "Your clothes aren’t all that dank.\p"
+	.string "You’re either a normie,\n"
 	.string "or maybe you’re just an ordinary kid.$"
 
 PetalburgCity_Text_1DCC09: @ 81DCC09
 	.string "I’m roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
+	.string "talented memer.\p"
 	.string "I’m sorry to have taken your time.$"
