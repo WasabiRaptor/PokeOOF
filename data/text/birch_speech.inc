@@ -1,6 +1,6 @@
 gUnknown_082C897B:: @ 82C897B
 	.string "Herro! sorry about making tis game\p"
-	.string "Wercome to POKéMON OOF VERSION!\p"
+	.string "Wercome to POKéMON OOF VERSION!\n"
 	.string "My name is BIRCH.\p"
 	.string "But everyone carrs me PROF. WEEABOO\n"
 	.string "because my caracter is tat Im a \p"
@@ -8,10 +8,10 @@ gUnknown_082C897B:: @ 82C897B
 	.string "$"
 
 gUnknown_082C89FB:: @ 82C89FB
-	.string "Tis is wat we carr an “ELF”\p"
-	.string "but some peopre call em “POKEMON”\p"
+	.string "Tis is wat we carr an “ELF”\n"
+	.string "but some peopre carr em “POKEMON”\p"
 	.string "but you probabry knew tat arready\n"
-	.string "wy else wourd you pray tis desu$"
+	.string "wy erse wourd you pray tis desu$"
 
 gUnknown_082C8A1F:: @ 82C8A1F
 	.string "arso tey injected cancerous normie\n"
@@ -22,8 +22,8 @@ gUnknown_082C8A1F:: @ 82C8A1F
 	.string "but we courd totarry discuss\n"
 	.string "tis in te discord\p"
 	.string "https://discord.gg/u8qDJGj\n"
-	.string "its stirr being worked on\p"
-	.string "as of 2/22/2018\n"
+	.string "its probably stirr being worked on\p"
+	.string "tis version was made on 3/3/2018\n"
 	.string "so maybe you courd help make\p"
 	.string "tis pire of shit shittier?\n"
 	.string "...\l"
