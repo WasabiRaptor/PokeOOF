@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_machi_s2_grp, voicegroup000
+	.equ	mus_machi_s2_grp, voicegroup_8678824
 	.equ	mus_machi_s2_pri, 0
 	.equ	mus_machi_s2_rev, 0
 	.equ	mus_machi_s2_mvl, 127
@@ -474,6 +474,8 @@ mus_machi_s2_1_009:
 	.byte		        En3 
 	.byte		N04   , Gn3 
 	.byte	W04
+	.byte	GOTO
+	 .word  mus_machi_s2_1
 	.byte	FINE
 
 @**************** Track 2 (Midi-Chn.2) ****************@
@@ -588,6 +590,8 @@ mus_machi_s2_2_004:
 	.byte	W12
 	.byte		        Cn3 
 	.byte	W11
+	.byte	GOTO
+	 .word  mus_machi_s2_2
 	.byte	FINE
 
 @**************** Track 3 (Midi-Chn.10) ****************@
@@ -741,6 +745,8 @@ mus_machi_s2_3_004:
 	.byte		        Cs4 
 	.byte		N20   , Dn4 
 	.byte	W20
+	.byte	GOTO
+	 .word  mus_machi_s2_3
 	.byte	FINE
 
 @**************** Track 4 (Midi-Chn.11) ****************@
@@ -891,6 +897,8 @@ mus_machi_s2_4_005:
 	.byte	W12
 	.byte		        Cs5 
 	.byte	W11
+	.byte	GOTO
+	 .word  mus_machi_s2_4
 	.byte	FINE
 
 @**************** Track 5 (Midi-Chn.13) ****************@
@@ -960,6 +968,8 @@ mus_machi_s2_5:
 @ 027   ----------------------------------------
 	.byte		        Cs4 
 	.byte	W20
+	.byte	GOTO
+	 .word  mus_machi_s2_5
 	.byte	FINE
 
 @**************** Track 6 (Midi-Chn.10) ****************@
@@ -1119,6 +1129,8 @@ mus_machi_s2_6_008:
 	.byte	W06
 	.byte		N05   
 	.byte	W05
+	.byte	GOTO
+	 .word  mus_machi_s2_6
 	.byte	FINE
 
 @**************** Track 7 (Midi-Chn.12) ****************@
@@ -1350,6 +1362,8 @@ mus_machi_s2_7_016:
 	.byte	W06
 	.byte		        Gn5 
 	.byte	W05
+	.byte	GOTO
+	 .word  mus_machi_s2_7
 	.byte	FINE
 
 @**************** Track 8 (Midi-Chn.14) ****************@
@@ -1593,6 +1607,8 @@ mus_machi_s2_8_017:
 	.byte	W24
 	.byte		        Ds3 
 	.byte	W11
+	.byte	GOTO
+	 .word  mus_machi_s2_8
 	.byte	FINE
 
 @******************************************************@
