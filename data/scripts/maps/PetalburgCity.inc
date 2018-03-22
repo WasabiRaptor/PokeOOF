@@ -722,7 +722,8 @@ PetalburgCity_Text_1DC881: @ 81DC881
 	.string "ya normie$"
 
 PetalburgCity_Text_1DC91B: @ 81DC91B
-	.string "See? This is PETALBURG CITY’s GYM.$"
+	.string "See? This is PETALBURG CITY’s GYM.\n"
+	.string "haha yes$"
 
 PetalburgCity_Text_1DC93E: @ 81DC93E
 	.string "the leader is named NORMAN\n"

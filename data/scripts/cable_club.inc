@@ -2057,8 +2057,8 @@ OldaleTown_PokemonCenter_2F_Text_27964A: @ 827964A
 	.string "up here.\p"
 	.string "I’ll show you how the Wireless\n"
 	.string "Communication System works.\p"
-	.string "First, I need to show you this\n"
-	.string "floor of our POKéMON CENTER.\p"
+	.string "That would be if it even \n"
+	.string "functioned in a hack like this.\p"
 	.string "Right this way, please.$"
 
 OldaleTown_PokemonCenter_2F_Text_279718: @ 8279718

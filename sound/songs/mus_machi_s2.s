@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_machi_s2_grp, voicegroup_8678824
+	.equ	mus_machi_s2_grp, voicegroup_86816B0
 	.equ	mus_machi_s2_pri, 0
 	.equ	mus_machi_s2_rev, 0
 	.equ	mus_machi_s2_mvl, 127
@@ -19,7 +19,7 @@ mus_machi_s2_1:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
 	.byte	TEMPO , 85*mus_machi_s2_tbs/2
-	.byte		VOICE , 75
+	.byte		VOICE , 56
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N08   , Gs2 , v112
@@ -483,7 +483,7 @@ mus_machi_s2_1_009:
 mus_machi_s2_2:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 115
+	.byte		VOICE , 60
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W24
@@ -599,7 +599,7 @@ mus_machi_s2_2_004:
 mus_machi_s2_3:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 0
+	.byte		VOICE , 58
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W72
@@ -754,7 +754,7 @@ mus_machi_s2_3_004:
 mus_machi_s2_4:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 82
+	.byte		VOICE , 56
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
@@ -906,7 +906,7 @@ mus_machi_s2_4_005:
 mus_machi_s2_5:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 59
+	.byte		VOICE , 47
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
@@ -1138,7 +1138,7 @@ mus_machi_s2_6_008:
 mus_machi_s2_7:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 13
+	.byte		VOICE , 80
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
@@ -1371,7 +1371,7 @@ mus_machi_s2_7_016:
 mus_machi_s2_8:
 	.byte	KEYSH , mus_machi_s2_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 2
+	.byte		VOICE , 81
 	.byte		VOL   , 127*mus_machi_s2_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W96
