@@ -1142,6 +1142,9 @@ void ClearBattleMonForms(void)
 
 u16 GetBattleBGM(void)
 {
+    u16 rnd = Random();
+    u16 rnd2 = Random();
+
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         return MUS_BATTLE34;
     if (gBattleTypeFlags & BATTLE_TYPE_REGI)
@@ -1160,7 +1163,12 @@ u16 GetBattleBGM(void)
             trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
 
         switch (trainerClass)
-        {
+        {              
+        case TRAINER_CLASS_PKMN_RANGER:
+        case TRAINER_CLASS_COOLTRAINER_1:
+            return MUS_RG_VS_GYM;
+        case TRAINER_CLASS_INTERVIEWER:
+            return MUS_RG_VS_LAST;
         case TRAINER_CLASS_AQUA_LEADER:
         case TRAINER_CLASS_MAGMA_LEADER:
             return MUS_BATTLE30;
@@ -1190,10 +1198,24 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONT;
         default:
-            return MUS_BATTLE20;
+            {
+            if (rnd == rnd2)
+                return MUS_RG_VS_DEO;
+            else if (rnd > rnd2)
+                return MUS_BATTLE20;
+            else
+                return MUS_RG_VS_TORE;
+            }
         }
     }
-    return MUS_BATTLE27;
+    {
+    if (rnd == rnd2)
+        return MUS_VS_REKKU;
+    else if (rnd > rnd2)
+        return MUS_BATTLE27;
+    else
+        return MUS_RG_VS_DEN;
+    }
 }
 
 void PlayBattleBGM(void)
