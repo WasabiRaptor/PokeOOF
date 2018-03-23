@@ -23,7 +23,7 @@ gUnknown_082C8A1F:: @ 82C8A1F
 	.string "tis in te discord\p"
 	.string "https://discord.gg/u8qDJGj\n"
 	.string "its probably stirr being worked on\p"
-	.string "tis version was made on 3/3/2018\n"
+	.string "tis version was made on 3/23/2018\n"
 	.string "so maybe you courd help make\p"
 	.string "tis pire of shit shittier?\n"
 	.string "...\l"
