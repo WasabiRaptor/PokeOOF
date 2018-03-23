@@ -1,11 +1,10 @@
 Route102_Text_294513: @ 8294513
-	.string "If you have POKéMON with you, then\n"
-	.string "you’re an official POKéMON TRAINER!\l"
-	.string "You can’t say no to my challenge!$"
+	.string "why have abs when u can have kababs?$"
 
 Route102_Text_29457C: @ 829457C
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "There is no such things like high quality \n"
+	.string "or low quality memesp"
+	.string "There are just funny pictures or messages$"
 
 Route102_Text_2945AC: @ 82945AC
 	.string "Listen, you. If you’re strong,\n"
