@@ -1166,8 +1166,18 @@ u16 GetBattleBGM(void)
         {              
         case TRAINER_CLASS_PKMN_RANGER:
         case TRAINER_CLASS_COOLTRAINER_1:
+        case TRAINER_CLASS_PSYCHIC:
+        case TRAINER_CLASS_EXPERT:
+        case TRAINER_CLASS_DRAGON_TAMER:
+        case TRAINER_CLASS_COLLECTOR:
+        case TRAINER_CLASS_RICH_BOY:
+        case TRAINER_CLASS_BATTLE_GIRL:
+        case TRAINER_CLASS_BEAUTY:
+        case TRAINER_CLASS_LADY:
+        case TRAINER_CLASS_HEX_MANIAC:
             return MUS_RG_VS_GYM;
         case TRAINER_CLASS_INTERVIEWER:
+        case TRAINER_CLASS_WINSTRATE:
             return MUS_RG_VS_LAST;
         case TRAINER_CLASS_AQUA_LEADER:
         case TRAINER_CLASS_MAGMA_LEADER:
@@ -1185,7 +1195,7 @@ u16 GetBattleBGM(void)
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
                 return MUS_BATTLE35;
             if (!StringCompare(gTrainers[gTrainerBattleOpponent_A].trainerName, gText_BattleWallyName))
-                return MUS_BATTLE20;
+                return MUS_RG_VS_LAST;
             return MUS_BATTLE35;
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_BATTLE38;
