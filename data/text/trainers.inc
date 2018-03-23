@@ -2,8 +2,8 @@ Route102_Text_294513: @ 8294513
 	.string "why have abs when u can have kababs?$"
 
 Route102_Text_29457C: @ 829457C
-	.string "There is no such things like high quality \n"
-	.string "or low quality memesp"
+	.string "There is no such things like high quality\n"
+	.string "or low quality memes\p"
 	.string "There are just funny pictures or messages$"
 
 Route102_Text_2945AC: @ 82945AC
