@@ -55,8 +55,8 @@ AI_CheckBadMove:
 BattleAIScript_82DBF92:
 	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
 	get_ability AI_TARGET
-	if_equal ABILITY_VOLT_ABSORB, BattleAIScript_82DBFBD
-	if_equal ABILITY_WATER_ABSORB, BattleAIScript_82DBFCA
+	if_equal ABILITY_VOLT_SUCC, BattleAIScript_82DBFBD
+	if_equal ABILITY_WATER_SUCC, BattleAIScript_82DBFCA
 	if_equal ABILITY_FLASH_FIRE, BattleAIScript_82DBFD7
 	if_equal ABILITY_WONDER_GUARD, BattleAIScript_82DBFE4
 	if_equal ABILITY_LEVITATE, BattleAIScript_82DBFEF
@@ -657,7 +657,7 @@ Score_Plus10:
 AI_TryToFaint:
 	if_target_is_ally AI_Ret
 	if_effect EFFECT_SLEEP, BattleAIScript_82DCA92
-	if_effect EFFECT_ABSORB, BattleAIScript_82DCAAE
+	if_effect EFFECT_SUCC, BattleAIScript_82DCAAE
 	if_effect EFFECT_EXPLOSION, BattleAIScript_82DCAC8
 	if_effect EFFECT_DREAM_EATER, BattleAIScript_82DCB26
 	if_effect EFFECT_MIRROR_MOVE, BattleAIScript_82DCB3A

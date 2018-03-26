@@ -1,6 +1,6 @@
 	.align 2
 gEasyChatGroup_Move1:: @ 859C8C4
-	.2byte MOVE_ABSORB
+	.2byte MOVE_SUCC
 	.2byte MOVE_AEROBLAST
 	.2byte MOVE_AGILITY
 	.2byte MOVE_AIR_CUTTER
@@ -46,7 +46,7 @@ gEasyChatGroup_Move1:: @ 859C8C4
 	.2byte MOVE_FOCUS_ENERGY
 	.2byte MOVE_FOCUS_PUNCH
 	.2byte MOVE_FOLLOW_ME
-	.2byte MOVE_GIGA_DRAIN
+	.2byte MOVE_GIGA_SUCC
 	.2byte MOVE_GRASS_WHISTLE
 	.2byte MOVE_GROWTH
 	.2byte MOVE_GRUDGE
@@ -62,7 +62,7 @@ gEasyChatGroup_Move1:: @ 859C8C4
 	.2byte MOVE_IRON_TAIL
 	.2byte MOVE_KARATE_CHOP
 	.2byte MOVE_KINESIS
-	.2byte MOVE_LEECH_LIFE
+	.2byte MOVE_SIPP
 	.2byte MOVE_LICK
 	.2byte MOVE_LOVELY_KISS
 	.2byte MOVE_LOW_KICK

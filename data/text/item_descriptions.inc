@@ -734,7 +734,7 @@ gTM21ItemDescription:: @ 8582C35
 	.string "The less the user\nlikes you, the more\npowerful this move.$"
 
 gTM22ItemDescription:: @ 8582C6F
-	.string "Absorbs sunlight in\nthe 1st turn, then\nattacks next turn.$"
+	.string "SUCCs sunlight in\nthe 1st turn, then\nattacks next turn.$"
 
 gTM23ItemDescription:: @ 8582CA9
 	.string "Slams the foe with\na hard tail. It may\nlower DEFENSE.$"

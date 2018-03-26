@@ -9,8 +9,8 @@ gAbilityNames:: @ 831B6DB
 	.string "LIMBER$", 13
 	.string "SAND VEIL$", 13
 	.string "STATIC$", 13
-	.string "VOLT ABSORB$", 13
-	.string "WATER ABSORB$", 13
+	.string "VOLT SUCC$", 13
+	.string "WATER SUCC$", 13
 	.string "OBLIVIOUS$", 13
 	.string "CLOUD NINE$", 13
 	.string "COMPOUNDEYES$", 13

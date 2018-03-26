@@ -71,8 +71,8 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  0 @ Counter
 	.byte  1 @ Seismic Toss
 	.byte  1 @ Strength
-	.byte  1 @ Absorb
-	.byte  1 @ Mega Drain
+	.byte  1 @ SUCC
+	.byte  1 @ Mega SUCC
 	.byte  0 @ Leech Seed
 	.byte  0 @ Growth
 	.byte  1 @ Razor Leaf
@@ -141,7 +141,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  1 @ Dream Eater
 	.byte  0 @ Poison Gas
 	.byte  1 @ Barrage
-	.byte  1 @ Leech Life
+	.byte  1 @ SIPP
 	.byte  0 @ Lovely Kiss
 	.byte  1 @ Sky Attack
 	.byte  0 @ Transform
@@ -202,7 +202,7 @@ gBattleArenaMoveMindRatings:: @ 8611DC0
 	.byte  0 @ Lock-On
 	.byte  1 @ Outrage
 	.byte  0 @ Sandstorm
-	.byte  1 @ Giga Drain
+	.byte  1 @ Giga SUCC
 	.byte -1 @ Endure
 	.byte  0 @ Charm
 	.byte  1 @ Rollout

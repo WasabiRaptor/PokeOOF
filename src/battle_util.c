@@ -845,7 +845,7 @@ u8 TurnBasedEffects(void)
                         gBattleMoveDamage = 1;
                     gBattleScripting.animArg1 = gBattlerTarget;
                     gBattleScripting.animArg2 = gBattlerAttacker;
-                    BattleScriptExecute(BattleScript_LeechSeedTurnDrain);
+                    BattleScriptExecute(BattleScript_LeechSeedTurnSUCC);
                     effect++;
                 }
                 gBattleStruct->turnEffectsTracker++;
@@ -1983,29 +1983,29 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 }
             }
             break;
-        case ABILITYEFFECT_ABSORBING: // 3
+        case ABILITYEFFECT_SUCCING: // 3
             if (move)
             {
                 switch (gLastUsedAbility)
                 {
-                case ABILITY_VOLT_ABSORB:
+                case ABILITY_VOLT_SUCC:
                     if (moveType == TYPE_ELECTRIC && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSUCC;
                         else
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain_PPLoss;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSUCC_PPLoss;
 
                         effect = 1;
                     }
                     break;
-                case ABILITY_WATER_ABSORB:
+                case ABILITY_WATER_SUCC:
                     if (moveType == TYPE_WATER && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSUCC;
                         else
-                            gBattlescriptCurrInstr = BattleScript_MoveHPDrain_PPLoss;
+                            gBattlescriptCurrInstr = BattleScript_MoveHPSUCC_PPLoss;
 
                         effect = 1;
                     }

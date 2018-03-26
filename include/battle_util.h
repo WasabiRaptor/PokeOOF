@@ -11,7 +11,7 @@
 #define ABILITYEFFECT_ON_SWITCHIN               0x0
 #define ABILITYEFFECT_ENDTURN                   0x1
 #define ABILITYEFFECT_MOVES_BLOCK               0x2
-#define ABILITYEFFECT_ABSORBING                 0x3
+#define ABILITYEFFECT_SUCCING                 0x3
 #define ABILITYEFFECT_CONTACT                   0x4
 #define ABILITYEFFECT_IMMUNITY                  0x5
 #define ABILITYEFFECT_FORECAST                  0x6

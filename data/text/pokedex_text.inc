@@ -257,7 +257,7 @@ gGolbatPokedexText:: @ 855EBB4
 	.string "darkness and strikes from behind.$"
 
 gOddishPokedexText:: @ 855EC50
-	.string "This POKéMON grows by absorbing moonlight.\n"
+	.string "This POKéMON grows by SUCCing moonlight.\n"
 	.string "During the daytime, it buries itself in the\n"
 	.string "ground, leaving only its leaves exposed to\n"
 	.string "avoid detection by its enemies.$"
@@ -282,7 +282,7 @@ gParasPokedexText:: @ 855EE31
 
 gParasectPokedexText:: @ 855EECB
 	.string "PARASECT are known to infest the roots of\n"
-	.string "large trees en masse and drain nutrients.\n"
+	.string "large trees en masse and SUCC nutrients.\n"
 	.string "When an infested tree dies, they move\n"
 	.string "onto another tree all at once.$"
 
@@ -1201,7 +1201,7 @@ gSlowkingPokedexText:: @ 856497B
 gMisdreavusPokedexText:: @ 8564A12
 	.string "A MISDREAVUS frightens people with a\n"
 	.string "creepy, sobbing cry. It apparently uses\n"
-	.string "its red spheres to absorb the fear of foes\n"
+	.string "its red spheres to SUCC the fear of foes\n"
 	.string "as its nutrition.$"
 
 gUnownPokedexText:: @ 8564A9C
@@ -1637,7 +1637,7 @@ gLudicoloPokedexText:: @ 85673EF
 	.string "quail even when it faces a tough opponent.$"
 
 gSeedotPokedexText:: @ 8567490
-	.string "It hangs off branches and absorbs\n"
+	.string "It hangs off branches and SUCCs\n"
 	.string "nutrients. When it finishes eating, its\n"
 	.string "body becomes so heavy that it drops to\n"
 	.string "the ground with a thump.$"
@@ -2029,7 +2029,7 @@ gLunatonePokedexText:: @ 8569943
 gSolrockPokedexText:: @ 85699C6
 	.string "Solar energy is the source of this \n"
 	.string "POKéMON’s power. On sunny days, groups of\n"
-	.string "SOLROCK line up facing the sun and absorb\n"
+	.string "SOLROCK line up facing the sun and SUCC\n"
 	.string "its light.$"
 
 gBarboachPokedexText:: @ 8569A49

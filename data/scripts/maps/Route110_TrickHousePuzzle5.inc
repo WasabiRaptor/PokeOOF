@@ -991,7 +991,7 @@ Route110_TrickHousePuzzle5_Text_26D7AA: @ 826D7AA
 Route110_TrickHousePuzzle5_Text_26D7FC: @ 826D7FC
 	.string "MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "SIPP. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_26D84D: @ 826D84D
 	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"

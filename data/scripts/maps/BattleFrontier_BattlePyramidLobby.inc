@@ -805,7 +805,7 @@ BattleFrontier_BattlePyramidLobby_Text_251D9C: @ 8251D9C
 	.string "I sense the tremendous pressure of\n"
 	.string "unrequited anger…\p"
 	.string "It is a curse…\p"
-	.string "…And, I see your POKéMON drained of\n"
+	.string "…And, I see your POKéMON SUCCed of\n"
 	.string "Power Points and having no recourse\l"
 	.string "but to use STRUGGLE…$"
 

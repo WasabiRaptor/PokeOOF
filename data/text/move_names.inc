@@ -70,8 +70,8 @@ gMoveNames:: @ 831977C
 	.string "COUNTER$", 13
 	.string "SEISMIC TOSS$", 13
 	.string "STRENGTH$", 13
-	.string "ABSORB$", 13
-	.string "MEGA DRAIN$", 13
+	.string "SUCC$", 13
+	.string "MEGA SUCC$", 13
 	.string "LEECH SEED$", 13
 	.string "GROWTH$", 13
 	.string "RAZOR LEAF$", 13
@@ -140,7 +140,7 @@ gMoveNames:: @ 831977C
 	.string "DREAM EATER$", 13
 	.string "POISON GAS$", 13
 	.string "BARRAGE$", 13
-	.string "LEECH LIFE$", 13
+	.string "SIPP$", 13
 	.string "LOVELY KISS$", 13
 	.string "SKY ATTACK$", 13
 	.string "TRANSFORM$", 13
@@ -201,7 +201,7 @@ gMoveNames:: @ 831977C
 	.string "LOCK-ON$", 13
 	.string "OUTRAGE$", 13
 	.string "SANDSTORM$", 13
-	.string "GIGA DRAIN$", 13
+	.string "GIGA SUCC$", 13
 	.string "ENDURE$", 13
 	.string "CHARM$", 13
 	.string "ROLLOUT$", 13

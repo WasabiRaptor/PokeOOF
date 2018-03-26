@@ -163,11 +163,11 @@ gEasyChatWord_ShedSkin:: @ 859840C
 gEasyChatWord_HugePower:: @ 8598416
 	.string "HUGE POWER$"
 
-gEasyChatWord_VoltAbsorb:: @ 8598421
-	.string "VOLT ABSORB$"
+gEasyChatWord_VoltSUCC:: @ 8598421
+	.string "VOLT SUCC$"
 
-gEasyChatWord_WaterAbsorb:: @ 859842D
-	.string "WATER ABSORB$"
+gEasyChatWord_WaterSUCC:: @ 859842D
+	.string "WATER SUCC$"
 
 gEasyChatWord_Electric:: @ 859843A
 	.string "ELECTRIC$"
@@ -547,11 +547,11 @@ gEasyChatGroup_Status:: @ 8598620
 	.4byte 92 @ alphabetical order
 	.4byte TRUE @ enabled
 
-	.4byte gEasyChatWord_VoltAbsorb
+	.4byte gEasyChatWord_VoltSUCC
 	.4byte 36 @ alphabetical order
 	.4byte TRUE @ enabled
 
-	.4byte gEasyChatWord_WaterAbsorb
+	.4byte gEasyChatWord_WaterSUCC
 	.4byte 69 @ alphabetical order
 	.4byte TRUE @ enabled
 

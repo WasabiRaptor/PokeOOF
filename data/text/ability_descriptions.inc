@@ -28,10 +28,10 @@ gSandVeilAbilityDescription:: @ 831B055
 gStaticAbilityDescription:: @ 831B071
 	.string "Paralyzes on contact.$"
 
-gVoltAbsorbAbilityDescription:: @ 831B087
+gVoltSUCCAbilityDescription:: @ 831B087
 	.string "Turns electricity into HP.$"
 
-gWaterAbsorbAbilityDescription:: @ 831B0A2
+gWaterSUCCAbilityDescription:: @ 831B0A2
 	.string "Changes water into HP.$"
 
 gObliviousAbilityDescription:: @ 831B0B9
@@ -191,7 +191,7 @@ gMarvelScaleAbilityDescription:: @ 831B572
 	.string "Ups DEFENSE if suffering.$"
 
 gLiquidOozeAbilityDescription:: @ 831B58C
-	.string "Draining causes injury.$"
+	.string "SUCCing causes injury.$"
 
 gOvergrowAbilityDescription:: @ 831B5A4
 	.string "Ups GRASS moves in a pinch.$"

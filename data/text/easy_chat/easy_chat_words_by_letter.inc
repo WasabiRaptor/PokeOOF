@@ -23,7 +23,7 @@ gEasyChatWordsByLetter_A:: @ 859D0C8
 	.2byte EC_WORD_ABSENT
 	.2byte EC_POKEMON(ABSOL)
 	.2byte EC_WORD_ABSOLUTELY
-	.2byte EC_MOVE(ABSORB)
+	.2byte EC_MOVE(SUCC)
 	.2byte EC_WORD_ACCEPT
 	.2byte EC_MOVE2(ACID)
 	.2byte EC_MOVE2(ACID_ARMOR)
@@ -568,7 +568,7 @@ gEasyChatWordsByLetter_G:: @ 859D508
 	.2byte EC_WORD_GETS
 	.2byte EC_WORD_GHOST
 	.2byte EC_WORD_GIDDY
-	.2byte EC_MOVE(GIGA_DRAIN)
+	.2byte EC_MOVE(GIGA_SUCC)
 	.2byte EC_WORD_GIGGLE
 	.2byte EC_WORD_GIMME
 	.2byte -1, 2 @ doubled Pokémon species names
@@ -866,7 +866,7 @@ gEasyChatWordsByLetter_L:: @ 859D752
 	.2byte EC_WORD_LEARN
 	.2byte EC_POKEMON2(LEDIAN)
 	.2byte EC_POKEMON2(LEDYBA)
-	.2byte EC_MOVE(LEECH_LIFE)
+	.2byte EC_MOVE(SIPP)
 	.2byte EC_MOVE2(LEECH_SEED)
 	.2byte EC_MOVE2(LEER)
 	.2byte EC_WORD_LEFT
@@ -988,7 +988,7 @@ gEasyChatWordsByLetter_M:: @ 859D7F6
 	.2byte EC_WORD_MEET_YOU
 	.2byte EC_WORD_MEETS
 	.2byte EC_WORD_MEGA
-	.2byte EC_MOVE2(MEGA_DRAIN)
+	.2byte EC_MOVE2(MEGA_SUCC)
 	.2byte EC_MOVE2(MEGA_KICK)
 	.2byte EC_MOVE2(MEGA_PUNCH)
 	.2byte EC_MOVE2(MEGAHORN)
@@ -1780,7 +1780,7 @@ gEasyChatWordsByLetter_V:: @ 859DE94
 	.2byte EC_WORD_VITAL_SPIRIT
 	.2byte EC_MOVE(VITAL_THROW)
 	.2byte EC_POKEMON(VOLBEAT)
-	.2byte EC_WORD_VOLT_ABSORB
+	.2byte EC_WORD_VOLT_SUCC
 	.2byte EC_MOVE2(VOLT_TACKLE)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON(VOLTORB)
@@ -1810,7 +1810,7 @@ gEasyChatWordsByLetter_W:: @ 859DED6
 	.2byte EC_WORD_WAS
 	.2byte EC_WORD_WASN_T
 	.2byte EC_WORD_WATER
-	.2byte EC_WORD_WATER_ABSORB
+	.2byte EC_WORD_WATER_SUCC
 	.2byte EC_MOVE2(WATER_GUN)
 	.2byte EC_MOVE2(WATER_PULSE)
 	.2byte EC_MOVE2(WATER_SPORT)
@@ -2271,7 +2271,7 @@ gEasyChatWordsByLetter_UnusedJapaneseMu:: @ 859E27A
 gEasyChatWordsByLetter_UnusedJapaneseMe:: @ 859E292
 	.2byte EC_MOVE2(CALM_MIND)
 	.2byte EC_WORD_MAIL
-	.2byte EC_MOVE2(MEGA_DRAIN)
+	.2byte EC_MOVE2(MEGA_SUCC)
 	.2byte EC_MOVE2(MEGA_KICK)
 	.2byte EC_MOVE2(MEGA_PUNCH)
 	.2byte EC_POKEMON2(MEGANIUM)

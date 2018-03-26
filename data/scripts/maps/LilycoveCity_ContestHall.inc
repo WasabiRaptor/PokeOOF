@@ -366,7 +366,7 @@ LilycoveCity_ContestHall_Text_21BB84: @ 821BB84
 
 LilycoveCity_ContestHall_Text_21BBDD: @ 821BBDD
 	.string "Oh, dear, no!\p"
-	.string "My darling ZUBAT’s LEECH LIFE is so\n"
+	.string "My darling ZUBAT’s SIPP is so\n"
 	.string "cute I kept using it over and over!\p"
 	.string "But these mean people don’t appreciate\n"
 	.string "it at all!$"

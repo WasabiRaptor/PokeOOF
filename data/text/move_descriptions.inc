@@ -211,11 +211,11 @@ gSeismicTossMoveDescription:: @ 8618E3F
 gStrengthMoveDescription:: @ 8618E6E
 	.string "Builds enormous power,\nthen slams the foe.$"
 
-gAbsorbMoveDescription:: @ 8618E99
-	.string "An attack that absorbs\nhalf the damage inflicted.$"
+gSUCCMoveDescription:: @ 8618E99
+	.string "An attack that SUCCs\nhalf the damage inflicted.$"
 
-gMegaDrainMoveDescription:: @ 8618ECB
-	.string "An attack that absorbs\nhalf the damage inflicted.$"
+gMegaSUCCMoveDescription:: @ 8618ECB
+	.string "An attack that SUCCs\nhalf the damage inflicted.$"
 
 gLeechSeedMoveDescription:: @ 8618EFD
 	.string "Plants a seed on the foe to\nsteal HP on every turn.$"
@@ -227,7 +227,7 @@ gRazorLeafMoveDescription:: @ 8618F60
 	.string "Cuts the enemy with leaves.\nHigh critical-hit ratio.$"
 
 gSolarBeamMoveDescription:: @ 8618F95
-	.string "Absorbs light in one turn,\nthen attacks next turn.$"
+	.string "SUCCs light in one turn,\nthen attacks next turn.$"
 
 gPoisonPowderMoveDescription:: @ 8618FC8
 	.string "Scatters a toxic powder\nthat may poison the foe.$"
@@ -604,7 +604,7 @@ gOutrageMoveDescription:: @ 861A76E
 gSandstormMoveDescription:: @ 861A7A0
 	.string "Causes a sandstorm that\nrages for several turns.$"
 
-gGigaDrainMoveDescription:: @ 861A7D1
+gGigaSUCCMoveDescription:: @ 861A7D1
 	.string "An attack that steals half\nthe damage inflicted.$"
 
 gEndureMoveDescription:: @ 861A802
@@ -767,7 +767,7 @@ gSpitUpMoveDescription:: @ 861B1E6
 	.string "Releases stockpiled power\n(the more the better).$"
 
 gSwallowMoveDescription:: @ 861B217
-	.string "Absorbs stockpiled power\nand restores HP.$"
+	.string "SUCCs stockpiled power\nand restores HP.$"
 
 gHeatWaveMoveDescription:: @ 861B241
 	.string "Exhales a hot breath on the\nfoe. May inflict a burn.$"
@@ -1135,8 +1135,8 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gCounterMoveDescription
 	.4byte gSeismicTossMoveDescription
 	.4byte gStrengthMoveDescription
-	.4byte gAbsorbMoveDescription
-	.4byte gMegaDrainMoveDescription
+	.4byte gSUCCMoveDescription
+	.4byte gMegaSUCCMoveDescription
 	.4byte gLeechSeedMoveDescription
 	.4byte gGrowthMoveDescription
 	.4byte gRazorLeafMoveDescription
@@ -1266,7 +1266,7 @@ gMoveDescriptionPointers:: @ 861C524
 	.4byte gLockOnMoveDescription
 	.4byte gOutrageMoveDescription
 	.4byte gSandstormMoveDescription
-	.4byte gGigaDrainMoveDescription
+	.4byte gGigaSUCCMoveDescription
 	.4byte gEndureMoveDescription
 	.4byte gCharmMoveDescription
 	.4byte gRolloutMoveDescription

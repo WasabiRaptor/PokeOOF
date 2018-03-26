@@ -130,10 +130,10 @@ static bool8 ShouldSwitchIfWonderGuard(void)
     return FALSE; // at this point there is not a single pokemon in the party that has a super effective move against a pokemon with wonder guard
 }
 
-static bool8 FindMonThatAbsorbsOpponentsMove(void)
+static bool8 FindMonThatSUCCsOpponentsMove(void)
 {
     u8 bankIn1, bankIn2;
-    u8 absorbingTypeAbility;
+    u8 SUCCingTypeAbility;
     s32 firstId;
     s32 lastId; // + 1
     struct Pokemon *party;
@@ -163,15 +163,15 @@ static bool8 FindMonThatAbsorbsOpponentsMove(void)
     }
 
     if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_FIRE)
-        absorbingTypeAbility = ABILITY_FLASH_FIRE;
+        SUCCingTypeAbility = ABILITY_FLASH_FIRE;
     else if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_WATER)
-        absorbingTypeAbility = ABILITY_WATER_ABSORB;
+        SUCCingTypeAbility = ABILITY_WATER_SUCC;
     else if (gBattleMoves[gLastLandedMoves[gActiveBattler]].type == TYPE_ELECTRIC)
-        absorbingTypeAbility = ABILITY_VOLT_ABSORB;
+        SUCCingTypeAbility = ABILITY_VOLT_SUCC;
     else
         return FALSE;
 
-    if (gBattleMons[gActiveBattler].ability == absorbingTypeAbility)
+    if (gBattleMons[gActiveBattler].ability == SUCCingTypeAbility)
         return FALSE;
 
     if (gBattleTypeFlags & (BATTLE_TYPE_TWO_OPPONENTS | BATTLE_TYPE_x800000))
@@ -217,7 +217,7 @@ static bool8 FindMonThatAbsorbsOpponentsMove(void)
         else
             monAbility = gBaseStats[species].ability1;
 
-        if (absorbingTypeAbility == monAbility && Random() & 1)
+        if (SUCCingTypeAbility == monAbility && Random() & 1)
         {
             // we found a mon
             *(gBattleStruct->AI_monToSwitchIntoId + gActiveBattler) = i;
@@ -522,7 +522,7 @@ static bool8 ShouldSwitch(void)
         return TRUE;
     if (ShouldSwitchIfWonderGuard())
         return TRUE;
-    if (FindMonThatAbsorbsOpponentsMove())
+    if (FindMonThatSUCCsOpponentsMove())
         return TRUE;
     if (ShouldSwitchIfNaturalCure())
         return TRUE;

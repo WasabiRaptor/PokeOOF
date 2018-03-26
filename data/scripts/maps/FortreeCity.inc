@@ -110,7 +110,7 @@ FortreeCity_Text_1E27B6: @ 81E27B6
 	.string "with me. This time, I’ll beat WINONA.$"
 
 FortreeCity_Text_1E27FE: @ 81E27FE
-	.string "The ground absorbs rainwater, and\n"
+	.string "The ground SUCCs rainwater, and\n"
 	.string "trees grow by drinking that water…\p"
 	.string "Our FORTREE CITY exists because\n"
 	.string "there’s both water and soil.$"

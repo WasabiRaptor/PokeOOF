@@ -1124,7 +1124,7 @@ static void JumpIfMoveFailed(u8 adder, u16 move)
     else
     {
         TrySetDestinyBondToHappen();
-        if (AbilityBattleEffects(ABILITYEFFECT_ABSORBING, gBattlerTarget, 0, 0, move))
+        if (AbilityBattleEffects(ABILITYEFFECT_SUCCING, gBattlerTarget, 0, 0, move))
             return;
     }
     gBattlescriptCurrInstr = BS_ptr;

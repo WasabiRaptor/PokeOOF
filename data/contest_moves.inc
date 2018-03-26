@@ -497,14 +497,14 @@ gContestMoves:: @ 858C2B4
 	.byte 0, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Absorb
+@ SUCC
 	.byte 0x0a @ effect ID
 	.byte CONTEST_SMART
 	.byte 0 @ combo starter ID
 	.byte COMBO_STARTER_GROWTH, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Mega Drain
+@ Mega SUCC
 	.byte 0x0c @ effect ID
 	.byte CONTEST_SMART
 	.byte 0 @ combo starter ID
@@ -987,7 +987,7 @@ gContestMoves:: @ 858C2B4
 	.byte 0, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Leech Life
+@ SIPP
 	.byte 0x0a @ effect ID
 	.byte CONTEST_SMART
 	.byte 0 @ combo starter ID
@@ -1414,7 +1414,7 @@ gContestMoves:: @ 858C2B4
 	.byte 0, 0, 0, 0 @ moves this move can follow to make a combo
 	.byte 0 @ padding
 
-@ Giga Drain
+@ Giga SUCC
 	.byte 0x11 @ effect ID
 	.byte CONTEST_SMART
 	.byte 0 @ combo starter ID

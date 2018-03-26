@@ -781,7 +781,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
-@ Absorb
+@ SUCC
 	.byte 0x03 @ effect
 	.byte 20 @ power
 	.byte TYPE_GRASS
@@ -792,7 +792,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Mega Drain
+@ Mega SUCC
 	.byte 0x03 @ effect
 	.byte 40 @ power
 	.byte TYPE_GRASS
@@ -1551,7 +1551,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Leech Life
+@ SIPP
 	.byte 0x03 @ effect
 	.byte 20 @ power
 	.byte TYPE_BUG
@@ -2222,7 +2222,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte 0 @ misc. flags
 
-@ Giga Drain
+@ Giga SUCC
 	.byte 0x03 @ effect
 	.byte 60 @ power
 	.byte TYPE_GRASS

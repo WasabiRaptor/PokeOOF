@@ -51,7 +51,7 @@
 #define B_ANIM_SUN_CONTINUES            0xB
 #define B_ANIM_SANDSTORM_CONTINUES      0xC
 #define B_ANIM_HAIL_CONTINUES           0xD
-#define B_ANIM_LEECH_SEED_DRAIN         0xE
+#define B_ANIM_LEECH_SEED_SUCC         0xE
 #define B_ANIM_MON_HIT                  0xF
 #define B_ANIM_ITEM_STEAL               0x10
 #define B_ANIM_SNATCH_MOVE              0x11

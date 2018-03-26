@@ -112,7 +112,7 @@ const u8 gText_PkmnPoisonedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_
 const u8 gText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby poison!");
 const u8 gText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX} is already\npoisoned.");
 const u8 gText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX} is badly\npoisoned!");
-const u8 gText_PkmnEnergyDrained[] = _("{B_DEF_NAME_WITH_PREFIX} had its\nenergy drained!");
+const u8 gText_PkmnEnergySUCCed[] = _("{B_DEF_NAME_WITH_PREFIX} had its\nenergy SUCCed!");
 const u8 gText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX} was burned!");
 const u8 gText_PkmnBurnedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}’s {B_SCR_ACTIVE_ABILITY}\nburned {B_EFF_NAME_WITH_PREFIX}!");
 const u8 gText_PkmnHurtByBurn[] = _("{B_ATK_NAME_WITH_PREFIX} is hurt\nby its burn!");
@@ -254,7 +254,7 @@ const u8 gText_PkmnCopiedFoe[] = _("{B_ATK_NAME_WITH_PREFIX} copied\n{B_DEF_NAME
 const u8 gText_PkmnMadeWish[] = _("{B_ATK_NAME_WITH_PREFIX} made a WISH!");
 const u8 gText_PkmnWishCameTrue[] = _("{B_BUFF1}’s WISH\ncame true!");
 const u8 gText_PkmnPlantedRoots[] = _("{B_ATK_NAME_WITH_PREFIX} planted its roots!");
-const u8 gText_PkmnAbsorbedNutrients[] = _("{B_ATK_NAME_WITH_PREFIX} absorbed\nnutrients with its roots!");
+const u8 gText_PkmnSUCCedNutrients[] = _("{B_ATK_NAME_WITH_PREFIX} SUCCed\nnutrients with its roots!");
 const u8 gText_PkmnAnchoredItself[] = _("{B_DEF_NAME_WITH_PREFIX} anchored\nitself with its roots!");
 const u8 gText_PkmnWasMadeDrowsy[] = _("{B_ATK_NAME_WITH_PREFIX} made\n{B_DEF_NAME_WITH_PREFIX} drowsy!");
 const u8 gText_PkmnKnockedOff[] = _("{B_ATK_NAME_WITH_PREFIX} knocked off\n{B_DEF_NAME_WITH_PREFIX}’s {B_LAST_ITEM}!");
@@ -564,7 +564,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 	gText_PkmnHurtByPoison,
 	gText_PkmnAlreadyPoisoned,
 	gText_PkmnBadlyPoisoned,
-	gText_PkmnEnergyDrained,
+	gText_PkmnEnergySUCCed,
 	gText_PkmnWasBurned,
 	gText_PkmnBurnedBy,
 	gText_PkmnHurtByBurn,
@@ -699,7 +699,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 	gText_PkmnMadeWish,
 	gText_PkmnWishCameTrue,
 	gText_PkmnPlantedRoots,
-	gText_PkmnAbsorbedNutrients,
+	gText_PkmnSUCCedNutrients,
 	gText_PkmnAnchoredItself,
 	gText_PkmnWasMadeDrowsy,
 	gText_PkmnKnockedOff,
@@ -1071,9 +1071,9 @@ const u16 gAttractUsedStringIds[] =
     STRINGID_PKMNFELLINLOVE, STRINGID_PKMNSXINFATUATEDY
 };
 
-const u16 gLeechSeedDrainStringIds[] =
+const u16 gLeechSeedSUCCStringIds[] =
 {
-    STRINGID_PKMNENERGYDRAINED, STRINGID_ITSUCKEDLIQUIDOOZE
+    STRINGID_PKMNENERGYSUCCED, STRINGID_ITSUCKEDLIQUIDOOZE
 };
 
 const u16 gSportsUsedStringIds[] =
@@ -1355,7 +1355,7 @@ static const u16 sUnknownMoveTable[] =
     MOVE_WING_ATTACK, MOVE_FLY, MOVE_BIND, MOVE_SLAM,
     MOVE_HORN_ATTACK, MOVE_WRAP, MOVE_THRASH, MOVE_TAIL_WHIP,
     MOVE_LEER, MOVE_BITE, MOVE_GROWL, MOVE_ROAR,
-    MOVE_SING, MOVE_PECK, MOVE_ABSORB, MOVE_STRING_SHOT,
+    MOVE_SING, MOVE_PECK, MOVE_SUCC, MOVE_STRING_SHOT,
     MOVE_EARTHQUAKE, MOVE_FISSURE, MOVE_DIG, MOVE_TOXIC,
     MOVE_SCREECH, MOVE_METRONOME, MOVE_LICK, MOVE_CLAMP,
     MOVE_CONSTRICT, MOVE_POISON_GAS, MOVE_BUBBLE,

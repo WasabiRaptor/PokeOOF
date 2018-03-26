@@ -743,7 +743,7 @@ gSlateportBattleTentTrainers:: @ 85DDA14
 	.2byte EC_WORD_GOING
 	.2byte EC_WORD_DOWN
 	.2byte EC_WORD_THE
-	.2byte EC_MOVE2(MEGA_DRAIN)
+	.2byte EC_MOVE2(MEGA_SUCC)
 	.2byte EC_WORD_HAHAHA
 @ loss speech
 	.2byte EC_WORD_I_AM

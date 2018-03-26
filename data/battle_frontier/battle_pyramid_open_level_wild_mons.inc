@@ -28,7 +28,7 @@ gBattlePyramidOpenLevelWildMons_Round1:: @ 8612E80
 	.2byte SPECIES_VILEPLUME
 	.byte 8 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_STUN_SPORE, MOVE_GIGA_DRAIN, MOVE_PROTECT, MOVE_NONE
+	.2byte MOVE_STUN_SPORE, MOVE_GIGA_SUCC, MOVE_PROTECT, MOVE_NONE
 
 @ 5
 	.2byte SPECIES_MANECTRIC
@@ -40,7 +40,7 @@ gBattlePyramidOpenLevelWildMons_Round1:: @ 8612E80
 	.2byte SPECIES_BRELOOM
 	.byte 6 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_STUN_SPORE, MOVE_FOCUS_PUNCH, MOVE_GIGA_DRAIN, MOVE_MACH_PUNCH
+	.2byte MOVE_STUN_SPORE, MOVE_FOCUS_PUNCH, MOVE_GIGA_SUCC, MOVE_MACH_PUNCH
 
 @ 7
 	.2byte SPECIES_JOLTEON
@@ -59,7 +59,7 @@ gBattlePyramidOpenLevelWildMons_Round2:: @ 8612EE0
 	.2byte SPECIES_ROSELIA
 	.byte 14 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_TOXIC, MOVE_GIGA_DRAIN, MOVE_MAGICAL_LEAF, MOVE_PETAL_DANCE
+	.2byte MOVE_TOXIC, MOVE_GIGA_SUCC, MOVE_MAGICAL_LEAF, MOVE_PETAL_DANCE
 
 @ 2
 	.2byte SPECIES_BUTTERFREE
@@ -242,7 +242,7 @@ gBattlePyramidOpenLevelWildMons_Round5:: @ 8613000
 	.2byte SPECIES_GENGAR
 	.byte 5 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_GIGA_DRAIN, MOVE_NIGHT_SHADE
+	.2byte MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_GIGA_SUCC, MOVE_NIGHT_SHADE
 
 gBattlePyramidOpenLevelWildMons_Round6:: @ 8613060
 @ 0
@@ -255,7 +255,7 @@ gBattlePyramidOpenLevelWildMons_Round6:: @ 8613060
 	.2byte SPECIES_TRAPINCH
 	.byte 10 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_NONE
+	.2byte MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_SUCC, MOVE_NONE
 
 @ 2
 	.2byte SPECIES_WYNAUT
@@ -273,7 +273,7 @@ gBattlePyramidOpenLevelWildMons_Round6:: @ 8613060
 	.2byte SPECIES_TRAPINCH
 	.byte 6 @ base level difference
 	.byte 1 @ unknown
-	.2byte MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_DRAIN, MOVE_PROTECT
+	.2byte MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_GIGA_SUCC, MOVE_PROTECT
 
 @ 5
 	.2byte SPECIES_WYNAUT
@@ -371,7 +371,7 @@ gBattlePyramidOpenLevelWildMons_Round8:: @ 8613120
 	.2byte SPECIES_PINECO
 	.byte 6 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_EXPLOSION, MOVE_DOUBLE_EDGE, MOVE_GIGA_DRAIN, MOVE_NONE
+	.2byte MOVE_EXPLOSION, MOVE_DOUBLE_EDGE, MOVE_GIGA_SUCC, MOVE_NONE
 
 @ 5
 	.2byte SPECIES_SOLROCK
@@ -389,7 +389,7 @@ gBattlePyramidOpenLevelWildMons_Round8:: @ 8613120
 	.2byte SPECIES_SHIFTRY
 	.byte 5 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_EXPLOSION, MOVE_GIGA_DRAIN, MOVE_SOLAR_BEAM, MOVE_PROTECT
+	.2byte MOVE_EXPLOSION, MOVE_GIGA_SUCC, MOVE_SOLAR_BEAM, MOVE_PROTECT
 
 gBattlePyramidOpenLevelWildMons_Round9:: @ 8613180
 @ 0
@@ -481,7 +481,7 @@ gBattlePyramidOpenLevelWildMons_Round10:: @ 86131E0
 	.2byte SPECIES_CRADILY
 	.byte 5 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_CONFUSE_RAY, MOVE_NONE
+	.2byte MOVE_SLUDGE_BOMB, MOVE_GIGA_SUCC, MOVE_CONFUSE_RAY, MOVE_NONE
 
 @ 7
 	.2byte SPECIES_AERODACTYL
@@ -567,7 +567,7 @@ gBattlePyramidOpenLevelWildMons_Round12:: @ 86132A0
 	.2byte SPECIES_CACTURNE
 	.byte 6 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_SANDSTORM, MOVE_GIGA_DRAIN, MOVE_SOLAR_BEAM, MOVE_NONE
+	.2byte MOVE_SANDSTORM, MOVE_GIGA_SUCC, MOVE_SOLAR_BEAM, MOVE_NONE
 
 @ 5
 	.2byte SPECIES_FLAREON
@@ -659,13 +659,13 @@ gBattlePyramidOpenLevelWildMons_Round14:: @ 8613360
 	.2byte SPECIES_SHIFTRY
 	.byte 8 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_EXPLOSION, MOVE_SHADOW_BALL, MOVE_AERIAL_ACE, MOVE_GIGA_DRAIN
+	.2byte MOVE_EXPLOSION, MOVE_SHADOW_BALL, MOVE_AERIAL_ACE, MOVE_GIGA_SUCC
 
 @ 4
 	.2byte SPECIES_CACTURNE
 	.byte 6 @ base level difference
 	.byte 2 @ unknown
-	.2byte MOVE_TOXIC, MOVE_GIGA_DRAIN, MOVE_NEEDLE_ARM, MOVE_NONE
+	.2byte MOVE_TOXIC, MOVE_GIGA_SUCC, MOVE_NEEDLE_ARM, MOVE_NONE
 
 @ 5
 	.2byte SPECIES_ABSOL

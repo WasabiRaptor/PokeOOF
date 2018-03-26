@@ -180,8 +180,8 @@ gSongTable:: @ 86B49F0
 	song se_w146, 1, 1              @ Dizzy Punch
 	song se_w120, 1, 1              @ Self-Destruct
 	song se_w153, 1, 1              @ Explosion
-	song se_w071b, 1, 1             @ Absorb 2
-	song se_w071, 1, 1              @ Absorb
+	song se_w071b, 1, 1             @ SUCC 2
+	song se_w071, 1, 1              @ SUCC
 	song se_w103, 1, 1              @ Screech
 	song se_w062, 1, 1              @ BubbleBeam
 	song se_w062b, 1, 1             @ BubbleBeam 2
@@ -200,7 +200,7 @@ gSongTable:: @ 86B49F0
 	song se_w109, 1, 1              @ Confuse Ray
 	song se_w173, 1, 1              @ Snore
 	song se_w280, 1, 1              @ Brick Break
-	song se_w202, 1, 1              @ Giga Drain
+	song se_w202, 1, 1              @ Giga SUCC
 	song se_w060b, 1, 1             @ Psybeam 2
 	song se_w076, 2, 2              @ SolarBeam
 	song se_w080, 1, 1              @ Petal Dance

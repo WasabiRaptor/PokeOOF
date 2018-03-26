@@ -15,7 +15,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectHit
 	.4byte BattleScript_EffectSleep
 	.4byte BattleScript_EffectPoisonHit
-	.4byte BattleScript_EffectAbsorb
+	.4byte BattleScript_EffectSUCC
 	.4byte BattleScript_EffectBurnHit
 	.4byte BattleScript_EffectFreezeHit
 	.4byte BattleScript_EffectParalyzeHit
@@ -338,7 +338,7 @@ BattleScript_EffectPoisonTail::
 	setmoveeffect EFFECT_POISON
 	goto BattleScript_EffectHit
 
-BattleScript_EffectAbsorb::
+BattleScript_EffectSUCC::
 	attackcanceler
 	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
 	attackstring
@@ -360,19 +360,19 @@ BattleScript_EffectAbsorb::
 	waitmessage 0x40
 	negativedamage
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
-	jumpifability TARGET, ABILITY_LIQUID_OOZE, BattleScript_AbsorbLiquidOoze
+	jumpifability TARGET, ABILITY_LIQUID_OOZE, BattleScript_SUCCLiquidOoze
 	setbyte cMULTISTRING_CHOOSER, 0x0
-	goto BattleScript_AbsorbUpdateHp
-BattleScript_AbsorbLiquidOoze::
+	goto BattleScript_SUCCUpdateHp
+BattleScript_SUCCLiquidOoze::
 	manipulatedamage ATK80_DMG_CHANGE_SIGN
 	setbyte cMULTISTRING_CHOOSER, 0x1
-BattleScript_AbsorbUpdateHp::
+BattleScript_SUCCUpdateHp::
 	healthbarupdate ATTACKER
 	datahpupdate ATTACKER
-	jumpifmovehadnoeffect BattleScript_AbsorbTryFainting
-	printfromtable gLeechSeedDrainStringIds
+	jumpifmovehadnoeffect BattleScript_SUCCTryFainting
+	printfromtable gLeechSeedSUCCStringIds
 	waitmessage 0x40
-BattleScript_AbsorbTryFainting::
+BattleScript_SUCCTryFainting::
 	tryfaintmon ATTACKER, FALSE, NULL
 	tryfaintmon TARGET, FALSE, NULL
 	goto BattleScript_MoveEnd
@@ -3287,8 +3287,8 @@ BattleScript_SafeguardEnds::
 	waitmessage 0x40
 	end2
 
-BattleScript_LeechSeedTurnDrain::
-	playanimation ATTACKER, ANIM_LEECH_SEED_DRAIN, sANIM_ARG1
+BattleScript_LeechSeedTurnSUCC::
+	playanimation ATTACKER, ANIM_LEECH_SEED_SUCC, sANIM_ARG1
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE | HITMARKER_x100000
 	healthbarupdate ATTACKER
 	datahpupdate ATTACKER
@@ -3639,7 +3639,7 @@ BattleScript_WishButFullHp::
 
 BattleScript_IngrainTurnHeal::
 	playanimation ATTACKER, ANIM_INGRAIN_HEAL, NULL
-	printstring STRINGID_PKMNABSORBEDNUTRIENTS
+	printstring STRINGID_PKMNSUCCEDNUTRIENTS
 	waitmessage 0x40
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
 	healthbarupdate ATTACKER
@@ -4107,9 +4107,9 @@ BattleScript_DampStopsExplosion::
 	pause 0x40
 	goto BattleScript_MoveEnd
 
-BattleScript_MoveHPDrain_PPLoss::
+BattleScript_MoveHPSUCC_PPLoss::
 	ppreduce
-BattleScript_MoveHPDrain::
+BattleScript_MoveHPSUCC::
 	attackstring
 	pause 0x20
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE

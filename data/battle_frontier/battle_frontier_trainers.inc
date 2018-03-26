@@ -5527,7 +5527,7 @@ gBattleFrontierTrainers:: @ 85D5ACC
 	.2byte EC_WORD_ALL
 	.2byte EC_WORD_YOU
 	.2byte EC_WORD_COULD
-	.2byte EC_MOVE(ABSORB)
+	.2byte EC_MOVE(SUCC)
 	.2byte EC_WORD_QUES
 @ loss speech
 	.2byte EC_WORD_YOU

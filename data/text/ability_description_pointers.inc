@@ -10,8 +10,8 @@ gAbilityDescriptionPointers:: @ 831BAD4
 	.4byte gLimberAbilityDescription
 	.4byte gSandVeilAbilityDescription
 	.4byte gStaticAbilityDescription
-	.4byte gVoltAbsorbAbilityDescription
-	.4byte gWaterAbsorbAbilityDescription
+	.4byte gVoltSUCCAbilityDescription
+	.4byte gWaterSUCCAbilityDescription
 	.4byte gObliviousAbilityDescription
 	.4byte gCloudNineAbilityDescription
 	.4byte gCompoundEyesAbilityDescription

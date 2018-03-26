@@ -180,8 +180,8 @@
 #define SE_W146 176             // Dizzy Punch
 #define SE_W120 177             // Self-Destruct
 #define SE_W153 178             // Explosion
-#define SE_W071B 179            // Absorb 2
-#define SE_W071 180             // Absorb
+#define SE_W071B 179            // SUCC 2
+#define SE_W071 180             // SUCC
 #define SE_W103 181             // Screech
 #define SE_W062 182             // BubbleBeam
 #define SE_W062B 183            // BubbleBeam 2
@@ -200,7 +200,7 @@
 #define SE_W109 196             // Confuse Ray
 #define SE_W173 197             // Snore
 #define SE_W280 198             // Brick Break
-#define SE_W202 199             // Giga Drain
+#define SE_W202 199             // Giga SUCC
 #define SE_W060B 200            // Psybeam 2
 #define SE_W076 201             // SolarBeam
 #define SE_W080 202             // Petal Dance

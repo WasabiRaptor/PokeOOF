@@ -204,7 +204,7 @@ const struct {
     },
     {
         SPECIES_SEEDOT,
-        {MOVE_GIGA_DRAIN, MOVE_FRUSTRATION, MOVE_SOLAR_BEAM, MOVE_LEECH_SEED},
+        {MOVE_GIGA_SUCC, MOVE_FRUSTRATION, MOVE_SOLAR_BEAM, MOVE_LEECH_SEED},
         25, 0x23 // Route 110
     },
     {
