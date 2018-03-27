@@ -186,7 +186,29 @@ RustboroCity_EventScript_1E08C7:: @ 81E08C7
 
 RustboroCity_EventScript_1E08D1:: @ 81E08D1
 	msgbox RustboroCity_Text_1E1633, 2
+	applymovement 4, spinning_teleport
+	waitmovement 0
+	removeobject 4
 	end
+
+spinning_teleport:
+	step_01
+	step_12
+	step_02
+	step_12
+	step_00
+	step_12
+	step_03
+	step_12
+	step_01
+	step_52
+	step_32
+	step_32
+	step_32
+	step_32
+	step_32
+	step_32
+	step_end
 
 RustboroCity_EventScript_1E08DA:: @ 81E08DA
 	msgbox RustboroCity_Text_1E1695, 3
@@ -1082,9 +1104,9 @@ RustboroCity_Text_1E1589: @ 81E1589
 	.string "that PEEKO.$"
 
 RustboroCity_Text_1E1633: @ 81E1633
-	.string "Wow, you have POKéMON with you, too.\p"
-	.string "When I get bigger, I’m going to go\n"
-	.string "places with POKéMON, too.$"
+	.string "oh\p"
+	.string "I must go\n"
+	.string "my planet needs me$"
 
 RustboroCity_Text_1E1695: @ 81E1695
 	.string "POKéMON TRAINER’S SCHOOL!\p"

@@ -2,7 +2,7 @@ RustboroCity_MapObjects: @ 85267E0
 	object_event 1, MAP_OBJ_GFX_WOMAN_7, 0, 0, 22, 34, 3, 3, 16, 0, 0, 0, RustboroCity_EventScript_1E088A, 0, 0, 0
 	object_event 2, MAP_OBJ_GFX_FAT_MAN, 0, 0, 19, 13, 3, 1, 17, 0, 0, 0, RustboroCity_EventScript_1E085F, 0, 0, 0
 	object_event 3, MAP_OBJ_GFX_LITTLE_BOY_1, 0, 0, 25, 37, 3, 7, 0, 0, 0, 0, RustboroCity_EventScript_1E08DA, 0, 0, 0
-	object_event 4, MAP_OBJ_GFX_LITTLE_GIRL_1, 0, 0, 21, 46, 3, 3, 16, 0, 0, 0, RustboroCity_EventScript_1E08D1, 0, 0, 0
+	object_event 4, MAP_OBJ_GFX_POOCHYENA, 0, 0, 21, 46, 3, 3, 16, 0, 0, 0, RustboroCity_EventScript_1E08D1, 0, 0, 0
 	object_event 5, MAP_OBJ_GFX_BOY_2, 0, 0, 12, 45, 3, 1, 0, 0, 0, 0, RustboroCity_EventScript_1E08B2, 0, 0, 0
 	object_event 6, MAP_OBJ_GFX_MAN_4, 0, 0, 26, 23, 3, 1, 17, 0, 0, 0, RustboroCity_EventScript_1E0893, 0, 0, 0
 	object_event 7, MAP_OBJ_GFX_LITTLE_BOY_2, 0, 0, 24, 51, 3, 10, 0, 0, 0, 0, RustboroCity_EventScript_1E0922, 0, 0, 0
