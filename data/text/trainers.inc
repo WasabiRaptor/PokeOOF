@@ -1232,19 +1232,23 @@ Route110_Text_298755: @ 8298755
 	.string "could, my pretties.$"
 
 Route111_Text_29878E: @ 829878E
-	.string "Oh, hey! Those GO-GOGGLES suit you.\n"
-	.string "But I think they look better on me.\p"
-	.string "Let’s decide who they look better on\n"
-	.string "with a battle!$"
+	.string "I dont like sand\n"
+	.string "its course, and rough, and irritating\p"
+	.string "and it gets everywhere$"
 
 Route111_Text_29880A: @ 829880A
-	.string "I couldn’t see what was happening at\n"
-	.string "my sides because of the GO-GOGGLES.$"
+	.string "not like here\n"
+	.string "here everything is soft and smooth$"
 
 Route111_Text_298853: @ 8298853
-	.string "The GO-GOGGLES make it possible to\n"
-	.string "get through sandstorms.\l"
-	.string "That makes me happy!$"
+	.string "I... I killed them.\p"
+	.string "I killed them all. They're dead...\n" 
+	.string "every single one of them.\p"
+	.string "And not just the men. But the women...\n"
+	.string "and the children, too.\p"
+	.string "They're like animals,\n"
+	.string "and I slaughtered them like animals!\p"
+	.string "I HATE THEM!$"
 
 Route111_Text_2988A3: @ 82988A3
 	.string "I’m having a picnic in the desert.\p"
@@ -1285,13 +1289,12 @@ Route111_Text_298AC0: @ 8298AC0
 	.string "it must have been a sea before.$"
 
 Route111_Text_298B08: @ 8298B08
-	.string "For thirty years I have searched for\n"
-	.string "ancient ruins!\l"
-	.string "I am to be challenged?$"
+	.string "ITS OVER {PLAYER}\n"
+	.string "I HAVE THE HIGH GROUND\l"
+	.string "DONT TRY IT$"
 
 Route111_Text_298B53: @ 8298B53
-	.string "While I have searched for ruins,\n"
-	.string "I’ve not searched for strong POKéMON.$"
+	.string "I UNDERESTIMATED YOUR POWER$"
 
 Route111_Text_298B9A: @ 8298B9A
 	.string "For thirty years I have searched for\n"
