@@ -7000,15 +7000,14 @@ BattleFrontier_PokeNav_2A9813:: @ 82A9813
 	.string "MOOOOOOOOM$"
 
 BattleFrontier_PokeNav_2A98A8:: @ 82A98A8
-	.string "Hey, {PLAYER}{STRING 5}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "You know the POKéMON {STR_VAR_2}?\n"
-	.string "I came close to getting one.\p"
-	.string "It was just a while back.\n"
-	.string "I thought I had it but it escaped.\p"
-	.string "If I see it again, I’ll get it for\n"
-	.string "sure, though.\p"
-	.string "Okay, catch you later.$"
+	.string "I... I killed them.\p"
+	.string "I killed them all. They're dead...\n" 
+	.string "every single one of them.\p"
+	.string "And not just the men. But the women...\n"
+	.string "and the children, too.\p"
+	.string "They're like animals,\n"
+	.string "and I slaughtered them like animals!\p"
+	.string "I HATE THEM!$"
 
 BattleFrontier_PokeNav_2A9977:: @ 82A9977
 	.string "Hiya, {PLAYER}{STRING 5}!\n"
