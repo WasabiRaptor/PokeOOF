@@ -334,81 +334,58 @@ DewfordTown_Gym_Text_1FCB5C: @ 81FCB5C
 	.string "Your future is bright, too!$"
 
 DewfordTown_Gym_Text_1FCB9F: @ 81FCB9F
-	.string "Might is right!\n"
-	.string "Come on!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCBB8: @ 81FCBB8
-	.string "Not enough power…$"
+	.string "...huh...$"
 
 DewfordTown_Gym_Text_1FCBCA: @ 81FCBCA
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCC0A: @ 81FCC0A
-	.string "There’s no need for BRAWLY to be\n"
-	.string "involved!\p"
-	.string "I’ll crush you!$"
+	.string "huh!$"
 
 DewfordTown_Gym_Text_1FCC45: @ 81FCC45
-	.string "But… How?\n"
-	.string "How could I lose so easily?$"
+	.string "hoh.$"
 
 DewfordTown_Gym_Text_1FCC6B: @ 81FCC6B
-	.string "I’m not going to waste this loss.\n"
-	.string "I’ll use it to motivate me to train!\p"
-	.string "One day I’ll become a GYM LEADER…\p"
-	.string "No, I’ll become the POKéMON LEAGUE\n"
-	.string "CHAMPION!$"
+	.string "heh.$"
 
 DewfordTown_Gym_Text_1FCD01: @ 81FCD01
-	.string "Don’t you dare brush me off!\n"
-	.string "It’s not my fault if you cry!$"
+	.string "huh?$"
 
 DewfordTown_Gym_Text_1FCD3C: @ 81FCD3C
-	.string "Waaaaaaah!\n"
-	.string "I lost!$"
+	.string "huh!$"
 
 DewfordTown_Gym_Text_1FCD4F: @ 81FCD4F
-	.string "I battle in the dark to make my heart\n"
-	.string "stronger.\p"
-	.string "But because it’s so dark, I can never\n"
-	.string "see BRAWLY’s face…$"
+	.string "huh!$"
 
 DewfordTown_Gym_Text_1FCDB8: @ 81FCDB8
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
+	.string "hoh.$"
 
 DewfordTown_Gym_Text_1FCDE5: @ 81FCDE5
-	.string "Oh, you…\n"
-	.string "I don’t want to know you!$"
+	.string "...huh!"
 
 DewfordTown_Gym_Text_1FCE08: @ 81FCE08
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCE48: @ 81FCE48
-	.string "I’ll show you the gumption of\n"
-	.string "a sailing man!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCE75: @ 81FCE75
-	.string "How’d this happen?\n"
-	.string "It’s not like me to lose this way!$"
+	.string "huh!$"
 
 DewfordTown_Gym_Text_1FCEAB: @ 81FCEAB
-	.string "Oh, aye! You’re worthy of seeing\n"
-	.string "our GYM LEADER.$"
+	.string "huh!?$"
 
 DewfordTown_Gym_Text_1FCEDC: @ 81FCEDC
-	.string "If you mean to pass, it has to be\n"
-	.string "through me!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCF0A: @ 81FCF0A
-	.string "Grrrrr!\n"
-	.string "Vastly overpowered!$"
+	.string "huh.$"
 
 DewfordTown_Gym_Text_1FCF26: @ 81FCF26
-	.string "You win!\n"
-	.string "Go after that BADGE!$"
+	.string "...huh...$"
 
 DewfordTown_Gym_Text_1FCF44: @ 81FCF44
 	.string "I’m BRAWLY!\n"
