@@ -13,7 +13,7 @@
 	map_group EVER_GRANDE_CITY @ 0.8
 	map_group LITTLEROOT_TOWN  @ 0.9
 	map_group OLDALE_TOWN      @ 0.10
-	map_group DEWFORD_TOWN     @ 0.11
+	map_group HUHFORD_TOWN     @ 0.11
 	map_group LAVARIDGE_TOWN   @ 0.12
 	map_group FALLARBOR_TOWN   @ 0.13
 	map_group VERDANTURF_TOWN  @ 0.14
@@ -75,12 +75,12 @@
 	map_group OLDALE_TOWN_MART              @ 2.4
 
 	new_map_group
-	map_group DEWFORD_TOWN_HOUSE_1           @ 3.0
-	map_group DEWFORD_TOWN_POKEMON_CENTER_1F @ 3.1
-	map_group DEWFORD_TOWN_POKEMON_CENTER_2F @ 3.2
-	map_group DEWFORD_TOWN_GYM               @ 3.3
-	map_group DEWFORD_TOWN_HALL              @ 3.4
-	map_group DEWFORD_TOWN_HOUSE_2           @ 3.5
+	map_group HUHFORD_TOWN_HOUSE_1           @ 3.0
+	map_group HUHFORD_TOWN_POKEMON_CENTER_1F @ 3.1
+	map_group HUHFORD_TOWN_POKEMON_CENTER_2F @ 3.2
+	map_group HUHFORD_TOWN_GYM               @ 3.3
+	map_group HUHFORD_TOWN_HALL              @ 3.4
+	map_group HUHFORD_TOWN_HOUSE_2           @ 3.5
 
 	new_map_group
 	map_group LAVARIDGE_TOWN_HERB_SHOP         @ 4.0

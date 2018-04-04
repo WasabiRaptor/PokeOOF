@@ -9,8 +9,8 @@ DewfordTown_Gym_MapObjects: @ 852DB34
 	object_event 8, MAP_OBJ_GFX_SAILOR, 0, 0, 14, 12, 1, 10, 17, 0, 1, 2, DewfordTown_Gym_EventScript_1FC91D, 0, 0, 0
 
 DewfordTown_Gym_MapWarps: @ 852DBF4
-	warp_def 5, 27, 0, 2, DEWFORD_TOWN
-	warp_def 6, 27, 0, 2, DEWFORD_TOWN
+	warp_def 5, 27, 0, 2, HUHFORD_TOWN
+	warp_def 6, 27, 0, 2, HUHFORD_TOWN
 
 DewfordTown_Gym_MapBGEvents: @ 852DC04
 	bg_event 4, 23, 3, 1, 0, DewfordTown_Gym_EventScript_1FC9A2

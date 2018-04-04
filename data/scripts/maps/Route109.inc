@@ -40,14 +40,14 @@ Route109_EventScript_1EE7D5:: @ 81EE7D5
 	waitmovement 0
 	delay 50
 	call Route109_EventScript_2720A8
-	showobjectat 255, DEWFORD_TOWN
+	showobjectat 255, HUHFORD_TOWN
 	applymovement 255, Route109_Movement_1EE900
 	waitmovement 0
 	addobject 4
 	clearflag FLAG_0x2E7
 	setobjectxyperm 2, 12, 8
 	addobject 2
-	setobjectpriority 2, DEWFORD_TOWN, 0
+	setobjectpriority 2, HUHFORD_TOWN, 0
 	applymovement 2, Route109_Movement_1EE90D
 	waitmovement 0
 	clearflag FLAG_0x2E4
@@ -57,7 +57,7 @@ Route109_EventScript_1EE7D5:: @ 81EE7D5
 	closemessage
 	copyvar VAR_0x4096, VAR_0x8008
 	resetobjectpriority 255, ROUTE_109
-	resetobjectpriority 2, DEWFORD_TOWN
+	resetobjectpriority 2, HUHFORD_TOWN
 	moveobjectoffscreen 2
 	release
 	end
@@ -495,10 +495,10 @@ Route109_Text_1EEC96: @ 81EEC96
 	.string "MR. BRINEY: I thought you’re supposed\n"
 	.string "to deliver the DEVON GOODS.\p"
 	.string "Would you like to sail back to\n"
-	.string "DEWFORD, then?$"
+	.string "HUHFORD, then?$"
 
 Route109_Text_1EED06: @ 81EED06
-	.string "MR. BRINEY: DEWFORD it is, then!\p"
+	.string "MR. BRINEY: HUHFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we’re setting sail, my darling!$"
 

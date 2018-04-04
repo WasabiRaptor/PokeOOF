@@ -645,14 +645,14 @@ Route107_Text_296923: @ 8296923
 
 Route107_Text_296974: @ 8296974
 	.string "Do you know a little town called\n"
-	.string "DEWFORD?$"
+	.string "HUHFORD?$"
 
 Route107_Text_29699E: @ 829699E
 	.string "I hate this!$"
 
 Route107_Text_2969AB: @ 82969AB
 	.string "A weird saying is getting really\n"
-	.string "trendy at DEWFORD HALL.$"
+	.string "trendy at HUHFORD HALL.$"
 
 Route107_Text_2969E4: @ 82969E4
 	.string "Did you want to battle me?\n"

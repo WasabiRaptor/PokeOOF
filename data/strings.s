@@ -1726,7 +1726,7 @@ gUnknown_085EAD56:: @ 85EAD56
 	.string "LILYCOVE$"
 
 gUnknown_085EAD5F:: @ 85EAD5F
-	.string "DEWFORD$"
+	.string "HUHFORD$"
 
 gUnknown_085EAD67:: @ 85EAD67
 	.string "ENTER$"

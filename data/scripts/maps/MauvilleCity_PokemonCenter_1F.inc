@@ -41,7 +41,7 @@ MauvilleCity_PokemonCenter_1F_Text_210EA1: @ 8210EA1
 
 MauvilleCity_PokemonCenter_1F_Text_210F06: @ 8210F06
 	.string "When I accessed the RECORD CORNER,\n"
-	.string "the data for what’s hot in DEWFORD\l"
+	.string "the data for what’s hot in HUHFORD\l"
 	.string "got updated.\p"
 	.string "Now that bit of data is the same\n"
 	.string "as my friend’s!$"

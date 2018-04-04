@@ -493,7 +493,7 @@ RusturfTunnel_Text_22D510: @ 822D510
 
 RusturfTunnel_Text_22D5F3: @ 822D5F3
 	.string "To get from RUSTBORO to VERDANTURF,\n"
-	.string "you need to go to DEWFORD, then pass\l"
+	.string "you need to go to HUHFORD, then pass\l"
 	.string "through SLATEPORT and MAUVILLE…$"
 
 RusturfTunnel_Text_22D65C: @ 822D65C

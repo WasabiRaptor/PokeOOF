@@ -5,7 +5,7 @@ DewfordTown_PokemonCenter_2F_MapObjects: @ 852DAA8
 	object_event 4, MAP_OBJ_GFX_MYSTERY_GIFT_MAN, 0, 0, 1, 2, 0, 8, 17, 0, 0, 0, DewfordTown_PokemonCenter_2F_EventScript_276B03, 702, 0, 0
 
 DewfordTown_PokemonCenter_2F_MapWarps: @ 852DB08
-	warp_def 1, 6, 4, 2, DEWFORD_TOWN_POKEMON_CENTER_1F
+	warp_def 1, 6, 4, 2, HUHFORD_TOWN_POKEMON_CENTER_1F
 	warp_def 5, 1, 3, 0, UNION_ROOM
 	warp_def 9, 1, 3, 0, TRADE_CENTER
 

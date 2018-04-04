@@ -688,7 +688,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_21D377: @ 821D377
 
 LilycoveCity_PokemonTrainerFanClub_Text_21D3EE: @ 821D3EE
 	.string "Whatever anyone says, my favorite\n"
-	.string "TRAINER is DEWFORD’s GYM LEADER\l"
+	.string "TRAINER is HUHFORD’s GYM LEADER\l"
 	.string "BRAWLY!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_21D438: @ 821D438

@@ -3957,8 +3957,8 @@ const struct WildPokemonHeader gWildMonHeaders[] =
 		.fishingMonsInfo = &gLilycoveCity_FishingMonsInfo,
 	},
 	{
-		.mapGroup = MAP_GROUP(DEWFORD_TOWN),
-		.mapNum = MAP_NUM(DEWFORD_TOWN),
+		.mapGroup = MAP_GROUP(HUHFORD_TOWN),
+		.mapNum = MAP_NUM(HUHFORD_TOWN),
 		.landMonsInfo = NULL,
 		.waterMonsInfo = &gDewfordTown_WaterMonsInfo,
 		.rockSmashMonsInfo = NULL,

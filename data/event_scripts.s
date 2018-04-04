@@ -8274,7 +8274,7 @@ BattleFrontier_PokeNav_2AF371:: @ 82AF371
 
 BattleFrontier_PokeNav_2AF480:: @ 82AF480
 	.string "This is {STR_VAR_1}!\p"
-	.string "I went to DEWFORD’s GYM again\n"
+	.string "I went to HUHFORD’s GYM again\n"
 	.string "for training.\p"
 	.string "BRAWLY, the GYM LEADER, seems\n"
 	.string "to be tougher now.\p"
@@ -9067,7 +9067,7 @@ gText_Brawly_Pokenav_2B275D:: @ 82B275D
 gText_Brawly_Pokenav_2B286F:: @ 82B286F
 	.string "BRAWLY: Hey, {PLAYER}{STRING 5}!\n"
 	.string "My GYM’s ready for action!\p"
-	.string "Come back to DEWFORD anytime\n"
+	.string "Come back to HUHFORD anytime\n"
 	.string "for another challenge!$"
 
 gText_Brawly_Pokenav_2B28D1:: @ 82B28D1
@@ -9319,7 +9319,7 @@ gText_May_Pokenav_2B3AB3:: @ 2B3AB3
 gText_May_Pokenav_2B3B3F:: @ 2B3B3F
 	.string "MAY: Hi, {PLAYER}{STRING 5}!\p"
 	.string "You know how little towns like\n"
-	.string "PETALBURG and DEWFORD have GYMS?\p"
+	.string "PETALBURG and HUHFORD have GYMS?\p"
 	.string "For some reason, the big port of\n"
 	.string "SLATEPORT doesn’t have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
@@ -9445,7 +9445,7 @@ gText_Brendan_Pokenav_2B43EF:: @ 2B43EF
 gText_Brendan_Pokenav_2B4486:: @ 2B4486
 	.string "BRENDAN: Hey, {PLAYER}!\p"
 	.string "I don’t get how little towns like\n"
-	.string "PETALBURG and DEWFORD have GYMS.\p"
+	.string "PETALBURG and HUHFORD have GYMS.\p"
 	.string "I mean, not when the big port of\n"
 	.string "SLATEPORT doesn’t have a GYM.\p"
 	.string "When they finally build a GYM there,\n"
@@ -9844,7 +9844,7 @@ gText_MrStone_Pokenav_2B61E6:: @ 82B61E6
 	.string "What’s wrong? Have you forgotten\n"
 	.string "about that little errand of mine?\p"
 	.string "I need you to deliver my letter\n"
-	.string "to STEVEN in DEWFORD.\p"
+	.string "to STEVEN in HUHFORD.\p"
 	.string "After that, deliver our parcel to\n"
 	.string "CAPT. STERN in SLATEPORT.\p"
 	.string "You remember, don’t you?\p"

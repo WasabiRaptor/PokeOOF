@@ -29,7 +29,7 @@ static const struct HealLocation sHealLocations[] = {
     HEAL_LOCATION(LITTLEROOT_TOWN,                    5,  9),
     HEAL_LOCATION(LITTLEROOT_TOWN,                   14,  9),
     HEAL_LOCATION(OLDALE_TOWN,                        6, 17),
-    HEAL_LOCATION(DEWFORD_TOWN,                       2, 11),
+    HEAL_LOCATION(HUHFORD_TOWN,                       2, 11),
     HEAL_LOCATION(LAVARIDGE_TOWN,                     9,  7),
     HEAL_LOCATION(FALLARBOR_TOWN,                    14,  8),
     HEAL_LOCATION(VERDANTURF_TOWN,                   16,  4),

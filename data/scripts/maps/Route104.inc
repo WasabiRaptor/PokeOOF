@@ -412,12 +412,12 @@ Route104_EventScript_1ED139:: @ 81ED139
 	applymovement 255, Route104_Movement_1ED353
 	waitmovement 0
 	call Route104_EventScript_2720A8
-	showobjectat 255, DEWFORD_TOWN
+	showobjectat 255, HUHFORD_TOWN
 	applymovement 255, Route104_Movement_1ED355
 	waitmovement 0
 	setobjectxyperm 2, 12, 8
 	addobject 2
-	setobjectpriority 2, DEWFORD_TOWN, 0
+	setobjectpriority 2, HUHFORD_TOWN, 0
 	clearflag FLAG_0x2E4
 	applymovement 2, Route104_Movement_1ED35C
 	waitmovement 0
@@ -428,7 +428,7 @@ Route104_EventScript_1ED139:: @ 81ED139
 	hideobjectat 7, ROUTE_104
 	copyvar VAR_0x4096, VAR_0x8008
 	resetobjectpriority 255, ROUTE_104
-	resetobjectpriority 2, DEWFORD_TOWN
+	resetobjectpriority 2, HUHFORD_TOWN
 	moveobjectoffscreen 2
 	setvar VAR_0x408E, 0
 	checkflag FLAG_0x0BD

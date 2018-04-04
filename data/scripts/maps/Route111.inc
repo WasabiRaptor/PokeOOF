@@ -734,11 +734,11 @@ Route111_Text_1F1C12: @ 81F1C12
 	.string "the MIRAGE TOWER…$"
 
 Route111_Text_1F1C74: @ 81F1C74
-	.string "The CLAW FOSSIL disappeared into\n"
+	.string "The CLAW FOSSIL got SUCCED into\n"
 	.string "the sand…$"
 
 Route111_Text_1F1C9F: @ 81F1C9F
-	.string "The ROOT FOSSIL disappeared into\n"
+	.string "The ROOT FOSSIL got SUCCED into\n"
 	.string "the sand…$"
 
 Route111_Text_1F1CCA: @ 81F1CCA

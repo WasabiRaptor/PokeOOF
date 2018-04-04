@@ -316,7 +316,7 @@ DewfordTown_Gym_EventScript_1FC9CC:: @ 81FC9CC
 DewfordTown_Gym_Text_1FC9D6: @ 81FC9D6
 	.string "Hey, how’s it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "DEWFORD’s GYM LEADER BRAWLY commands\n"
+	.string "HUHFORD’s GYM LEADER BRAWLY commands\n"
 	.string "FIGHTING-type POKéMON.\p"
 	.string "Going against him with NORMAL-type\n"
 	.string "POKéMON is asking for trouble.\p"
@@ -389,7 +389,7 @@ DewfordTown_Gym_Text_1FCF26: @ 81FCF26
 
 DewfordTown_Gym_Text_1FCF44: @ 81FCF44
 	.string "I’m BRAWLY!\n"
-	.string "DEWFORD’s GYM LEADER!\p"
+	.string "HUHFORD’s GYM LEADER!\p"
 	.string "I’ve been churned in the rough waves\n"
 	.string "of these parts, and I’ve grown tough\l"
 	.string "in the pitch-black cave!\p"
@@ -432,10 +432,10 @@ DewfordTown_Gym_Text_1FD20D: @ 81FD20D
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_1FD272: @ 81FD272
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "HUHFORD TOWN POKéMON GYM$"
 
 DewfordTown_Gym_Text_1FD28B: @ 81FD28B
-	.string "DEWFORD TOWN POKéMON GYM\p"
+	.string "HUHFORD TOWN POKéMON GYM\p"
 	.string "BRAWLY’S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

@@ -3,7 +3,7 @@ DewfordTown_MapScripts:: @ 81E9507
 	.byte 0
 
 DewfordTown_MapScript1_1E950D: @ 81E950D
-	setflag FLAG_VISITED_DEWFORD_TOWN
+	setflag FLAG_VISITED_HUHFORD_TOWN
 	end
 
 DewfordTown_EventScript_1E9511:: @ 81E9511
@@ -118,14 +118,14 @@ DewfordTown_EventScript_1E9656:: @ 81E9656
 
 DewfordTown_EventScript_1E9660:: @ 81E9660
 	call DewfordTown_EventScript_271E95
-	setobjectpriority 2, DEWFORD_TOWN, 0
-	setobjectpriority 255, DEWFORD_TOWN, 0
+	setobjectpriority 2, HUHFORD_TOWN, 0
+	setobjectpriority 255, HUHFORD_TOWN, 0
 	applymovement 2, DewfordTown_Movement_1E991D
 	waitmovement 0
 	removeobject 2
 	applymovement 255, DewfordTown_Movement_1E9911
 	waitmovement 0
-	hideobjectat 255, DEWFORD_TOWN
+	hideobjectat 255, HUHFORD_TOWN
 	call DewfordTown_EventScript_2720A0
 	applymovement 4, DewfordTown_Movement_1E97A2
 	applymovement 255, DewfordTown_Movement_1E97A2
@@ -139,9 +139,9 @@ DewfordTown_EventScript_1E9660:: @ 81E9660
 	clearflag FLAG_0x371
 	clearflag FLAG_0x2E6
 	setflag FLAG_0x2E7
-	hideobjectat 4, DEWFORD_TOWN
+	hideobjectat 4, HUHFORD_TOWN
 	setvar VAR_0x408E, 2
-	resetobjectpriority 255, DEWFORD_TOWN
+	resetobjectpriority 255, HUHFORD_TOWN
 	warp ROUTE_104_MR_BRINEYS_HOUSE, 255, 5, 4
 	copyvar VAR_0x4096, VAR_0x8008
 	waitstate
@@ -150,14 +150,14 @@ DewfordTown_EventScript_1E9660:: @ 81E9660
 
 DewfordTown_EventScript_1E96E7:: @ 81E96E7
 	call DewfordTown_EventScript_271E95
-	setobjectpriority 2, DEWFORD_TOWN, 0
-	setobjectpriority 255, DEWFORD_TOWN, 1
+	setobjectpriority 2, HUHFORD_TOWN, 0
+	setobjectpriority 255, HUHFORD_TOWN, 1
 	applymovement 2, DewfordTown_Movement_1E991D
 	waitmovement 0
 	removeobject 2
 	applymovement 255, DewfordTown_Movement_1E9911
 	waitmovement 0
-	hideobjectat 255, DEWFORD_TOWN
+	hideobjectat 255, HUHFORD_TOWN
 	call DewfordTown_EventScript_2720A0
 	applymovement 4, DewfordTown_Movement_1E9865
 	applymovement 255, DewfordTown_Movement_1E9865
@@ -175,14 +175,14 @@ DewfordTown_EventScript_1E96E7:: @ 81E96E7
 	addobject 1
 	clearflag FLAG_0x2E8
 	setflag FLAG_0x2E7
-	hideobjectat 4, DEWFORD_TOWN
+	hideobjectat 4, HUHFORD_TOWN
 	checkflag FLAG_0x095
 	call_if 0, DewfordTown_EventScript_1E9790
 	checkflag FLAG_0x095
 	call_if 1, DewfordTown_EventScript_1E9799
 	closemessage
 	copyvar VAR_0x4096, VAR_0x8008
-	resetobjectpriority 255, DEWFORD_TOWN
+	resetobjectpriority 255, HUHFORD_TOWN
 	resetobjectpriority 2, ROUTE_109
 	moveobjectoffscreen 2
 	release
@@ -644,21 +644,21 @@ DewfordTown_Text_1E99A8: @ 81E99A8
 	.string "huh.$"
 	
 DewfordTown_Text_1E9A0F: @ 81E9A0F
-	.string "DEWFORD TOWN\n"
+	.string "HUHFORD TOWN\n"
 	.string "“huh.”$"
 
 DewfordTown_Text_1E9A3D: @ 81E9A3D
-	.string "DEWFORD TOWN POKéMON GYM\n"
+	.string "HUHFORD TOWN POKéMON GYM\n"
 	.string "LEADER: BRAWLY\l"
 	.string "“huh?”$"
 
 DewfordTown_Text_1E9A7F: @ 81E9A7F
-	.string "DEWFORD HALL\n"
+	.string "HUHFORD HALL\n"
 	.string "“huh!”$"
 
 Route104_Text_1E9AAF: @ 81E9AAF
 	.string "MR. BRINEY: huh.\n"
-	.string "We’ve hit land in DEWFORD.\p"
+	.string "We’ve hit land in HUHFORD.\p"
 	.string "I suppose you’re off to deliver that\n"
 	.string "LETTER to, who was it now, STEVEN!$"
 
@@ -680,7 +680,7 @@ DewfordTown_Text_1E9BD9: @ 81E9BD9
 Route104_Text_1E9C1D: @ 81E9C1D
 Route109_Text_1E9C1D: @ 81E9C1D
 	.string "MR. BRINEY: huh!\n"
-	.string "We’ve hit land in DEWFORD!\p"
+	.string "We’ve hit land in HUHFORD!\p"
 	.string "You just go on and tell me whenever\n"
 	.string "you want to set sail again!$"
 

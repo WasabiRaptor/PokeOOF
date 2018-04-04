@@ -52,7 +52,7 @@ Route116_TunnelersRestHouse_Text_22B99F: @ 822B99F
 Route116_TunnelersRestHouse_Text_22BAAF: @ 822BAAF
 	.string "To get to VERDANTURF without using\n"
 	.string "this TUNNEL, you’d have to cross the\l"
-	.string "sea to DEWFORD, sail on to SLATEPORT,\l"
+	.string "sea to HUHFORD, sail on to SLATEPORT,\l"
 	.string "then travel through MAUVILLE.$"
 
 Route116_TunnelersRestHouse_Text_22BB3B: @ 822BB3B

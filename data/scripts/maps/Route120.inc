@@ -430,7 +430,7 @@ Route120_Text_1F5BAF: @ 81F5BAF
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
+	.string "since I first met you in HUHFORD.\p"
 	.string "I’d like you to have this\n"
 	.string "DEVON SCOPE.\p"
 	.string "Who knows, there may be other\n"

@@ -369,7 +369,7 @@ SlateportCity_OceanicMuseum_2F_Text_20C36C: @ 820C36C
 SlateportCity_OceanicMuseum_2F_Text_20C43F: @ 820C43F
 	.string "I saw a model of a ship here.\p"
 	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near DEWFORD TOWN…$"
+	.string "near HUHFORD TOWN…$"
 
 SlateportCity_OceanicMuseum_2F_Text_20C495: @ 820C495
 	.string "Don’t you dare run around inside\n"
