@@ -7001,11 +7001,11 @@ BattleFrontier_PokeNav_2A9813:: @ 82A9813
 
 BattleFrontier_PokeNav_2A98A8:: @ 82A98A8
 	.string "I... I killed them.\p"
-	.string "I killed them all. They're dead...\n" 
+	.string "I killed them all. Theyre dead...\n" 
 	.string "every single one of them.\p"
 	.string "And not just the men. But the women...\n"
 	.string "and the children, too.\p"
-	.string "They're like animals,\n"
+	.string "Theyre like animals,\n"
 	.string "and I slaughtered them like animals!\p"
 	.string "I HATE THEM!$"
 

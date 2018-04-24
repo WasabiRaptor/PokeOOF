@@ -1242,11 +1242,11 @@ Route111_Text_29880A: @ 829880A
 
 Route111_Text_298853: @ 8298853
 	.string "I... I killed them.\p"
-	.string "I killed them all. They're dead...\n" 
+	.string "I killed them all. Theyre dead...\n" 
 	.string "every single one of them.\p"
 	.string "And not just the men. But the women...\n"
 	.string "and the children, too.\p"
-	.string "They're like animals,\n"
+	.string "Theyre like animals,\n"
 	.string "and I slaughtered them like animals!\p"
 	.string "I HATE THEM!$"
 
