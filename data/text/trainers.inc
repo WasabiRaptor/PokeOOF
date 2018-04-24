@@ -178,7 +178,7 @@ Route103_Text_294F21: @ 8294F21
 
 Route103_Text_294F42: @ 8294F42
 	.string "My delightful POKéMON looks darling\n"
-	.string "even when it’s fainted!$"
+	.string "even when it’s fucking dead!$"
 
 Route103_Text_294F7E: @ 8294F7E
 	.string "I’ll get you to come out and look in\n"
@@ -4741,7 +4741,7 @@ Route134_Text_2A489B: @ 82A489B
 Route134_Text_2A48BD: @ 82A48BD
 	.string "If we can’t SURF, how are we supposed\n"
 	.string "to get home?\p"
-	.string "Actually, I know a fainted POKéMON\n"
+	.string "Actually, I know a fucking dead POKéMON\n"
 	.string "can still SURF, but it feels wrong.$"
 
 Route134_Text_2A4937: @ 82A4937

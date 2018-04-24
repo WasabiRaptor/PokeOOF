@@ -3472,7 +3472,7 @@ gText_FirePunch48BP:: @ 85ECF4B
 	.string "FIRE PUNCH{CLEAR_TO 0x4E}48BP$"
 
 gText_PkmnFainted3:: @ 85ECF5D
-	.string "{STR_VAR_1} fainted…\p\n$"
+	.string "{STR_VAR_1} fucking died!\p\n$"
 
 gText_Marco:: @ 85ECF6B
 	.string "MARCO$"

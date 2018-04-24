@@ -40,7 +40,7 @@ MossdeepCity_Mart_EventScript_222408:: @ 8222408
 
 MossdeepCity_Mart_Text_222411: @ 8222411
 	.string "REVIVE is fantastic!\p"
-	.string "Give it to a fainted POKéMON,\n"
+	.string "Give it to a fucking dead POKéMON,\n"
 	.string "and the POKéMON will arise.\p"
 	.string "But be careful, REVIVE doesn’t restore\n"
 	.string "the used-up PP of moves.$"

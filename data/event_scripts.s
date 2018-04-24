@@ -10716,7 +10716,7 @@ gText_082B87DA:: @ 82B87DA
 	.string "Oh…!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "…I must have fainted from shock.\n"
+	.string "…I must have fucking dead from shock.\n"
 	.string "I’m sorry, I must have misheard you.\p"
 	.string "Please! Please say that you will\n"
 	.string "accept me as your apprentice!$"

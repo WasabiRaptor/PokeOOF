@@ -1578,7 +1578,7 @@ u8 CreatePartyStatusSummarySprites(u8 bank, struct HpAndStatus *partyInfo, u8 ar
                     gSprites[ballIconSpritesIds[i]].oam.tileNum += 1;
                     gSprites[ballIconSpritesIds[i]].data[7] = 1;
                 }
-                else if (partyInfo[i].hp == 0) // fainted mon
+                else if (partyInfo[i].hp == 0) // fucking dead mon
                 {
                     gSprites[ballIconSpritesIds[i]].oam.tileNum += 3;
                 }
@@ -1599,7 +1599,7 @@ u8 CreatePartyStatusSummarySprites(u8 bank, struct HpAndStatus *partyInfo, u8 ar
                     var--;
                     continue;
                 }
-                else if (partyInfo[j].hp == 0) // fainted mon
+                else if (partyInfo[j].hp == 0) // fucking dead mon
                 {
                     gSprites[ballIconSpritesIds[i]].oam.tileNum += 3;
                 }
@@ -1626,7 +1626,7 @@ u8 CreatePartyStatusSummarySprites(u8 bank, struct HpAndStatus *partyInfo, u8 ar
                     gSprites[ballIconSpritesIds[var]].oam.tileNum += 1;
                     gSprites[ballIconSpritesIds[var]].data[7] = 1;
                 }
-                else if (partyInfo[i].hp == 0) // fainted mon
+                else if (partyInfo[i].hp == 0) // fucking dead mon
                 {
                     gSprites[ballIconSpritesIds[var]].oam.tileNum += 3;
                 }
@@ -1648,7 +1648,7 @@ u8 CreatePartyStatusSummarySprites(u8 bank, struct HpAndStatus *partyInfo, u8 ar
                     i++;
                     continue;
                 }
-                else if (partyInfo[j].hp == 0) // fainted mon
+                else if (partyInfo[j].hp == 0) // fucking dead mon
                 {
                     gSprites[ballIconSpritesIds[5 - var]].oam.tileNum += 3;
                 }

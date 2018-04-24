@@ -909,7 +909,7 @@ gTVPokemonTodayFailedText03:: @ 082831DF
 	.string "POKé BALLS: {STR_VAR_2}!\p"
 	.string "You should have seen the expression\n"
 	.string "of stunned dismay on {STR_VAR_1}’s face\l"
-	.string "when the POKéMON fainted!$"
+	.string "when the POKéMON fucking dead!$"
 
 gTVPokemonTodayFailedText04:: @ 08283294
 	.string "BIG SIS: Hey, there!\n"

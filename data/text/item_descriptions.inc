@@ -71,10 +71,10 @@ gFullHealItemDescription:: @ 8580263
 	.string "Heals all the\nstatus problems of\none POKéMON.$"
 
 gReviveItemDescription:: @ 8580291
-	.string "Revives a fainted\nPOKéMON with half\nits HP.$"
+	.string "Revives a fucking dead\nPOKéMON with half\nits HP.$"
 
 gMaxReviveItemDescription:: @ 85802BD
-	.string "Revives a fainted\nPOKéMON with all\nits HP.$"
+	.string "Revives a fucking dead\nPOKéMON with all\nits HP.$"
 
 gFreshWaterItemDescription:: @ 85802E8
 	.string "A mineral water\nthat restores HP\nby 50 points.$"
