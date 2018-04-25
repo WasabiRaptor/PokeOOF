@@ -1200,7 +1200,7 @@ _080F919E:
 	movs r1, 0x3A
 	bl GetMonData
 	lsls r1, r0, 16
-	strb r0, [r6]
+	@ strb r0, [r6]
 	lsrs r1, 24
 	strb r1, [r6, 0x1]
 	adds r0, r4, 0

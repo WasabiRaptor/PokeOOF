@@ -878,10 +878,10 @@ u8 GetEggStepsToSubtract(void)
         {
             u8 ability = GetMonAbility(&gPlayerParty[i]);
             if (ability == ABILITY_MAGMA_ARMOR || ability == ABILITY_FLAME_BODY)
-                return 2;
+                return 0;
         }
     }
-    return 1;
+    return 3;
 }
 
 u16 sub_80722E0(void)
