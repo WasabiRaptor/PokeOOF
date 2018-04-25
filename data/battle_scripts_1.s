@@ -767,7 +767,14 @@ BattleScript_EffectRest::
 	waitmessage 0x40
 	updatestatusicon ATTACKER
 	waitstate
-	goto BattleScript_PresentHealTarget
+	attackanimation
+	waitanimation
+	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
+	healthbarupdate TARGET
+	datahpupdate TARGET
+	printstring STRINGID_PKMNREGAINEDHEALTH
+	waitmessage 0x40
+	goto BattleScript_EffectOHKO
 
 BattleScript_RestCantSleep::
 	pause 0x40

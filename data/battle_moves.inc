@@ -1718,12 +1718,12 @@ gBattleMoves:: @ 831C898
 
 @ Rest
 	.byte 0x25 @ effect
-	.byte 0 @ power
+	.byte 1 @ power
 	.byte TYPE_PSYCHIC
-	.byte 0 @ accuracy
+	.byte 100 @ accuracy
 	.byte 10 @ PP
 	.byte 0 @ side effect chance
-	.byte F_TARGET_USER
+	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_SNATCH @ misc. flags
 

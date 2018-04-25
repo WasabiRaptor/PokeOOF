@@ -170,4 +170,3 @@ $(ELF): $(OBJ_DIR)/ld_script.ld $(OBJS)
 
 $(ROM): $(ELF)
 	$(OBJCOPY) -O binary --gap-fill 0xFF --pad-to 0x9000000 $< $@
-

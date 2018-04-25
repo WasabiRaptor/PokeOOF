@@ -227,10 +227,10 @@ gEasyChatWord_Appears:: @ 859B23B
 	.string "APPEARS$"
 
 gEasyChatWord_Faint:: @ 859B243
-	.string "FAINT$"
+	.string "DEAD$"
 
 gEasyChatWord_Fainted:: @ 859B249
-	.string "FAINTED$"
+	.string "FUCKING$"
 
 	.align 2
 gEasyChatGroup_Actions:: @ 859B254
