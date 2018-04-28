@@ -1142,8 +1142,9 @@ void ClearBattleMonForms(void)
 
 u16 GetBattleBGM(void)
 {
-    u16 rnd = Random();
-    u16 rnd2 = Random();
+    u8 rnd = Random();
+    u8 rnd2 = Random();
+    u8 rnd3 = Random();
 
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         return MUS_BATTLE34;
@@ -1163,7 +1164,7 @@ u16 GetBattleBGM(void)
             trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
 
         switch (trainerClass)
-        {              
+        {
         case TRAINER_CLASS_PKMN_RANGER:
         case TRAINER_CLASS_COOLTRAINER_1:
         case TRAINER_CLASS_PSYCHIC:
@@ -1175,7 +1176,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_BEAUTY:
         case TRAINER_CLASS_LADY:
         case TRAINER_CLASS_HEX_MANIAC:
-            return MUS_RG_VS_GYM;
+            return MUS_RG_VS_GYM;              
         case TRAINER_CLASS_INTERVIEWER:
         case TRAINER_CLASS_WINSTRATE:
             return MUS_RG_VS_LAST;
@@ -1209,22 +1210,52 @@ u16 GetBattleBGM(void)
             return MUS_VS_FRONT;
         default:
             {
-            if (rnd == rnd2)
-                return MUS_RG_VS_DEO;
+            if (rnd == rnd2)       
+                if (rnd > rnd3)
+                    return MUS_BATTLE33;
+                else if (rnd == rnd3)
+                    return MUS_RG_VS_LAST;
+                else
+                    return MUS_VS_FRONT;
             else if (rnd > rnd2)
-                return MUS_BATTLE20;
+                if (rnd > rnd3)
+                    return MUS_BATTLE27;
+                else if (rnd == rnd3)
+                    return MUS_BATTLE34;
+                else
+                    return MUS_RG_VS_TORE;
             else
-                return MUS_RG_VS_TORE;
+                if (rnd > rnd3)
+                    return MUS_BATTLE20;
+                else if (rnd == rnd3)
+                    return MUS_BATTLE38;
+                else
+                    return MUS_BATTLE35;
             }
         }
     }
     {
-    if (rnd == rnd2)
-        return MUS_VS_REKKU;
+    if (rnd == rnd2)       
+        if (rnd > rnd3)
+            return MUS_VS_REKKU;
+        else if (rnd == rnd3)
+            return MUS_RG_VS_LAST;
+        else
+            return MUS_VS_FRONT;
     else if (rnd > rnd2)
-        return MUS_BATTLE27;
+        if (rnd > rnd3)
+            return MUS_BATTLE31;
+        else if (rnd == rnd3)
+            return MUS_BATTLE30;
+        else
+            return MUS_RG_VS_DEN;
     else
-        return MUS_RG_VS_DEN;
+        if (rnd > rnd3)
+            return MUS_BATTLE20;
+        else if (rnd == rnd3)
+            return MUS_BATTLE32;
+        else
+            return MUS_BATTLE36;
     }
 }
 
