@@ -1720,7 +1720,7 @@ gBattleMoves:: @ 831C898
 	.byte 0x25 @ effect
 	.byte 1 @ power
 	.byte TYPE_PSYCHIC
-	.byte 100 @ accuracy
+	.byte 30 @ accuracy
 	.byte 10 @ PP
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON

@@ -1199,13 +1199,13 @@ _080F919E:
 	adds r0, r4, 0
 	movs r1, 0x3A
 	bl GetMonData
-	lsls r1, r0, 16
-	@ strb r0, [r6]
-	lsrs r1, 24
-	strb r1, [r6, 0x1]
-	adds r0, r4, 0
-	movs r1, 0x39
-	mov r2, sp
+	@lsls r1, r0, 16 		@the healing actually happens between here
+	@strb r0, [r6]
+	@lsrs r1, 24
+	@strb r1, [r6, 0x1]
+	@adds r0, r4, 0
+	@movs r1, 0x39
+	@mov r2, sp 			@ and here
 	bl SetMonData
 	adds r0, r4, 0
 	movs r1, 0x15
@@ -1268,6 +1268,101 @@ _080F922C:
 	bx r0
 	.pool
 	thumb_func_end HealPlayerParty
+
+	thumb_func_start HealPlayerPartyWithoutFaintedMons
+HealPlayerParty: @ 80F9180
+	push {r4-r7,lr}
+	mov r7, r10
+	mov r6, r9
+	mov r5, r8
+	push {r5-r7}
+	sub sp, 0x4
+	movs r0, 0
+	mov r8, r0
+	ldr r0, =gPlayerPartyCount
+	ldrb r0, [r0]
+	cmp r8, r0
+	bcs _080F922C
+	ldr r1, =gPlayerParty
+	mov r10, r1
+	mov r6, sp
+_080F919E:
+	movs r0, 0x64
+	mov r4, r8
+	muls r4, r0
+	add r4, r10
+	adds r0, r4, 0
+	movs r1, 0x3A
+	bl GetMonData
+	lsls r1, r0, 16 		@the healing actually happens between here
+	strb r0, [r6]
+	lsrs r1, 24
+	strb r1, [r6, 0x1]
+	adds r0, r4, 0
+	movs r1, 0x39
+	mov r2, sp 			@ and here
+	bl SetMonData
+	adds r0, r4, 0
+	movs r1, 0x15
+	bl GetMonData
+	lsls r0, 24
+	lsrs r7, r0, 24
+	movs r5, 0
+	movs r1, 0x1
+	add r1, r8
+	mov r9, r1
+_080F91D4:
+	adds r1, r5, 0
+	adds r1, 0xD
+	adds r0, r4, 0
+	bl GetMonData
+	lsls r0, 16
+	lsrs r0, 16
+	adds r1, r7, 0
+	adds r2, r5, 0
+	bl CalculatePPWithBonus
+	strb r0, [r6]
+	adds r1, r5, 0
+	adds r1, 0x11
+	adds r0, r4, 0
+	mov r2, sp
+	bl SetMonData
+	adds r0, r5, 0x1
+	lsls r0, 24
+	lsrs r5, r0, 24
+	cmp r5, 0x3
+	bls _080F91D4
+	movs r0, 0
+	strb r0, [r6]
+	strb r0, [r6, 0x1]
+	strb r0, [r6, 0x2]
+	strb r0, [r6, 0x3]
+	movs r1, 0x64
+	mov r0, r8
+	muls r0, r1
+	add r0, r10
+	movs r1, 0x37
+	mov r2, sp
+	bl SetMonData
+	mov r1, r9
+	lsls r0, r1, 24
+	lsrs r0, 24
+	mov r8, r0
+	ldr r0, =gPlayerPartyCount
+	ldrb r0, [r0]
+	cmp r8, r0
+	bcc _080F919E
+_080F922C:
+	add sp, 0x4
+	pop {r3-r5}
+	mov r8, r3
+	mov r9, r4
+	mov r10, r5
+	pop {r4-r7}
+	pop {r0}
+	bx r0
+	.pool
+	thumb_func_end HealPlayerPartyWithoutFaintedMons
 
 	thumb_func_start ScriptGiveMon
 @ void ScriptGiveMon(s16 species_num, u8 level, int held_item)
