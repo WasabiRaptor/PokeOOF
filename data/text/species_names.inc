@@ -135,7 +135,7 @@ gSpeciesNames:: @ 83185C8
 	.string "eeVee$", 11
 	.string "VaPoReoN$", 11
 	.string "JoLTeoN$", 11
-	.string "FLaReoN$", 11
+	.string "GLAZEON$", 11
 	.string "PoRyGoN$", 11
 	.string "oMaNyTe$", 11
 	.string "oMaSTaR$", 11

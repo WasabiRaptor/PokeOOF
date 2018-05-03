@@ -815,10 +815,10 @@ gJolteonPokedexText:: @ 85622D9
 	.string "made of electrically charged needles.$"
 
 gFlareonPokedexText:: @ 856237A
-	.string "FLAREON’s fluffy fur releases heat into\n"
-	.string "the air so that its body does not get\n"
-	.string "excessively hot. Its body temperature can\n"
-	.string "rise to a maximum of 1,650 degrees F.$"
+	.string "GLAZEON has a unique flavor of sprinkles\n"
+	.string "that is highly sought by poachers. However,\n"
+	.string "the Donut Steel on this Pokémon is able\n"
+	.string "to repel all thieves’ attempts to steal it.$"
 
 gPorygonPokedexText:: @ 8562418
 	.string "It is capable of reverting itself entirely\n"

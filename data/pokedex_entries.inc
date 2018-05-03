@@ -272,7 +272,7 @@ gPokedexEntries:: @ 856B5B0
 	pokedex_entry  10,  290,   gVaporeonPokedexText, 316,   8,  256,  0
 	.string "LIGHTNING$", 12
 	pokedex_entry   8,  245,	gJolteonPokedexText, 283,   8,  256,  0
-	.string "FLAME$", 12
+	.string "DONUT STEEL$", 12
 	pokedex_entry   9,  250,	gFlareonPokedexText, 306,  12,  256,  0
 	.string "VIRTUAL$", 12
 	pokedex_entry   8,  365,	gPorygonPokedexText, 328,  15,  256,  0
