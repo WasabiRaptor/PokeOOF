@@ -517,7 +517,7 @@ gEasyChatWordsByLetter_F:: @ 859D468
 	.2byte EC_WORD_FLAME_BODY
 	.2byte EC_MOVE(FLAME_WHEEL)
 	.2byte EC_MOVE(FLAMETHROWER)
-	.2byte EC_POKEMON2(FLAREON)
+	.2byte EC_POKEMON2(GLAZEON)
 	.2byte EC_MOVE2(FLASH)
 	.2byte EC_WORD_FLASH_FIRE
 	.2byte EC_WORD_FLATTEN
@@ -1995,7 +1995,7 @@ gEasyChatWordsByLetter_UnusedJapaneseFu:: @ 859E060
 	.2byte EC_WORD_FEAR
 	.2byte EC_WORD_FEVER
 	.2byte EC_MOVE2(IMPRISON)
-	.2byte EC_POKEMON2(FLAREON)
+	.2byte EC_POKEMON2(GLAZEON)
 	.2byte -1, 2 @ doubled Pokémon species names
 	.2byte EC_POKEMON2(ALAKAZAM)
 	.2byte EC_POKEMON(ALAKAZAM)

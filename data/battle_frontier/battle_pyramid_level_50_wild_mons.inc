@@ -570,7 +570,7 @@ gBattlePyramidLevel50WildMons_Round12:: @ 8612AD0
 	.2byte MOVE_SANDSTORM, MOVE_GIGA_SUCC, MOVE_SOLAR_BEAM, MOVE_NONE
 
 @ 5
-	.2byte SPECIES_FLAREON
+	.2byte SPECIES_GLAZEON
 	.byte 44 @ base level
 	.byte 2 @ unknown
 	.2byte MOVE_SUNNY_DAY, MOVE_FLAMETHROWER, MOVE_PROTECT, MOVE_NONE
@@ -913,7 +913,7 @@ gBattlePyramidLevel50WildMons_Round19:: @ 8612D70
 	.2byte MOVE_THUNDERBOLT, MOVE_PIN_MISSILE, MOVE_NONE, MOVE_NONE
 
 @ 5
-	.2byte SPECIES_FLAREON
+	.2byte SPECIES_GLAZEON
 	.byte 48 @ base level
 	.byte 2 @ unknown
 	.2byte MOVE_FLAMETHROWER, MOVE_BITE, MOVE_NONE, MOVE_NONE

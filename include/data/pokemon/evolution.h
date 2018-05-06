@@ -78,7 +78,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_MAGIKARP]   = {{EVO_LEVEL, 20, SPECIES_GYARADOS}},
     [SPECIES_EEVEE]      = {{EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_JOLTEON},
                             {EVO_ITEM, ITEM_WATER_STONE, SPECIES_VAPOREON},
-                            {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON},
+                            {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_GLAZEON},
                             {EVO_FRIENDSHIP_DAY, 0, SPECIES_ESPEON},
                             {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_UMBREON}},
     [SPECIES_PORYGON]    = {{EVO_TRADE_ITEM, ITEM_UP_GRADE, SPECIES_PORYGON2}},

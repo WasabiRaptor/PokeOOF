@@ -142,7 +142,7 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Eevee,
     gMonIcon_Vaporeon,
     gMonIcon_Jolteon,
-    gMonIcon_Flareon,
+    gMonIcon_Glazeon,
     gMonIcon_Porygon,
     gMonIcon_Omanyte,
     gMonIcon_Omastar,
@@ -586,7 +586,7 @@ const u8 gMonIconPaletteIndices[] =
     2, // Eevee
     0, // Vaporeon
     0, // Jolteon
-    0, // Flareon
+    0, // Glazeon
     0, // Porygon
     0, // Omanyte
     0, // Omastar

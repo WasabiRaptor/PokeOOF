@@ -4464,7 +4464,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_FLAREON] =
+    [SPECIES_GLAZEON] =
     {
         .baseHP        = 65,
         .baseAttack    = 130,

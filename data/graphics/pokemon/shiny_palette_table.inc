@@ -136,7 +136,7 @@ gMonShinyPaletteTable:: @ 8304438
 	obj_pal gMonShinyPalette_Eevee, 633
 	obj_pal gMonShinyPalette_Vaporeon, 634
 	obj_pal gMonShinyPalette_Jolteon, 635
-	obj_pal gMonShinyPalette_Flareon, 636
+	obj_pal gMonShinyPalette_Glazeon, 636
 	obj_pal gMonShinyPalette_Porygon, 637
 	obj_pal gMonShinyPalette_Omanyte, 638
 	obj_pal gMonShinyPalette_Omastar, 639

@@ -139,7 +139,7 @@ const u16 *const gLevelUpLearnsets[] =
     gEeveeLevelUpLearnset,
     gVaporeonLevelUpLearnset,
     gJolteonLevelUpLearnset,
-    gFlareonLevelUpLearnset,
+    gGlazeonLevelUpLearnset,
     gPorygonLevelUpLearnset,
     gOmanyteLevelUpLearnset,
     gOmastarLevelUpLearnset,

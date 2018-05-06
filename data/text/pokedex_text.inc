@@ -814,7 +814,7 @@ gJolteonPokedexText:: @ 85622D9
 	.string "to drop thunderbolts. The bristling fur is\n"
 	.string "made of electrically charged needles.$"
 
-gFlareonPokedexText:: @ 856237A
+gGlazeonPokedexText:: @ 856237A
 	.string "GLAZEON has a unique flavor of sprinkles\n"
 	.string "that is highly sought by poachers. However,\n"
 	.string "the Donut Steel on this Pokémon is able\n"

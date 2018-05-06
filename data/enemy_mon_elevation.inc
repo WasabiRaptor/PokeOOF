@@ -137,7 +137,7 @@ gEnemyMonElevation:: @ 8305DCC
 	.byte  0 @ SPECIES_EEVEE
 	.byte  0 @ SPECIES_VAPOREON
 	.byte  0 @ SPECIES_JOLTEON
-	.byte  0 @ SPECIES_FLAREON
+	.byte  0 @ SPECIES_GLAZEON
 	.byte  0 @ SPECIES_PORYGON
 	.byte  0 @ SPECIES_OMANYTE
 	.byte  0 @ SPECIES_OMASTAR

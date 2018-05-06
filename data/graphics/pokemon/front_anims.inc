@@ -1469,7 +1469,7 @@ gAnimCmd_JOLTEON_1:: @ 8306EF4
     obj_image_anim_end
 
 	.align 2
-gAnimCmd_FLAREON_1:: @ 8306F00
+gAnimCmd_GLAZEON_1:: @ 8306F00
     obj_image_anim_frame 1, 30
     obj_image_anim_frame 0, 30
     obj_image_anim_end
@@ -5033,9 +5033,9 @@ gAnims_JOLTEON:: @ 8309148
     .4byte gAnimCmd_JOLTEON_1
 
 	.align 2
-gAnims_FLAREON:: @ 8309150
+gAnims_GLAZEON:: @ 8309150
     .4byte gAnimCmd_General_Frame0
-    .4byte gAnimCmd_FLAREON_1
+    .4byte gAnimCmd_GLAZEON_1
 
 	.align 2
 gAnims_PORYGON:: @ 8309158
@@ -6609,7 +6609,7 @@ gMonAnimationsSpriteAnimsPtrTable:: @ 8309AAC
     .4byte gAnims_EEVEE
     .4byte gAnims_VAPOREON
     .4byte gAnims_JOLTEON
-    .4byte gAnims_FLAREON
+    .4byte gAnims_GLAZEON
     .4byte gAnims_PORYGON
     .4byte gAnims_OMANYTE
     .4byte gAnims_OMASTAR

@@ -3239,27 +3239,27 @@ gMonFootprint_Jolteon:: @ 8C8DFE4
 	.incbin "graphics/pokemon/footprints/jolteon_footprint.1bpp"
 
 	.align 2
-gMonStillFrontPic_Flareon:: @ 8C8E004
+gMonStillFrontPic_Glazeon:: @ 8C8E004
 	.incbin "graphics/pokemon/front_pics/flareon_still_front_pic.4bpp.lz"
 
 	.align 2
-gMonPalette_Flareon:: @ 8C8E380
+gMonPalette_Glazeon:: @ 8C8E380
 	.incbin "graphics/pokemon/palettes/flareon_palette.gbapal.lz"
 
 	.align 2
-gMonBackPic_Flareon:: @ 8C8E3A8
+gMonBackPic_Glazeon:: @ 8C8E3A8
 	.incbin "graphics/pokemon/back_pics/flareon_back_pic.4bpp.lz"
 
 	.align 2
-gMonShinyPalette_Flareon:: @ 8C8E738
+gMonShinyPalette_Glazeon:: @ 8C8E738
 	.incbin "graphics/pokemon/palettes/flareon_shiny_palette.gbapal.lz"
 
 	.align 2
-gMonIcon_Flareon:: @ 8C8E760
+gMonIcon_Glazeon:: @ 8C8E760
 	.incbin "graphics/pokemon/icons/flareon_icon.4bpp"
 
 	.align 2
-gMonFootprint_Flareon:: @ 8C8EB60
+gMonFootprint_Glazeon:: @ 8C8EB60
 	.incbin "graphics/pokemon/footprints/flareon_footprint.1bpp"
 
 	.align 2

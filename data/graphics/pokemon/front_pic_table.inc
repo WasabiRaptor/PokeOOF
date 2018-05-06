@@ -136,7 +136,7 @@ gMonFrontPicTable:: @ 830A18C
 	obj_tiles gMonFrontPic_Eevee, 0x800, 133
 	obj_tiles gMonFrontPic_Vaporeon, 0x800, 134
 	obj_tiles gMonFrontPic_Jolteon, 0x800, 135
-	obj_tiles gMonFrontPic_Flareon, 0x800, 136
+	obj_tiles gMonFrontPic_Glazeon, 0x800, 136
 	obj_tiles gMonFrontPic_Porygon, 0x800, 137
 	obj_tiles gMonFrontPic_Omanyte, 0x800, 138
 	obj_tiles gMonFrontPic_Omastar, 0x800, 139

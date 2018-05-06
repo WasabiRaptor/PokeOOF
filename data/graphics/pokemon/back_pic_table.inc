@@ -136,7 +136,7 @@ gMonBackPicTable:: @ 83028B8
 	obj_tiles gMonBackPic_Eevee, 0x800, 133
 	obj_tiles gMonBackPic_Vaporeon, 0x800, 134
 	obj_tiles gMonBackPic_Jolteon, 0x800, 135
-	obj_tiles gMonBackPic_Flareon, 0x800, 136
+	obj_tiles gMonBackPic_Glazeon, 0x800, 136
 	obj_tiles gMonBackPic_Porygon, 0x800, 137
 	obj_tiles gMonBackPic_Omanyte, 0x800, 138
 	obj_tiles gMonBackPic_Omastar, 0x800, 139

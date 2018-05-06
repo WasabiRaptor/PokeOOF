@@ -319,7 +319,7 @@ static const u8 sSpeciesToBackAnimSet[] =
     0x12, // SPECIES_EEVEE
     0x19, // SPECIES_VAPOREON
     0x16, // SPECIES_JOLTEON
-    0x17, // SPECIES_FLAREON
+    0x17, // SPECIES_GLAZEON
     0x01, // SPECIES_PORYGON
     0x13, // SPECIES_OMANYTE
     0x13, // SPECIES_OMASTAR

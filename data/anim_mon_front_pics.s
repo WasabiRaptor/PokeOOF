@@ -545,7 +545,7 @@ gMonFrontPic_Jolteon:: @ 8B35098
 	.incbin "graphics/pokemon/anim_front_pics/jolteon_front_pic.4bpp.lz"
 
 	.align 2
-gMonFrontPic_Flareon:: @ 8B35774
+gMonFrontPic_Glazeon:: @ 8B35774
 	.incbin "graphics/pokemon/anim_front_pics/flareon_front_pic.4bpp.lz"
 
 	.align 2

@@ -136,7 +136,7 @@ gMonPaletteTable:: @ 8303678
 	obj_pal gMonPalette_Eevee, 133
 	obj_pal gMonPalette_Vaporeon, 134
 	obj_pal gMonPalette_Jolteon, 135
-	obj_pal gMonPalette_Flareon, 136
+	obj_pal gMonPalette_Glazeon, 136
 	obj_pal gMonPalette_Porygon, 137
 	obj_pal gMonPalette_Omanyte, 138
 	obj_pal gMonPalette_Omastar, 139

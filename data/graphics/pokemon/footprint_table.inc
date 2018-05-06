@@ -136,7 +136,7 @@ gMonFootprintTable:: @ 856E694
 	.4byte gMonFootprint_Eevee
 	.4byte gMonFootprint_Vaporeon
 	.4byte gMonFootprint_Jolteon
-	.4byte gMonFootprint_Flareon
+	.4byte gMonFootprint_Glazeon
 	.4byte gMonFootprint_Porygon
 	.4byte gMonFootprint_Omanyte
 	.4byte gMonFootprint_Omastar
