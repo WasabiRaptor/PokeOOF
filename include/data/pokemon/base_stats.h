@@ -4797,12 +4797,12 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_MOLTRES] =
     {
         .baseHP        = 90,
-        .baseAttack    = 100,
+        .baseAttack    = 150,
         .baseDefense   = 90,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 125,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 60,
         .baseSpDefense = 85,
-        .type1 = TYPE_FIRE,
+        .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
         .catchRate = 3,
         .expYield = 217,
