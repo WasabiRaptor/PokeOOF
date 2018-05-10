@@ -4731,10 +4731,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_ARTICUNO] =
     {
         .baseHP        = 90,
-        .baseAttack    = 85,
+        .baseAttack    = 60,
         .baseDefense   = 100,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 95,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 100,
         .baseSpDefense = 125,
         .type1 = TYPE_ICE,
         .type2 = TYPE_FLYING,
