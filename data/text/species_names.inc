@@ -71,7 +71,7 @@ gSpeciesNames:: @ 83185C8
 	.string "BeLLSPRouT$", 11
 	.string "WeePiNBeLL$", 11
 	.string "ViCTReeBeL$", 11
-	.string "Whats hentai?$", 11
+	.string "WhatHentai$", 11
 	.string "HENTAI BOI$", 11
 	.string "GeoDuDe$", 11
 	.string "GRaVeLeR$", 11
@@ -113,7 +113,7 @@ gSpeciesNames:: @ 83185C8
 	.string "RHyHoRN$", 11
 	.string "RHyDoN$", 11
 	.string "CHaNSey$", 11
-	.string "Also Hentai$", 11
+	.string "AlsoHentai$", 11
 	.string "KaNGaSKHaN$", 11
 	.string "HoRSea$", 11
 	.string "SeaDRa$", 11
