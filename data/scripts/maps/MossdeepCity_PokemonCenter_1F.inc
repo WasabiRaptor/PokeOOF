@@ -33,7 +33,7 @@ MossdeepCity_PokemonCenter_1F_Text_22226E: @ 822226E
 MossdeepCity_PokemonCenter_1F_Text_2222D9: @ 82222D9
 	.string "I’m such a huge fan of Elon Musk,\n"
 	.string "he did a lot of good to this world.\p"
-	.string "He even owns NASA and they are\n"
+	.string "He even owns NASA-X and they are\n"
 	.string " planning to soon go into space\p"
 	.string " to save space from Deoxys’s rage.\l"
 	.string "The destructive powers of Groudon\n"
@@ -44,7 +44,7 @@ MossdeepCity_PokemonCenter_1F_Text_2222D9: @ 82222D9
 	.string " outraged and already targeted this\p"
 	.string " city and are sending Psychic\n"
 	.string " Boost from space.\l"
-	.string "Thankfully Elon Musk and NASA \p"
+	.string "Thankfully Elon Musk and NASA-X \p"
 	.string "have send out their Dark Type \n"
 	.string " Pokemon to destroy their attacks.$"
 	
