@@ -28,18 +28,18 @@ MossdeepCity_PokemonCenter_1F_Text_22226E: @ 822226E
 	.string "was confirmed by NASA-X.\p"
 	.string "The song will be featuring \n"
 	.string "Rick Astley, Elon Musk and PewDiePie.\p"
-	.string "I'm soo hyped!$"
+	.string "I’m soo hyped!$"
 
 MossdeepCity_PokemonCenter_1F_Text_2222D9: @ 82222D9
-	.string "I'm such a huge fan of Elon Musk,\n"
+	.string "I’m such a huge fan of Elon Musk,\n"
 	.string "he did a lot of good to this world.\p"
 	.string "He even owns NASA and they are\n"
 	.string " planning to soon go into space\p"
-	.string " to save space from Deoxys.\l"
+	.string " to save space from Deoxys’s rage.\l"
 	.string "The destructive powers of Groudon\n"
 	.string " and Kyogre reached space and\p"
 	.string " caused a disturbation within the"\n
-	.string " Deoxys's home planet.\l"
+	.string " Deoxys’s home planet.\l"
 	.string "The Deoxys population are very\n"
 	.string " outraged and already targeted this\p"
 	.string " city and are sending Psychic\n"
