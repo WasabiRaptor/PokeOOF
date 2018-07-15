@@ -25,9 +25,9 @@ MossdeepCity_PokemonCenter_1F_EventScript_222265:: @ 8222265
 
 MossdeepCity_PokemonCenter_1F_Text_22226E: @ 822226E
 	.string "Did you hear that "Despacito 2"\n"	         
-	.string "was confirmed by NASA-X.\p"
-	.string "The song will be featuring \n"
-	.string "Rick Astley, Elon Musk and PewDiePie.\p"
+	.string " was confirmed by NASA-X.\l"
+	.string "The song will be featuring \p"
+	.string "Rick Astley, Elon Musk and PewDiePie.\n"
 	.string "I’m soo hyped!$"
 
 MossdeepCity_PokemonCenter_1F_Text_2222D9: @ 82222D9
