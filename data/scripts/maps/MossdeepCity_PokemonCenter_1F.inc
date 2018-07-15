@@ -34,11 +34,11 @@ MossdeepCity_PokemonCenter_1F_Text_2222D9: @ 82222D9
 	.string "I'm such a huge fan of Elon Musk,\n"
 	.string "he did a lot of good to this world.\p"
 	.string "He even owns NASA and they are\n"
-	.string " planning to soon go into to space\p"
-	.string " to save space from destruction.\l"
+	.string " planning to soon go into space\p"
+	.string " to save space from Deoxys.\l"
 	.string "The destructive powers of Groudon\n"
 	.string " and Kyogre reached space and\p"
-	.string " caused a disturbation within then"\n
+	.string " caused a disturbation within the"\n
 	.string " Deoxys's home planet.\l"
 	.string "The Deoxys population are very\n"
 	.string " outraged and already targeted this\p"
