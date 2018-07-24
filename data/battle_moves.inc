@@ -288,7 +288,7 @@ gBattleMoves:: @ 831C898
 
 @ Jump Kick
 	.byte 0x2d @ effect
-	.byte 70 @ power
+	.byte 115 @ power
 	.byte TYPE_FIGHTING
 	.byte 95 @ accuracy
 	.byte 25 @ PP
@@ -409,7 +409,7 @@ gBattleMoves:: @ 831C898
 
 @ Thrash
 	.byte 0x1b @ effect
-	.byte 90 @ power
+	.byte 120 @ power
 	.byte TYPE_NORMAL
 	.byte 100 @ accuracy
 	.byte 20 @ PP
@@ -882,7 +882,7 @@ gBattleMoves:: @ 831C898
 
 @ Petal Dance
 	.byte 0x1b @ effect
-	.byte 70 @ power
+	.byte 120 @ power
 	.byte TYPE_GRASS
 	.byte 100 @ accuracy
 	.byte 20 @ PP
@@ -1091,7 +1091,7 @@ gBattleMoves:: @ 831C898
 
 @ Rage
 	.byte 0x51 @ effect
-	.byte 20 @ power
+	.byte 75 @ power
 	.byte TYPE_NORMAL
 	.byte 100 @ accuracy
 	.byte 20 @ PP
@@ -1344,7 +1344,7 @@ gBattleMoves:: @ 831C898
 
 @ Lick
 	.byte 0x06 @ effect
-	.byte 20 @ power
+	.byte 40 @ power
 	.byte TYPE_GHOST
 	.byte 100 @ accuracy
 	.byte 30 @ PP
@@ -1421,7 +1421,7 @@ gBattleMoves:: @ 831C898
 
 @ Swift
 	.byte 0x11 @ effect
-	.byte 60 @ power
+	.byte 80 @ power
 	.byte TYPE_NORMAL
 	.byte 0 @ accuracy
 	.byte 20 @ PP
@@ -1498,7 +1498,7 @@ gBattleMoves:: @ 831C898
 
 @ Hi Jump Kick
 	.byte 0x2d @ effect
-	.byte 85 @ power
+	.byte 130 @ power
 	.byte TYPE_FIGHTING
 	.byte 90 @ accuracy
 	.byte 20 @ PP
@@ -1651,15 +1651,15 @@ gBattleMoves:: @ 831C898
 	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Splash
-	.byte 0x55 @ effect
-	.byte 0 @ power
+	.byte 0x26 @ effect
+	.byte 1 @ power
 	.byte TYPE_NORMAL
-	.byte 0 @ accuracy
+	.byte 100 @ accuracy
 	.byte 40 @ PP
 	.byte 0 @ side effect chance
-	.byte F_TARGET_USER
+	.byte F_TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte 0 @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Acid Armor
 	.byte 0x33 @ effect
@@ -1729,7 +1729,7 @@ gBattleMoves:: @ 831C898
 
 @ Rock Slide
 	.byte 0x1f @ effect
-	.byte 75 @ power
+	.byte 100 @ power
 	.byte TYPE_ROCK
 	.byte 90 @ accuracy
 	.byte 10 @ PP
@@ -2202,7 +2202,7 @@ gBattleMoves:: @ 831C898
 
 @ Outrage
 	.byte 0x1b @ effect
-	.byte 90 @ power
+	.byte 120 @ power
 	.byte TYPE_DRAGON
 	.byte 100 @ accuracy
 	.byte 15 @ PP
@@ -2224,7 +2224,7 @@ gBattleMoves:: @ 831C898
 
 @ Giga SUCC
 	.byte 0x03 @ effect
-	.byte 60 @ power
+	.byte 80 @ power
 	.byte TYPE_GRASS
 	.byte 100 @ accuracy
 	.byte 5 @ PP
@@ -2477,7 +2477,7 @@ gBattleMoves:: @ 831C898
 
 @ Dragon Breath
 	.byte 0x06 @ effect
-	.byte 60 @ power
+	.byte 70 @ power
 	.byte TYPE_DRAGON
 	.byte 100 @ accuracy
 	.byte 20 @ PP
@@ -2545,7 +2545,7 @@ gBattleMoves:: @ 831C898
 	.byte 0x45 @ effect
 	.byte 100 @ power
 	.byte TYPE_STEEL
-	.byte 75 @ accuracy
+	.byte 95 @ accuracy
 	.byte 15 @ PP
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
@@ -2554,7 +2554,7 @@ gBattleMoves:: @ 831C898
 
 @ Metal Claw
 	.byte 0x8b @ effect
-	.byte 50 @ power
+	.byte 70 @ power
 	.byte TYPE_STEEL
 	.byte 95 @ accuracy
 	.byte 35 @ PP
@@ -2620,7 +2620,7 @@ gBattleMoves:: @ 831C898
 
 @ Cross Chop
 	.byte 0x2b @ effect
-	.byte 100 @ power
+	.byte 120 @ power
 	.byte TYPE_FIGHTING
 	.byte 80 @ accuracy
 	.byte 5 @ PP
@@ -2719,7 +2719,7 @@ gBattleMoves:: @ 831C898
 
 @ Shadow Ball
 	.byte 0x48 @ effect
-	.byte 80 @ power
+	.byte 90 @ power
 	.byte TYPE_GHOST
 	.byte 100 @ accuracy
 	.byte 15 @ PP
@@ -2741,11 +2741,11 @@ gBattleMoves:: @ 831C898
 
 @ Rock Smash
 	.byte 0x45 @ effect
-	.byte 20 @ power
+	.byte 60 @ power
 	.byte TYPE_FIGHTING
 	.byte 100 @ accuracy
 	.byte 15 @ PP
-	.byte 50 @ side effect chance
+	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
@@ -2785,7 +2785,7 @@ gBattleMoves:: @ 831C898
 
 @ Uproar
 	.byte 0x9f @ effect
-	.byte 50 @ power
+	.byte 70 @ power
 	.byte TYPE_NORMAL
 	.byte 100 @ accuracy
 	.byte 10 @ PP
@@ -3247,7 +3247,7 @@ gBattleMoves:: @ 831C898
 
 @ Luster Purge
 	.byte 0x48 @ effect
-	.byte 70 @ power
+	.byte 110 @ power
 	.byte TYPE_PSYCHIC
 	.byte 100 @ accuracy
 	.byte 5 @ PP
@@ -3258,7 +3258,7 @@ gBattleMoves:: @ 831C898
 
 @ Mist Ball
 	.byte 0x47 @ effect
-	.byte 70 @ power
+	.byte 110 @ power
 	.byte TYPE_PSYCHIC
 	.byte 100 @ accuracy
 	.byte 5 @ PP
@@ -3500,11 +3500,11 @@ gBattleMoves:: @ 831C898
 
 @ Silver Wind
 	.byte 0x8c @ effect
-	.byte 60 @ power
+	.byte 90 @ power
 	.byte TYPE_BUG
 	.byte 100 @ accuracy
 	.byte 5 @ PP
-	.byte 10 @ side effect chance
+	.byte 50 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
@@ -3577,7 +3577,7 @@ gBattleMoves:: @ 831C898
 
 @ Shadow Punch
 	.byte 0x11 @ effect
-	.byte 60 @ power
+	.byte 90 @ power
 	.byte TYPE_GHOST
 	.byte 0 @ accuracy
 	.byte 20 @ PP
@@ -3599,7 +3599,7 @@ gBattleMoves:: @ 831C898
 
 @ Sky Uppercut
 	.byte 0xcf @ effect
-	.byte 85 @ power
+	.byte 115 @ power
 	.byte TYPE_FIGHTING
 	.byte 90 @ accuracy
 	.byte 15 @ PP
@@ -3654,7 +3654,7 @@ gBattleMoves:: @ 831C898
 
 @ Aerial Ace
 	.byte 0x11 @ effect
-	.byte 60 @ power
+	.byte 90 @ power
 	.byte TYPE_FLYING
 	.byte 0 @ accuracy
 	.byte 20 @ PP
@@ -3797,7 +3797,7 @@ gBattleMoves:: @ 831C898
 
 @ Magical Leaf
 	.byte 0x11 @ effect
-	.byte 60 @ power
+	.byte 75 @ power
 	.byte TYPE_GRASS
 	.byte 0 @ accuracy
 	.byte 20 @ PP
@@ -3830,7 +3830,7 @@ gBattleMoves:: @ 831C898
 
 @ Leaf Blade
 	.byte 0x2b @ effect
-	.byte 70 @ power
+	.byte 90 @ power
 	.byte TYPE_GRASS
 	.byte 100 @ accuracy
 	.byte 15 @ PP
@@ -3904,3 +3904,14 @@ gBattleMoves:: @ 831C898
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	
+@ Rick Roll
+	.byte 0x06 @ effect
+	.byte 100 @ power
+	.byte TYPE_FAIRY
+	.byte 100 @ accuracy
+	.byte 15 @ PP
+	.byte 50 @ side effect chance
+	.byte TARGET_SELECTED_POKEMON
+	.byte 0 @ priority
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
