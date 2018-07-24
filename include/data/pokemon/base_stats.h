@@ -4367,12 +4367,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_EEVEE] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 55,
-        .baseDefense   = 50,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 65,
+        .baseHP        = 69,
+        .baseAttack    = 69,
+        .baseDefense   = 69,
+        .baseSpeed     = 69,
+        .baseSpAttack  = 69,
+        .baseSpDefense = 69,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 45,
@@ -4557,7 +4557,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_WATER_3,
         .ability1 = ABILITY_SWIFT_SWIM,
-        .ability2 = ABILITY_SHELL_ARMOR,
+        .ability2 = ABILITY_NONE,
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -4589,8 +4589,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_WATER_3,
-        .ability1 = ABILITY_SWIFT_SWIM,
-        .ability2 = ABILITY_SHELL_ARMOR,
+        .ability1 = ABILITY_WONDER_GUARD,
+        .ability2 = ABILITY_NONE,
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -4627,7 +4627,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
-    },
+    }
 
     [SPECIES_KABUTOPS] =
     {
