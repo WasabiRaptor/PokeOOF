@@ -1,19 +1,19 @@
 gTypeNames:: @ 831AE38
 	.string "NORMAL$", 7
 	.string "FIGHT$", 7
-	.string "FLYING$", 7
+	.string "BIRD$", 7
 	.string "POISON$", 7
 	.string "GROUND$", 7
 	.string "ROCK$", 7
 	.string "BUG$", 7
 	.string "GHOST$", 7
-	.string "STEEL$", 7
+	.string "METAL$", 7
 	.string "???$", 7
-	.string "FIRE$", 7
+	.string "LIT$", 7
 	.string "WATER$", 7
-	.string "GRASS$", 7
-	.string "ELECTR$", 7
+	.string "WEED$", 7
+	.string "AC/DC$", 7
 	.string "PSYCHC$", 7
-	.string "ICE$", 7
+	.string "FRIDGE$", 7
 	.string "DRAGON$", 7
-	.string "DARK$", 7
+	.string "ZVIL$", 7
