@@ -354,3 +354,4 @@ gMoveNames:: @ 831977C
 	.string "WATER PULSE$", 13
 	.string "DOOM DESIRE$", 13
 	.string "PSYCHO BOOST$", 13
+	.string "RICK ROLL$", 13
